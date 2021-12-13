@@ -44,3 +44,19 @@ systemctl enable redis &>>${LOG} && systemctl start redis
 Status $? "Start Redis Database"
 
 echo -e "\e[6;36m -----------------> rabbit mq <--------------------\e[0m"
+
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash &>>${LOG}
+Status $? "Repository adding"
+
+yum install https://github.com/rabbitmq/erlang-rpm/releases/download/v23.2.6/erlang-23.2.6-1.el7.x86_64.rpm -y rabbitmq-server -y &>>${LOG}
+Status $? "rabbitmq installation"
+
+systemctl enable rabbitmq-server &>>${LOG} && systemctl start rabbitmq-server &>>${LOG}
+Status $? "Enabling and starting of rabbitmq"
+
+#RabbitMQ comes with a default username / password as guest/guest. But this user cannot be used to connect. Hence we need to create one user for the application.
+
+#Create application user
+# rabbitmqctl add_user roboshop roboshop123
+# rabbitmqctl set_user_tags roboshop administrator
+# rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"
