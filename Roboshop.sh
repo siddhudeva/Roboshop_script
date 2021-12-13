@@ -22,3 +22,5 @@ fi
  echo -e "\e[5;31m Entered Component Does not exists\e[0m"
  exit 1
  fi
+
+bash component/${CMPNT}.sh
