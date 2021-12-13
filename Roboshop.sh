@@ -18,7 +18,7 @@ exit
 fi
 
 #validating enterd name is correct or not
- if [ ! -e components/${CMPNT}.sh ]; then
+ if [ ! -e ./components/${CMPNT}.sh ]; then
  echo -e "\e[5;31m Entered Component Does not exists\e[0m"
  exit 1
  fi

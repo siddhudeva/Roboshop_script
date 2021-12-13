@@ -2,6 +2,7 @@
 #Author : siddhu
 #Date : 13/12/2021
 #Description : This is a Frontend setup file for roboshop project
+source components/common.sh
 
 yum install nginx -y &>>${LOG}
 Status $? "Nginx installation"
