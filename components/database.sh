@@ -76,16 +76,30 @@ Status $? "MySQL installation"
 systemctl enable mysqld &>>${LOG} && systemctl start mysqld
 Status $? "MySQL enabling and starting"
 
-#Now a default root password will be generated and given in the log file.
-# grep temp /var/log/mysqld.log
+DEFAULT_PASSWORD=$(grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}' )
+echo 'show databases;' | mysql -uroot -pRoboShop@1 &>>${LOG}
+if [ $? -ne 0 ]; then
+  echo "ALTER user 'root'@'localhost' IDENTIFIED by 'RoboShop@1;' " >tmp/pass.sql
+  mysql --connect-expired-password -uroot -p"${DEFAULT_PASSWORD}" <tmp/pass.sql &>>${LOG}
+fi
+Status $? "MySQL user and password added"
 
-#Next, We need to change the default root password in order to start using the database service.
-# mysql_secure_installation
+echo 'show plugins;' | mysql -uroot -p'RoboShop@1' 2>>${LOG} | grep 'validate_password' &>>${LOG}
+  if [ $? -ne 0 ]; then
+    echo 'uninstall plugin validate_password;' | mysql -uroot -pRoboShop@1 &>>${LOG}
+fi
+Status $? "Validation Plugin unistalation"
 
-#You can check the new password working or not using the following command.
+DOWNLOAD mysql &>>${LOG}
+Status $? "Validation Plugin unistalation"
 
-# mysql -u root -p
+cd /tmp/ && unzip -o mysql.zip && cd mysql-main/
+Status $? "unzipping the files"
 
+mysql -u root -pRoboShop@1 <shipping.sql
+Status $? "schema loading"
+
+echo -e "\e[3;35m =============Database is ready to use ==============\e[0m"
 #Run the following SQL commands to remove the password policy.
 #> uninstall plugin validate_password;
 #Setup Needed for Application.
