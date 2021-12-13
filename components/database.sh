@@ -79,7 +79,7 @@ Status $? "MySQL enabling and starting"
 DEFAULT_PASSWORD=$(grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}' )
 echo 'show databases;' | mysql -uroot -pRoboShop@1 &>>${LOG}
 if [ $? -ne 0 ]; then
-  echo "ALTER user 'root'@'localhost' IDENTIFIED by 'RoboShop@1;' " >/tmp/pass.sql
+  echo "ALTER user 'root'@'localhost' IDENTIFIED by 'RoboShop@1' " >/tmp/pass.sql
   mysql --connect-expired-password -uroot -p"${DEFAULT_PASSWORD}" </tmp/pass.sql &>>${LOG}
 fi
 Status $? "MySQL user and password added"
