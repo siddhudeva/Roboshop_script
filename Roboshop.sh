@@ -23,4 +23,4 @@ fi
  exit 1
  fi
 
-bash component/${CMPNT}.sh
+bash components/${CMPNT}.sh
