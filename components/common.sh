@@ -2,10 +2,10 @@
 
 Status() {
   if [ $1 -ne 0 ]; then
-  echo -e "\e[5;31m ${2} - FAILURE"
+  echo -e "\e[3;31m ${2} - FAILURE"
 exit 1
   else
-  echo -e "\e[5;32m ${2} - SUCCESS"
+  echo -e "\e[3;32m ${2} - SUCCESS"
 fi
   }
 

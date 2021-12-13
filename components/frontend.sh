@@ -12,7 +12,7 @@ Status $? "Enable and start of Nginx"
 
 DOWNLOAD frontend &>>${LOG}
 
-rm -rf /usr/share/nginx/html/* &>>${LOG}  && cd /usr/share/nginx/html && unzip /tmp/frontend.zip &>>${LOG}
+rm -rf /usr/share/nginx/html/* &>>${LOG}  && cd /usr/share/nginx/html && unzip -o /tmp/frontend.zip &>>${LOG}
 Status $? "extracting files"
 
 mv frontend-main/* . &>>${LOG} && mv static/* . &>>${LOG}
