@@ -4,7 +4,7 @@
 #Description : This is a main file of roboshop project
 
 #validating user
-USER=($id -u)
+USER=$(id -u)
 if [ "$USER" -ne 0 ]; then
  echo -e "\e[5;31m Please make sure you should be a root user\e[0m"
 exit
