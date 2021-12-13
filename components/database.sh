@@ -86,15 +86,16 @@ Status $? "MySQL user and password added"
 
 echo 'show plugins;' | mysql -uroot -p'RoboShop@1' 2>>${LOG} | grep 'validate_password' &>>${LOG}
   if [ $? -ne 0 ]; then
-    echo 'uninstall plugin validate_password;' | mysql -uroot -pRoboShop@1 &>>${LOG}
+    echo 'uninstall plugin validate_password;' | mysql -uroot -p'RoboShop@1' &>>${LOG}
 fi
 Status $? "Validation Plugin unistalation"
 
 DOWNLOAD mysql &>>${LOG}
 Status $? "Validation Plugin unistalation"
 
-cd /tmp/ && unzip -o mysql.zip && cd /tmp/mysql-main
+cd /tmp/ && unzip -o mysql.zip &>>${LOG}
 Status $? "unzipping the files"
+cd ./mysql-main
 
 mysql -u root -pRoboShop@1 <shipping.sql
 Status $? "schema loading"
