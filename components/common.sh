@@ -20,35 +20,35 @@ fi
 }
 
 #DOWNLOAD() {
-# curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
-#  Status $? "${component} Downloading"
+# curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${1}/archive/main.zip"
+#  Status $? "${1} Downloading"
 #  cd /tmp
-#  unzip -o /tmp/${component}.zip &>>${LOG}
+#  unzip -o /tmp/${1}.zip &>>${LOG}
 #  if [ ! -z "${Component}" ]; then
-#  rm -rf /home/roboshop/${component} &>>${LOG} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/* /home/roboshop/${component}
+#  rm -rf /home/roboshop/${1} &>>${LOG} && mkdir -p /home/roboshop/${1} && cp -r /tmp/${1}-main/* /home/roboshop/${1}
 #  fi
 #}
 DOWNLOAD () {
-  curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip" &>>${LOG}
-  Status $? "Download ${component} Code"
+  curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${1}/archive/main.zip" &>>${LOG}
+  Status $? "Download ${1} Code"
   cd /tmp
   unzip -o /tmp/${1}.zip &>>${LOG}
   Status $? "Extract ${1} Code"
-  if [ ! -z "${component}" ]; then
-    rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/* /home/roboshop/${component} &>>${LOG_FILE}CONFIG() {
-    STAT_CHECK $? "Copy ${component} Content"
+  if [ ! -z "${1}" ]; then
+    rm -rf /home/roboshop/${1} && mkdir -p /home/roboshop/${1} && cp -r /tmp/${1}-main/* /home/roboshop/${1} &>>${LOG}
+    STAT_CHECK $? "Copy ${1} Content"
   fi
 }
 
 CONFIG() {
-    sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
-   mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service
+    sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/' /home/roboshop/${1}/systemd.service &>>${LOG}
+   mv /home/roboshop/${1}/systemd.service /etc/systemd/system/${1}.service
    }
-       Status $? "${component} configuration"
+       Status $? "${1} configuration"
 
 SYSTEMCTL() {
-  systemctl daemon-reload &>>${LOG} && systemctl enable ${component}.service &>>${LOG} && systemctl restart ${component}.service
-   Status $? "${component} services"
+  systemctl daemon-reload &>>${LOG} && systemctl enable ${1}.service &>>${LOG} && systemctl restart ${1}.service
+   Status $? "${1} services"
  }
 
  NODEJS () {
