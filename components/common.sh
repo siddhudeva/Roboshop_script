@@ -19,7 +19,6 @@ Status $? "roboshop user creating"
 fi
 }
 
-export 'component'=$1
  DOWNLOAD() {
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
    Status $? "${component} Downloading"
@@ -31,7 +30,6 @@ export 'component'=$1
  }
 
 CONFIG() {
-  component=${1}
   sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/g' /home/roboshop/${component}-main/systemd.service &>>${LOG}
    Status $? "${component} configuration"
    mv /home/roboshop/${component}-main/systemd.service /etc/systemd/system/${component}.service
@@ -42,10 +40,17 @@ SYSTEMCTL() {
    Status $? "${component} services"
  }
 
+ NODEJS () {
+   component=${1}
+yum install nodejs make gcc-c++ -y &>>${LOG}
+Status $? "nodejs installation "
+USER
+DOWNLOAD
+npm install &>>${LOG}
+Status $? "${1} npm installation"
+CONFIG
+SYSTEMCTL
 }
-
-
-
 
 
 
