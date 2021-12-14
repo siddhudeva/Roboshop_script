@@ -19,7 +19,6 @@ unzip -o /tmp/catalogue.zip &>>${LOG}
 Status $? "roboshop user creating"
 mv catalogue-main catalogue
 
-chown roboshop.roboshop /home/roboshop/catalogue
 Status $? "file permissions changing"
 cd /home/roboshop/catalogue && npm install &>>${LOG}
 Status $? "npm installation"
