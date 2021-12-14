@@ -19,21 +19,32 @@ Status $? "roboshop user creating"
 fi
 }
 
- DOWNLOAD() {
-  curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
-   Status $? "${component} Downloading"
-   cd /tmp
-   unzip -o /tmp/${component}.zip &>>${LOG}
-   if [ ! -z "${Component}" ]; then
-   rm -rf /home/roboshop/${component} &>>${LOG} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/* /home/roboshop/${component}
-fi
- }
+#DOWNLOAD() {
+# curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
+#  Status $? "${component} Downloading"
+#  cd /tmp
+#  unzip -o /tmp/${component}.zip &>>${LOG}
+#  if [ ! -z "${Component}" ]; then
+#  rm -rf /home/roboshop/${component} &>>${LOG} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/* /home/roboshop/${component}
+#  fi
+#}
+DOWNLOAD () {
+  curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip" &>>${LOG}
+  Status $? "Download ${component} Code"
+  cd /tmp
+  unzip -o /tmp/${1}.zip &>>${LOG}
+  Status $? "Extract ${1} Code"
+  if [ ! -z "${component}" ]; then
+    rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/* /home/roboshop/${component} &>>${LOG_FILE}CONFIG() {
+    STAT_CHECK $? "Copy ${component} Content"
+  fi
+}
 
 CONFIG() {
-  sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
-   Status $? "${component} configuration"
+    sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
    mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service
    }
+       Status $? "${component} configuration"
 
 SYSTEMCTL() {
   systemctl daemon-reload &>>${LOG} && systemctl enable ${component}.service &>>${LOG} && systemctl restart ${component}.service
