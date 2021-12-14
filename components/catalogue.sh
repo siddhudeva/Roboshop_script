@@ -17,9 +17,9 @@ npm install --unsafe-prem &>>${LOG}
 
 chown roboshop:roboshop -R /home/roboshop/catalogue &>>${LOG}
 
-sed -i -e 's/MONGO_DNSNAME/mongod.roboshop.internal/' /home/roboshop/catalogue/system.service &>>${LOG}
+sed -i -e 's/MONGO_DNSNAME/mongod.roboshop.internal/' /home/roboshop/catalogue/systemd.service &>>${LOG}
 
-mv /home/roboshop/catalogue/system.service /etc/systemd/system/catalogue.service &>>${LOG}
+mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service &>>${LOG}
 
 systemctl daemon-reload &>>${LOG} && systemctl enable catalogue &>>${LOG} && systemctl restart catalogue
 
