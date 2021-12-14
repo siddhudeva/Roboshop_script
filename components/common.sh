@@ -19,7 +19,7 @@ Status $? "roboshop user creating"
 fi
 }
 
-component=$1
+export 'component'=$1
  DOWNLOAD() {
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
    Status $? "${component} Downloading"
