@@ -27,10 +27,6 @@ SYSTEM_D() {
 
 }
 
-
-
-}
-
 ${component}=$1
 UNZIP() {
 rm -rf /tmp/${component}-main  && mkdir /tmp/${component}
