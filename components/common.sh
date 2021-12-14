@@ -60,5 +60,5 @@ NODEJS() {
   USER
   DOWNLOAD
   NPM
-  DEAMON
+  DAEMON
 }
