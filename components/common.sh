@@ -31,6 +31,7 @@ export 'component'=$1
  }
 
 CONFIG() {
+  component=${1}
   sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/g' /home/roboshop/${component}-main/systemd.service &>>${LOG}
    Status $? "${component} configuration"
    mv /home/roboshop/${component}-main/systemd.service /etc/systemd/system/${component}.service

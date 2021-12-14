@@ -10,5 +10,5 @@ USER
 DOWNLOAD catalogue
 npm install &>>${LOG}
 Status $? "${1} npm installation"
-CONFIG
-SYSTEMCTL
+CONFIG catalogue
+SYSTEMCTL catalogue
