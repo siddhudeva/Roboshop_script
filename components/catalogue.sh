@@ -6,11 +6,7 @@ source components/common.sh
 
 yum install nodejs make gcc-c++ -y &>>${LOG}
 Status $? "nodejs installation "
-id roboshop &>>${LOG}
-if [ $? -ne 0 ]; then
-  useradd roboshop
-Status $? "roboshop user creating"
-fi
+USER
 DOWNLOAD catalogue
 npm install &>>${LOG}
-   Status $? ${1} "npm installation"
+Status $? "${1} npm installation"

@@ -11,14 +11,24 @@ fi
 
  LOG=/tmp/robo.log
  rm -rf /tmp/robo.log
+USER() {
+id roboshop &>>${LOG}
+if [ $? -ne 0 ]; then
+  useradd roboshop &>>${LOG}
+Status $? "roboshop user creating"
+fi
+ DOWNLOAD {component}
+}
 
+${component}=$1
  DOWNLOAD() {
-  curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${1}/archive/main.zip"
-   Status $? ${1} "Downloading"
-   cd /tmp/
-   rm -rf /tmp/${1}-main
-   unzip ${1}.zip &>>${LOG} && mv ${1}-main ${1} && cd ${1}
-   }
+  curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
+   Status $? "${component} Downloading"
+   cd /tmp
+   unzip /tmp/${component}.zip &>>${LOG}
+   if [ ! -z "${Component}" ]; then
+   rm -rf /home/roboshop/${component} &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
+ }
 
 
 
