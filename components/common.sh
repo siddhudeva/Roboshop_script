@@ -44,5 +44,6 @@ yum install nodejs make gcc-c++ -y
  $USER=$(id -u)
  if [ "$USER" -ne 0 ]; then
    useradd roboshop
+  fi
 Status $? "roboshop user ${} adding"
 }
