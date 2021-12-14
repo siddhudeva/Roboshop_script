@@ -2,7 +2,7 @@
 
 source components/common.sh
 
-INSTAL cart
-DOWNLOAD cart
-UNZIP CART
+INSTAL cart ${LOG}
+DOWNLOAD cart ${LOG}
+UNZIP cart ${LOG}
 

@@ -33,8 +33,8 @@ SYSTEM_D() {
 
 ${component}=$1
 UNZIP() {
-rm -rf /tmp/${component}-main ${LOG} && mkdir /tmp/${component} ${LOG}
-unzip -o /tmp/${component}.zip &>>${LOG}
+rm -rf /tmp/${component}-main  && mkdir /tmp/${component}
+unzip -o /tmp/${component}.zip
 Status $? "Extracting ${component}"
 mv /tmp/${component}-main/* /tmp/${component}/
 }
