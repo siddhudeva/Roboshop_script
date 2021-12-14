@@ -28,6 +28,7 @@ component=$1
    unzip /tmp/${component}.zip &>>${LOG}
    if [ ! -z "${Component}" ]; then
    rm -rf /home/roboshop/${component} &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
+ fi
  }
 
 
