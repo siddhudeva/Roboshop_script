@@ -17,7 +17,6 @@ if [ $? -ne 0 ]; then
   useradd roboshop &>>${LOG}
 Status $? "roboshop user creating"
 fi
- DOWNLOAD ${component}
 }
 
 component=$1
@@ -30,6 +29,22 @@ component=$1
    rm -rf /home/roboshop/${component} &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
  fi
  }
+
+CONFIG() {
+  sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/g' /home/roboshop/${component}-main/systemd.service &>>${LOG}
+   Status $? "${component} configuration"
+   mv /home/roboshop/${component}-main/systemd.service /etc/systemd/system/${component}.service
+   }
+
+SYSTEMCTL() {
+  systemctl daemon-reload &>>${LOG} && systemctl enable ${component}.service &>>${LOG} && systemctl restart ${component}.service
+   Status $? "${component} services"
+ }
+
+}
+
+
+
 
 
 
