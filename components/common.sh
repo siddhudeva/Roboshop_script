@@ -21,17 +21,17 @@ fi
 }
 
 DOWNLOAD() {
-
+component=${1}
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip" &>>${LOG}
   Status $? "${component}e download"
   cd /tmp
 
   unzip -o /tmp/${component}.zip &>>${LOG}
-  Status $? "extraxting"
-  if [ ! -z "${component}" ];then
+  Status $? "extrating"
+  if [ ! -z ${component} ]; then
   mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/* /home/roboshop/${component}
+fi
   Status $? "${component} code copying"
-  fi
   cd /home/roboshop/${component}/
 }
 
