@@ -45,6 +45,8 @@ chown roboshop:roboshop -R /home/roboshop/${component} &>>${LOG}
 sed -i -e 's/MONGO_DNSNAME/mongod.roboshop.internal/' \
  -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' \
  -e 's/MONGO_ENDPOINT/mongod.roboshop.internal/' \
+ -e 's/DBHOST/mysql.roboshop.internal/' \
+ -e 's/CARTENDPOINT/mysql.roboshop.internal/' \
  -e 's/CATALOGUE_ENDPOINT/catalogue.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
 Status $? "config file updation"
 
