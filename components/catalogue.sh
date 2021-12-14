@@ -5,28 +5,12 @@
 source components/common.sh
 
 yum install nodejs make gcc-c++ -y &>>${LOG}
-
-cat /tmp/passwd | grep roboshop &>>${LOG}
+Status $? "nodejs installation "
+id roboshop &>>${LOG}
 if [ $? -ne 0 ]; then
-useradd roboshop &>>${LOG}
+  useradd roboshop
+Status $? "roboshop user creating"
 fi
-Status $? "roboshop user creating"
-
-DOWNLOAD catalogue  &>>${LOG}
-Status $? "Catalogue file is created"
-
-unzip -o /tmp/catalogue.zip &>>${LOG}
-Status $? "roboshop user creating"
-mv catalogue-main catalogue
-
-Status $? "file permissions changing"
-cd /home/roboshop/catalogue && npm install &>>${LOG}
-Status $? "npm installation"
-
-#NOTE: We need to update the IP address of MONGODB Server in systemd.service file
-#Now, lets set up the service with systemctl.
-
-# mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
-# systemctl daemon-reload
-# systemctl start catalogue
-# systemctl enable catalogue
+DOWNLOAD catalogue
+npm install &>>${LOG}
+   Status $? ${1} "npm installation"
