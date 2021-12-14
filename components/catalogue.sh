@@ -15,7 +15,7 @@ unzip -o /tmp/catalogue.zip &>>${LOG}
 Status $? "extraxting"
 
 mkdir -p /home/roboshop/catalogue && cp -r /tmp/catalogue-main/* /home/roboshop/catalogue
-cd /home/robpshop/catalogue/
+cd /home/roboshop/catalogue/
 npm install --unsafe-prem &>>${LOG}
 Status $? "Nodejs Dependencies "
 
