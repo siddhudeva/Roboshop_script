@@ -23,17 +23,16 @@ fi
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
    Status $? "${component} Downloading"
    cd /tmp
-   if [ -e "${Component}-main" ]; then
-   rm -rf /home/roboshop/${component}-main &>>${LOG}
+   unzip /tmp/${component}.zip &>>${LOG}
+   if [ ! -z "${Component}" ]; then
+   rm -rf /home/roboshop/${component}-main &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
 fi
-   unzip /tmp/${component}.zip &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
-
  }
 
 CONFIG() {
-  sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/g' /home/roboshop/${component}-main/systemd.service &>>${LOG}
+  sed -i -e 's/MONGO_DNSNAME/catalogue.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
    Status $? "${component} configuration"
-   mv /home/roboshop/${component}-main/systemd.service /etc/systemd/system/${component}.service
+   mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service
    }
 
 SYSTEMCTL() {
