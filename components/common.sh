@@ -17,7 +17,7 @@ if [ $? -ne 0 ]; then
   useradd roboshop &>>${LOG}
 Status $? "roboshop user creating"
 fi
- DOWNLOAD {component}
+ DOWNLOAD ${component}
 }
 
 ${component}=$1
