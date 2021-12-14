@@ -34,7 +34,8 @@ unzip -o /tmp/${component}.zip
 Status $? "Extracting ${component}"
 mv /tmp/${component}-main/* /tmp/${component}/
 }
-INSTAL() {
+
+INST() {
 yum install nodejs make gcc-c++ -y
  Status $? "Nodejs installation"
  $USER=$(id -u)
