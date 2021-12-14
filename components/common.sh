@@ -38,7 +38,8 @@ DOWNLOAD() {
 NPM() {
 npm install --unsafe-prem &>>${LOG}
 Status $? "Nodejs Dependencies "
-
+}
+CONFIG() {
 chown roboshop:roboshop -R /home/roboshop/${component} &>>${LOG}
 
 sed -i -e 's/MONGO_DNSNAME/mongod.roboshop.internal/' \
@@ -63,5 +64,6 @@ NODEJS() {
   USER
   DOWNLOAD
   NPM
+  CONFIG
   DAEMON
 }
