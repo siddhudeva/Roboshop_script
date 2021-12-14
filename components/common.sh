@@ -21,7 +21,6 @@ fi
 }
 
 DOWNLOAD() {
-  component=${1}
 
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip" &>>${LOG}
   Status $? "${component}e download"
