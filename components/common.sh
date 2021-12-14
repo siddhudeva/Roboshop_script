@@ -23,10 +23,11 @@ fi
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip"
    Status $? "${component} Downloading"
    cd /tmp
-   unzip /tmp/${component}.zip &>>${LOG}
-   if [ ! -z "${Component}" ]; then
-   rm -rf /home/roboshop/${component}-main &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
- fi
+   if [ -e "${Component}-main" ]; then
+   rm -rf /home/roboshop/${component}-main &>>${LOG}
+fi
+   unzip /tmp/${component}.zip &>>${LOG} && mkdir -p /home/roboshop/${component} && mv /tmp/${component}-main/* /home/roboshop/${component}
+
  }
 
 CONFIG() {
