@@ -4,4 +4,5 @@
 #Description : This is a dispatch file of roboshop project
 
 source components/common.sh
-DIPATCH dispatch
+
+DISPATCH dispatch
