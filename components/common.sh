@@ -49,6 +49,7 @@ sed -i -e 's/MONGO_DNSNAME/mongod.roboshop.internal/' \
  -e 's/CARTENDPOINT/cart.roboshop.internal/' \
  -e 's/CARTHOST/cart.roboshop.internal/' \
  -e 's/USERHOST/user.roboshop.internal/' \
+ -e 's/CATALOGUE_ENDPOINT/catalogue.roboshop.internal/' \
  -e 's/AMQPHOST/rabbitmq.roboshop.internal/' \
  -e 's/RABBITMQ-IP/rabbitmq.roboshop.internal/' \
 -e 's/CARTHOST/cart.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
