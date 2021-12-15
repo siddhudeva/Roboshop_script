@@ -73,3 +73,21 @@ NODEJS() {
   CONFIG
   DAEMON
 }
+
+DISPATCH() {
+  component=${1}
+
+yum install golang -y &>>${LOG}
+Status $? "Golang installation"
+
+  USER
+  DOWNLOAD
+  go mod init && go get &>>${LOG} && go build &>>${LOG}
+   &>>${LOG}
+
+  Status $? "Golang Depedencies isntallation"
+
+  CONFIG
+  DAEMON
+
+}
