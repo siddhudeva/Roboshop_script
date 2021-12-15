@@ -23,7 +23,7 @@ fi
 DOWNLOAD() {
 component=${1}
   curl -s -L -o /tmp/${component}.zip "https://github.com/roboshop-devops-project/${component}/archive/main.zip" &>>${LOG}
-  Status $? "${component}e download"
+  Status $? "${component} download"
   cd /tmp
 
   unzip -o /tmp/${component}.zip &>>${LOG}
@@ -81,7 +81,7 @@ yum install golang -y &>>${LOG}
 Status $? "Golang installation"
 
   USER
-  DOWNLOAD
+  DOWNLOAD dispatch
   go mod init && go get &>>${LOG} && go build &>>${LOG}
    &>>${LOG}
 
