@@ -68,7 +68,7 @@ NODEJS() {
   yum install nodejs make gcc-c++ -y &>>${LOG}
   Status $? "Nodejs installation"
   USER
-  DOWNLOAD
+  DOWNLOAD ${component}
   NPM
   CONFIG
   DAEMON
