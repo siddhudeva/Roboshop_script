@@ -21,7 +21,7 @@ Status $? "adding all data"
 rm -rf frontend-master static README.md &>>${LOG}
 Status $? "removing unwanted files"
 
-sed -i -e '/catalogue/ s/localhost/catalogue.roboshop.internal/' '/cart/ s/"localhost/cart.roboshop.internal/' '/payment/ s/localhost/payment.roboshop.internal/' '/shipping/ s/localhost/shipping.roboshop.internal/' '/user/ s/localhost/user.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
+sed -i -e '/catalogue/ s/localhost/catalogue.roboshop.internal/' '/cart/ s/localhost/cart.roboshop.internal/' '/payment/ s/localhost/payment.roboshop.internal/' '/shipping/ s/localhost/shipping.roboshop.internal/' '/user/ s/localhost/user.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
 Status $? "Configration file location changed"
 
 mv localhost.conf /etc/nginx/default.d/roboshop.conf &>>${LOG}
