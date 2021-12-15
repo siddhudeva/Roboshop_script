@@ -24,8 +24,8 @@ Status $? "removing unwanted files"
 sed -i -e '/catalogue/ s/localhost/catalogue.roboshop.internal/'\
 -e '/cart/ s/"localhost/cart.roboshop.internal/'\
 -e '/payment/ s/localhost/payment.roboshop.internal/'\
--e '/shipping/ s/localhost/shipping.roboshop.internal/' \
--e '/user/ s/localhost/user.roboshop.internal/' /etc/nginx/default.d/localhost.conf
+-e '/shipping/ s/localhost/shipping.roboshop.internal/'\
+-e '/user/ s/localhost/user.roboshop.internal/' /usr/share/nginx/html/localhost.conf
 
 mv localhost.conf /etc/nginx/default.d/roboshop.conf &>>${LOG}
 Status $? "Configration file location changed"
