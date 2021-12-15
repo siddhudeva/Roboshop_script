@@ -21,6 +21,7 @@ Status $? "adding all data"
 rm -rf frontend-master static README.md &>>${LOG}
 Status $? "removing unwanted files"
 
+# shellcheck disable=SC2129
 sed -i -e '/catalogue/ s/localhost/catalogue.roboshop.internal/'/usr/share/nginx/html/localhost.conf &>>${LOG}
 sed -i -e '/user/ s/localhost/user.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
 sed -i -e '/cart/ s/localhost/cart.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
