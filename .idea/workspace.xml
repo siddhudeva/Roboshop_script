@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="original frontend file">
+      <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/components/common.sh" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22DrEIDJbUO4BlrsswEFxpqUJt8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\components" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\.idea\components" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="" />
+      <created>1639382889459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639382889459</updated>
+    </task>
+    <task id="LOCAL-00029" summary="cart file added v1.0">
+      <created>1639478071544</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1639478071544</updated>
+    </task>
+    <task id="LOCAL-00030" summary="cart file added v1.0">
+      <created>1639478123874</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1639478123874</updated>
+    </task>
+    <task id="LOCAL-00031" summary="catalogue file added v1.0">
+      <created>1639480883086</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1639480883086</updated>
+    </task>
+    <task id="LOCAL-00032" summary="catalogue file added v1.1">
+      <created>1639481017818</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1639481017818</updated>
+    </task>
+    <task id="LOCAL-00033" summary="catalogue file added v1.1">
+      <created>1639481115847</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1639481115847</updated>
+    </task>
+    <task id="LOCAL-00034" summary="catalogue file added v1.1">
+      <created>1639481352273</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1639481352273</updated>
+    </task>
+    <task id="LOCAL-00035" summary="catalogue and cart files are updated v1.1">
+      <created>1639481860361</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1639481860361</updated>
+    </task>
+    <task id="LOCAL-00036" summary="catalogue and cart files are updated v1.1">
+      <created>1639482040876</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1639482040876</updated>
+    </task>
+    <task id="LOCAL-00037" summary="catalogue and cart files are updated v1.1">
+      <created>1639482600243</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1639482600243</updated>
+    </task>
+    <task id="LOCAL-00038" summary="catalogue and cart files are updated v1.1">
+      <created>1639482902482</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1639482902482</updated>
+    </task>
+    <task id="LOCAL-00039" summary="catalogue and cart files are updated v1.2">
+      <created>1639483258680</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1639483258680</updated>
+    </task>
+    <task id="LOCAL-00040" summary="catalogue and cart files are updated v1.2">
+      <created>1639483536437</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1639483536437</updated>
+    </task>
+    <task id="LOCAL-00041" summary="catalogue and cart files are updated v1.2.1">
+      <created>1639483729073</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1639483729073</updated>
+    </task>
+    <task id="LOCAL-00042" summary="catalogue and cart files are updated v1.2.1.0">
+      <created>1639484612958</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1639484612958</updated>
+    </task>
+    <task id="LOCAL-00043" summary="catalogue and cart files are updated v1.2.1.0">
+      <created>1639484875104</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1639484875104</updated>
+    </task>
+    <task id="LOCAL-00044" summary="0">
+      <created>1639489008432</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1639489008432</updated>
+    </task>
+    <task id="LOCAL-00045" summary="catalogue file 1.1">
+      <created>1639489493599</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1639489493599</updated>
+    </task>
+    <task id="LOCAL-00046" summary="catalogue file 1.1">
+      <created>1639490522767</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1639490522767</updated>
+    </task>
+    <task id="LOCAL-00047" summary="catalogue file 1.1">
+      <created>1639491953692</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1639491953692</updated>
+    </task>
+    <task id="LOCAL-00048" summary="catalogue file 1.1">
+      <created>1639492098930</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1639492098930</updated>
+    </task>
+    <task id="LOCAL-00049" summary="cart and catalogue files are updated">
+      <created>1639499354071</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1639499354071</updated>
+    </task>
+    <task id="LOCAL-00050" summary="cart and catalogue files are updated1.0">
+      <created>1639499592871</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1639499592871</updated>
+    </task>
+    <task id="LOCAL-00051" summary="cart and catalogue files are updated1.1 &#10;SPELLINGS ERROR -CORRECTED">
+      <created>1639499702898</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1639499702898</updated>
+    </task>
+    <task id="LOCAL-00052" summary="user file added V1.0">
+      <created>1639500101835</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1639500101835</updated>
+    </task>
+    <task id="LOCAL-00053" summary="user file added V1.0">
+      <created>1639501127296</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1639501127296</updated>
+    </task>
+    <task id="LOCAL-00054" summary="shipping file added">
+      <created>1639502452262</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1639502452262</updated>
+    </task>
+    <task id="LOCAL-00055" summary="shipping file added v 1.0">
+      <created>1639503017082</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1639503017082</updated>
+    </task>
+    <task id="LOCAL-00056" summary="shipping file added v 1.0">
+      <created>1639504763280</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1639504763280</updated>
+    </task>
+    <task id="LOCAL-00057" summary="shipping file added v 1.0">
+      <created>1639505079992</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1639505079992</updated>
+    </task>
+    <task id="LOCAL-00058" summary="shipping file added v 1.0">
+      <created>1639505147193</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1639505147193</updated>
+    </task>
+    <task id="LOCAL-00059" summary="payment file updated V1.0">
+      <created>1639505840469</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1639505840469</updated>
+    </task>
+    <task id="LOCAL-00060" summary="payment file updated V1.0">
+      <created>1639506526894</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1639506526894</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Dispatch file added V1.0">
+      <created>1639507071735</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1639507071735</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Dispatch file added V1.1&#10;configuration updated">
+      <created>1639507820529</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1639507820529</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Dispatch file added V1.1&#10;configuration updated1.0">
+      <created>1639509061359</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1639509061359</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Dispatch file added V1.1&#10;configuration updated1.0">
+      <created>1639548064221</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1639548064221</updated>
+    </task>
+    <task id="LOCAL-00065" summary="disptch file 1.0">
+      <created>1639549424403</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1639549424403</updated>
+    </task>
+    <task id="LOCAL-00066" summary="disptch file 1.0">
+      <created>1639549487714</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1639549487714</updated>
+    </task>
+    <task id="LOCAL-00067" summary="disptch file 1.0">
+      <created>1639549583685</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1639549583685</updated>
+    </task>
+    <task id="LOCAL-00068" summary="forntend configurations updated">
+      <created>1639550712069</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1639550712069</updated>
+    </task>
+    <task id="LOCAL-00069" summary="forntend configurations updated">
+      <created>1639551302650</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1639551302650</updated>
+    </task>
+    <task id="LOCAL-00070" summary="forntend configurations updated">
+      <created>1639559139582</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1639559139582</updated>
+    </task>
+    <task id="LOCAL-00071" summary="forntend configurations updated">
+      <created>1639559285933</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1639559285933</updated>
+    </task>
+    <task id="LOCAL-00072" summary="forntend configurations updated">
+      <created>1639561919121</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1639561919121</updated>
+    </task>
+    <task id="LOCAL-00073" summary="forntend configurations updated">
+      <created>1639562129246</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1639562129246</updated>
+    </task>
+    <task id="LOCAL-00074" summary="original frontend file">
+      <created>1639562437438</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1639562437438</updated>
+    </task>
+    <task id="LOCAL-00075" summary="original frontend file">
+      <created>1639562754995</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1639562754995</updated>
+    </task>
+    <task id="LOCAL-00076" summary="original frontend file">
+      <created>1639563821691</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1639563821691</updated>
+    </task>
+    <task id="LOCAL-00077" summary="original frontend file">
+      <created>1639564197499</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1639564197499</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added roboshop script &#10;database- Mq sql added component added 1.3" />
+    <MESSAGE value="Database file added - original" />
+    <MESSAGE value="Catalogue file v1.0" />
+    <MESSAGE value="cart file added v1.0" />
+    <MESSAGE value="catalogue file added v1.0" />
+    <MESSAGE value="catalogue file added v1.1" />
+    <MESSAGE value="catalogue and cart files are updated v1.1" />
+    <MESSAGE value="catalogue and cart files are updated v1.2" />
+    <MESSAGE value="catalogue and cart files are updated v1.2.1" />
+    <MESSAGE value="catalogue and cart files are updated v1.2.1.0" />
+    <MESSAGE value="0" />
+    <MESSAGE value="catalogue file 1.1" />
+    <MESSAGE value="cart and catalogue files are updated" />
+    <MESSAGE value="cart and catalogue files are updated1.0" />
+    <MESSAGE value="cart and catalogue files are updated1.1 &#10;SPELLINGS ERROR -CORRECTED" />
+    <MESSAGE value="user file added V1.0" />
+    <MESSAGE value="shipping file added" />
+    <MESSAGE value="shipping file added v 1.0" />
+    <MESSAGE value="payment file updated V1.0" />
+    <MESSAGE value="Dispatch file added V1.0" />
+    <MESSAGE value="Dispatch file added V1.1&#10;configuration updated" />
+    <MESSAGE value="Dispatch file added V1.1&#10;configuration updated1.0" />
+    <MESSAGE value="disptch file 1.0" />
+    <MESSAGE value="forntend configurations updated" />
+    <MESSAGE value="original frontend file" />
+    <option name="LAST_COMMIT_MESSAGE" value="original frontend file" />
+  </component>
+</project>
