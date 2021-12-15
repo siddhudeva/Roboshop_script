@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="original frontend file">
-      <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ROBOSHOP Updated-cart" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,27 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00029" summary="cart file added v1.0">
-      <created>1639478071544</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1639478071544</updated>
-    </task>
-    <task id="LOCAL-00030" summary="cart file added v1.0">
-      <created>1639478123874</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1639478123874</updated>
-    </task>
-    <task id="LOCAL-00031" summary="catalogue file added v1.0">
-      <created>1639480883086</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1639480883086</updated>
     </task>
     <task id="LOCAL-00032" summary="catalogue file added v1.1">
       <created>1639481017818</created>
@@ -401,7 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639564197499</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="original frontend file">
+      <created>1639564619304</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1639564619304</updated>
+    </task>
+    <task id="LOCAL-00079" summary="ROBOSHOP Updated-cart">
+      <created>1639564856633</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1639564856633</updated>
+    </task>
+    <task id="LOCAL-00080" summary="ROBOSHOP Updated-cart">
+      <created>1639564873402</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1639564873402</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added roboshop script &#10;database- Mq sql added component added 1.3" />
     <MESSAGE value="Database file added - original" />
     <MESSAGE value="Catalogue file v1.0" />
     <MESSAGE value="cart file added v1.0" />
@@ -441,6 +438,7 @@
     <MESSAGE value="disptch file 1.0" />
     <MESSAGE value="forntend configurations updated" />
     <MESSAGE value="original frontend file" />
-    <option name="LAST_COMMIT_MESSAGE" value="original frontend file" />
+    <MESSAGE value="ROBOSHOP Updated-cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="ROBOSHOP Updated-cart" />
   </component>
 </project>
