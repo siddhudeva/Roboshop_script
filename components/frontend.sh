@@ -4,32 +4,32 @@
 #Description : This is a Frontend setup file for roboshop project
 source components/common.sh
 
-yum install nginx -y &>>${LOG}
+yum install nginx -y &>>"${LOG}"
 Status $? "Nginx installation"
 
-systemctl enable nginx &>>${LOG} && systemctl start nginx &>>${LOG}
+systemctl enable nginx &>>${LOG} && systemctl start nginx &>>"${LOG}"
 Status $? "Enable and start of Nginx"
 
-DOWNLOAD frontend &>>${LOG}
+DOWNLOAD frontend &>>"${LOG}"
 
-rm -rf /usr/share/nginx/html/* &>>${LOG}  && cd /usr/share/nginx/html && unzip -o /tmp/frontend.zip &>>${LOG}
+rm -rf /usr/share/nginx/html/* &>>${LOG}  && cd /usr/share/nginx/html && unzip -o /tmp/frontend.zip &>>"${LOG}"
 Status $? "extracting files"
 
-mv frontend-main/* . &>>${LOG} && mv static/* . &>>${LOG}
+mv frontend-main/* . &>>${LOG} && mv static/* . &>>"${LOG}"
 Status $? "adding all data"
 
-rm -rf frontend-master static README.md &>>${LOG}
+rm -rf frontend-master static README.md &>>"${LOG}"
 Status $? "removing unwanted files"
 
 # shellcheck disable=SC2129
-sed -i -e '/catalogue/ s/localhost/catalogue.roboshop.internal/'/usr/share/nginx/html/localhost.conf &>>${LOG}
-sed -i -e '/user/ s/localhost/user.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
-sed -i -e '/cart/ s/localhost/cart.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
-sed -i -e '/shipping/ s/localhost/shipping.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
-sed -i -e '/payment/ s/localhost/payment.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>${LOG}
+sed -i -e '/catalogue/ s/localhost/catalogue.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>"${LOG}"
+sed -i -e '/user/ s/localhost/user.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>"${LOG}"
+sed -i -e '/cart/ s/localhost/cart.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>"${LOG}"
+sed -i -e '/shipping/ s/localhost/shipping.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>"${LOG}"
+sed -i -e '/payment/ s/localhost/payment.roboshop.internal/' /usr/share/nginx/html/localhost.conf &>>"${LOG}"
 Status $? "Configration file location changed"
 
-mv localhost.conf /etc/nginx/default.d/roboshop.conf &>>${LOG}
+mv localhost.conf /etc/nginx/default.d/roboshop.conf &>>"${LOG}"
 
-systemctl restart nginx &>>${LOG}
+systemctl restart nginx &>>"${LOG}"
 Status $? "Restarting Nginx"
