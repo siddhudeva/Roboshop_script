@@ -54,7 +54,7 @@ sed -i -e 's/MONGO_DNSNAME/mongod.roboshop.internal/' \
  -e 's/RABBITMQ-IP/rabbitmq.roboshop.internal/' \
 -e 's/CARTHOST/cart.roboshop.internal/' /home/roboshop/${component}/systemd.service &>>${LOG}
 Status $? "config file updation"
-sed -i -e '/uid/ s/1/1001/' '/gid/ s/1/1001/' /home/roboshop/${component}/payment.ini
+sed -i -e '/uid/ s/1/1001/' -e '/gid/ s/1/1001/' /home/roboshop/${component}/payment.ini
 mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service &>>${LOG}
 
 }

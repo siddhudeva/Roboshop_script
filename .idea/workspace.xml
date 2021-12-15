@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ROBOSHOP Updated-cart" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ROBOSHOP Updated-payment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00032" summary="catalogue file added v1.1">
-      <created>1639481017818</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1639481017818</updated>
     </task>
     <task id="LOCAL-00033" summary="catalogue file added v1.1">
       <created>1639481115847</created>
@@ -399,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639564873402</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="ROBOSHOP Updated-payment">
+      <created>1639566349296</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1639566349296</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Database file added - original" />
     <MESSAGE value="Catalogue file v1.0" />
     <MESSAGE value="cart file added v1.0" />
     <MESSAGE value="catalogue file added v1.0" />
@@ -439,6 +438,7 @@
     <MESSAGE value="forntend configurations updated" />
     <MESSAGE value="original frontend file" />
     <MESSAGE value="ROBOSHOP Updated-cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="ROBOSHOP Updated-cart" />
+    <MESSAGE value="ROBOSHOP Updated-payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="ROBOSHOP Updated-payment" />
   </component>
 </project>
