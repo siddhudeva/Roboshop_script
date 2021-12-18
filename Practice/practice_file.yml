@@ -1,6 +1,5 @@
 - name: This is a parctice file
   hosts: all
-  vars:
   tasks:
    - name: for display purpose
      ansible.builtin.debug:
@@ -10,4 +9,4 @@
        msg: Hello.i am ok
    - name: This file is for variables
      ansible.builtin,debug:
-       msg: url is {{UR}}
+       msg: url - {{UR}}
