@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instance filtering and creating">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible practice file added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_robo/Robo Ec2/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_robo/Robo Ec2/common.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/practice_file.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/practice_file.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +38,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible_robo/Robo Ec2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Practice" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible_robo\Robo Ec2" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\components" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\.idea\components" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\.idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
@@ -60,20 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00040" summary="catalogue and cart files are updated v1.2">
-      <created>1639483536437</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1639483536437</updated>
-    </task>
-    <task id="LOCAL-00041" summary="catalogue and cart files are updated v1.2.1">
-      <created>1639483729073</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1639483729073</updated>
     </task>
     <task id="LOCAL-00042" summary="catalogue and cart files are updated v1.2.1.0">
       <created>1639484612958</created>
@@ -404,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639827348597</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="ansible practice file added">
+      <created>1639831388897</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1639831388897</updated>
+    </task>
+    <task id="LOCAL-00090" summary="ansible practice file added">
+      <created>1639831570121</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1639831570121</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cart file added v1.0" />
     <MESSAGE value="catalogue file added v1.0" />
     <MESSAGE value="catalogue file added v1.1" />
     <MESSAGE value="catalogue and cart files are updated v1.1" />
@@ -444,6 +443,7 @@
     <MESSAGE value="ROBOSHOP Updated-cart" />
     <MESSAGE value="ROBOSHOP Updated-payment" />
     <MESSAGE value="ec2 instance filtering and creating" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 instance filtering and creating" />
+    <MESSAGE value="ansible practice file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible practice file added" />
   </component>
 </project>
