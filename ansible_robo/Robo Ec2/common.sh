@@ -1,13 +1,11 @@
-#!/bin/bash
-# Author: siddhu
-# Date : 18-12-2021
-# this file is to verify the common file for setup ec2 instance
-
 USER=$(id -u)
 if [ "$USER" -ne 0 ]; then
    echo -e "\e[1;31m You are not a authorised person to run this\e[0m"
    exit
 fi
+
+LOG=/tmp/ansible.log
+rm -rf /tmp/ansible.log
 
 #validating tag mantioned or not
    component=${1}
@@ -25,7 +23,7 @@ aws ec2 describe-instances --filter "Name=tag:Name,Values=${component}" | jq .Re
   else
     aws ec2 run-instances \
         --launch-template LaunchTemplateId=lt-0078ea8f7c4e4b68e \
-        --tag-specifications "ResourceType=instance,Tags=[{Key=name,Value=${component}}]"
+        --tag-specifications "ResourceType=instance,Tags=[{Key=name,Value=${component}}]" &>>${LOG}
            if [ $? -ne 0 ];then
              echo -e "\e[1;32m${component} creation is -failure\e[0m"
               else

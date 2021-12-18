@@ -60,20 +60,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00035" summary="catalogue and cart files are updated v1.1">
-      <created>1639481860361</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1639481860361</updated>
-    </task>
-    <task id="LOCAL-00036" summary="catalogue and cart files are updated v1.1">
-      <created>1639482040876</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1639482040876</updated>
-    </task>
     <task id="LOCAL-00037" summary="catalogue and cart files are updated v1.1">
       <created>1639482600243</created>
       <option name="number" value="00037" />
@@ -403,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639824667041</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="ec2 instance filtering and creating">
+      <created>1639824946687</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1639824946687</updated>
+    </task>
+    <task id="LOCAL-00085" summary="ec2 instance filtering and creating">
+      <created>1639825083921</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1639825083921</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
