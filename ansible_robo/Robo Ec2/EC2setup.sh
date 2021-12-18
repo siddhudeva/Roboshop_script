@@ -4,6 +4,6 @@
 # this file is to verify the Roboshop - setup ec2 instance
 source common.sh
 
-EC2 ${component}
+EC ${component}
 
 
