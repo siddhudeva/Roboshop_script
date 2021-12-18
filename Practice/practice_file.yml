@@ -8,5 +8,5 @@
      ansible.builtin.debug:
        msg: Hello.i am ok
    - name: This file is for variables
-     ansible.builtin,debug:
+     ansible.builtin.debug:
        msg: url - {{UR}}
