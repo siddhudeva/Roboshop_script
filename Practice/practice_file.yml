@@ -1,0 +1,10 @@
+- name: This is a parctice file
+  hosts: all
+  tasks:
+   - name: for display purpose
+     ansible.builtin.debug:
+       msg: hai this is a sample file
+   - name: This is for vars file
+     ansible.builtin.debug:
+       msg: Hello.i am ok
+
