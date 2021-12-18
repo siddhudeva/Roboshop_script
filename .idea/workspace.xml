@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ROBOSHOP Updated-payment">
-      <change afterPath="$PROJECT_DIR$/ansible_robo/Robo Ec2/EC2setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible_robo/Robo Ec2/common.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instance filtering and creating">
+      <change beforePath="$PROJECT_DIR$/ansible_robo/Robo Ec2/EC2setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_robo/Robo Ec2/EC2setup.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00034" summary="catalogue file added v1.1">
-      <created>1639481352273</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1639481352273</updated>
     </task>
     <task id="LOCAL-00035" summary="catalogue and cart files are updated v1.1">
       <created>1639481860361</created>
@@ -405,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639566465671</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="ec2 instance filtering and creating">
+      <created>1639824667040</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1639824667041</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Catalogue file v1.0" />
     <MESSAGE value="cart file added v1.0" />
     <MESSAGE value="catalogue file added v1.0" />
     <MESSAGE value="catalogue file added v1.1" />
@@ -445,6 +442,7 @@
     <MESSAGE value="original frontend file" />
     <MESSAGE value="ROBOSHOP Updated-cart" />
     <MESSAGE value="ROBOSHOP Updated-payment" />
-    <option name="LAST_COMMIT_MESSAGE" value="ROBOSHOP Updated-payment" />
+    <MESSAGE value="ec2 instance filtering and creating" />
+    <option name="LAST_COMMIT_MESSAGE" value="ec2 instance filtering and creating" />
   </component>
 </project>
