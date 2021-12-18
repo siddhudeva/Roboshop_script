@@ -23,7 +23,7 @@ aws ec2 describe-instances --filter "Name=tag:Name,Values=${component}" | jq .Re
   else
     aws ec2 run-instances \
         --launch-template LaunchTemplateId=lt-0078ea8f7c4e4b68e \
-        --tag-specifications "ResourceType=instance,Tags=[{Key=name,Values=${component}}]" &>>${LOG}
+        --tag-specifications "ResourceType=instance,Tags=[{Key=Nme,Value=${component}}]" | jq
            if [ $? -ne 0 ];then
              echo -e "\e[1;32m${component} creation is -failure\e[0m"
               else
