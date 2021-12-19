@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend setup - ansible" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend setup - ansible">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/files/roboshop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/files/roboshop.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00053" summary="user file added V1.0">
-      <created>1639501127296</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1639501127296</updated>
     </task>
     <task id="LOCAL-00054" summary="shipping file added">
       <created>1639502452262</created>
@@ -405,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639935430719</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="frontend setup - ansible">
+      <created>1639936112057</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1639936112057</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="UnknownFeatures">
