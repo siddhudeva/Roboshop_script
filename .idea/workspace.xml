@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible frontend file-setup">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/download.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/frontend/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend setup - ansible" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,13 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00052" summary="user file added V1.0">
-      <created>1639500101835</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1639500101835</updated>
     </task>
     <task id="LOCAL-00053" summary="user file added V1.0">
       <created>1639501127296</created>
@@ -410,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639933947103</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="frontend setup - ansible">
+      <created>1639935430719</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1639935430719</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -429,7 +424,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue and cart files are updated v1.2" />
     <MESSAGE value="catalogue and cart files are updated v1.2.1" />
     <MESSAGE value="catalogue and cart files are updated v1.2.1.0" />
     <MESSAGE value="0" />
@@ -454,7 +448,8 @@
     <MESSAGE value="frontend ansible file added" />
     <MESSAGE value="ansible file-setup" />
     <MESSAGE value="ansible frontend file-setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="ansible frontend file-setup" />
+    <MESSAGE value="frontend setup - ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend setup - ansible" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
