@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible practice file added">
-      <change beforePath="$PROJECT_DIR$/Practice/practice_file.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/practice_file.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible_robo/Robo Ec2/frontend.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00043" summary="catalogue and cart files are updated v1.2.1.0">
-      <created>1639484875104</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1639484875104</updated>
-    </task>
-    <task id="LOCAL-00044" summary="0">
-      <created>1639489008432</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1639489008432</updated>
     </task>
     <task id="LOCAL-00045" summary="catalogue file 1.1">
       <created>1639489493599</created>
@@ -403,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639839511969</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="ansible practice file added">
+      <created>1639839974330</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1639839974330</updated>
+    </task>
+    <task id="LOCAL-00093" summary="ansible practice file added">
+      <created>1639840044010</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1639840044010</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

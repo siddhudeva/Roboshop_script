@@ -1,0 +1,64 @@
+- name: Install nginx
+  hosts: host.name.ip
+  become: true
+  tasks:
+    - name: Start NGiNX
+      service:
+        name: nginx
+        state: present
+
+    - name: download zip file
+      get_url:
+        url: https://github.com/roboshop-devops-project/frontend/archive/main.zip
+        dest: /tmp/frontend.zip
+
+    - name: adding of roboshop user
+      ansible.builtin.user:
+        name: roboshop
+
+    - name: Extract frontend.zip
+      ansible.builtin.unarchive:
+        src: /tmp/frontend.zip
+        dest: /user/roboshop/
+
+    - name: copying file with playbook
+      become: true
+      copy:
+        src: /user/roboshop/frontend-main/frontend/
+        dest: /user/roboshop/frontend-main.
+
+    - name: copying file with playbook
+      become: true
+      copy:
+        src: /user/roboshop/frontend-main/static/
+        dest: /user/roboshop/frontend-main
+
+    - name: Deleting unneccessary folders
+      file:
+        path: /user/roboshop/frontend-main/static
+        state: absent
+
+    - name: Deleting unneccessary folders
+      file:
+        path: /user/roboshop/frontend-main/Frontend
+        state: absent
+
+    - name: Link source file to another destination
+      file:
+        src: /user/roboshop/frontend-main/localhost.conf
+        path: /etc/nginx/default.d/roboshop.conf
+        state: hard
+
+    - name: enabling nginx
+      ansible.builtin.service:
+        name: nginx
+        enabled: yes
+    - name: Restart service nginx, in all cases
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
+
+
+
+
+
