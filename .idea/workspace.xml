@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend ansible file added">
-      <change afterPath="$PROJECT_DIR$/ansible_robo/01_roboshop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible_robo/roles/demo/tasks/main.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible file-setup">
+      <change afterPath="$PROJECT_DIR$/ansible/01_sample.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/frontend/files/roboshop.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/frontend/roles/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roboshop/roles/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_robo/Robo Ec2/EC2setup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_robo/Robo Ec2/common.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_robo/Robo Ec2/frontend.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_robo/01_roboshop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_robo/roles/demo/tasks/main.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,20 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00046" summary="catalogue file 1.1">
-      <created>1639490522767</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1639490522767</updated>
-    </task>
-    <task id="LOCAL-00047" summary="catalogue file 1.1">
-      <created>1639491953692</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1639491953692</updated>
     </task>
     <task id="LOCAL-00048" summary="catalogue file 1.1">
       <created>1639492098930</created>
@@ -410,8 +399,25 @@
       <option name="project" value="LOCAL" />
       <updated>1639878937698</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="ansible file-setup">
+      <created>1639893678505</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1639893678505</updated>
+    </task>
+    <task id="LOCAL-00096" summary="ansible file-setup">
+      <created>1639893904030</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1639893904030</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="main.yml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -425,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="catalogue file added v1.1" />
     <MESSAGE value="catalogue and cart files are updated v1.1" />
     <MESSAGE value="catalogue and cart files are updated v1.2" />
     <MESSAGE value="catalogue and cart files are updated v1.2.1" />
@@ -450,6 +455,11 @@
     <MESSAGE value="ec2 instance filtering and creating" />
     <MESSAGE value="ansible practice file added" />
     <MESSAGE value="frontend ansible file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend ansible file added" />
+    <MESSAGE value="ansible file-setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible file-setup" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

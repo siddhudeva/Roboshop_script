@@ -1,0 +1,4 @@
+- name: this is sample file
+  hosts: local host
+  roles:
+    - roboshop

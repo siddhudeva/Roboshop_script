@@ -1,3 +1,0 @@
-- name: print from plugin
-  ansible.builtin.debug:
-   msg: hai this is from main file

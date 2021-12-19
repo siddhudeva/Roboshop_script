@@ -1,0 +1,36 @@
+#  # curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
+#  Deploy in Nginx Default Location.
+#
+#  # cd /usr/share/nginx/html
+#  # rm -rf *
+#  # unzip /tmp/frontend.zip
+#  # mv frontend-main/* .
+#  # mv static/* .
+#  # rm -rf frontend-master static README.md
+#  # mv localhost.conf /etc/nginx/default.d/roboshop.conf
+#  Finally restart the service once to effect the changes.
+#
+## systemctl restart nginx
+
+- name: Frontend install
+  ansible.builtin.yum:
+    name: nginx
+    state: installed
+- name: starting of NGiNX
+  ansible.builtin.systemd:
+    state: started
+    enbaled: yes
+- name: download and unzip
+  ansible.builtin.unarchive:
+    src: https://github.com/roboshop-devops-project/frontend/archive/main.zip
+    dstn: /tmp
+    remote_src: yes
+- name: Remove file (delete file)
+  ansible.builtin.file:
+    path: /usr/share/nginx/html/
+    state: absent
+- name: Copy file with owner and permissions
+  ansible.builtin.copy:
+    src: /tmp/frontend-main/
+    dest: /usr/share/nginx/html/
+    remote_src: yes
