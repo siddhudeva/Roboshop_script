@@ -30,8 +30,8 @@ state: absent
 
 -- name: Installation of npm
   npm:
-    name:
-    path: /app/location
+    name: npm
+    path: /home/roboshop/catalogue/
 
 
 
