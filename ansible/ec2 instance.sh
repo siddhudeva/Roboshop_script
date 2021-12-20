@@ -25,7 +25,7 @@ fi
 
 sleep 10
 
-sed -e "s/IPADDRESS/${IPADDRESS}/" -e "s/component/${component}/" resource.json >/tmp/resource.json
+sed -e "s/IPADDRESS/${IPADDRESS}$ENV/" -e "s/component/${component}$ENV/" resource.json >/tmp/resource.json
 aws route53 change-resource-record-sets --hosted-zone-id ${ID_ZONE} --change-batch file:///tmp/resource.json | jq
 
 #updateing route53
@@ -33,7 +33,7 @@ aws route53 change-resource-record-sets --hosted-zone-id ${ID_ZONE} --change-bat
 
 # for instent creation of ec2 instances using loops function to create
 if [ ${component} == "all" ]; then
-   for ec2s in frontend{{ENV}} catalogue${{ENV}} rabbitmq{{ENV}};do
+   for ec2s in frontend$ENV catalogue$ENV rabbitmq$ENV;do
     component=${ec2s}
     CREATE_EC2
    done

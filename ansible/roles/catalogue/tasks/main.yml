@@ -19,7 +19,7 @@
 - name: removing existing directory
   ansible.builtin.file:
   src: /home/roboshop/catalogue
-  state: absent
+state: absent
 
 - name: Copy file with owner and permissions
   ansible.builtin.copy:

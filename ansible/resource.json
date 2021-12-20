@@ -4,7 +4,7 @@
     {
       "Action": "UPSERT",
       "ResourceRecordSet": {
-        "Name": "component-{{ENV}}.roboshop.internal",
+        "Name": "component.roboshop.internal",
         "Type": "A",
         "TTL": 10,
         "ResourceRecords": [
