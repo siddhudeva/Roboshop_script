@@ -1,18 +1,13 @@
-- name: Repo file adding
+- name: Copy MongoDB repo
   ansible.builtin.copy:
-    src: mongodb.repo
-    dest: /etc/yum.repos.d/
+    src: mongo.repo
+    dest: /etc/yum.repos.d/mongo.repo
 
 - name: installing mongod
   ansible.builtin.yum:
     name: mongodb-org
     state: installed
 
-- name: systemd setup
-  ansible.builtin.systemd:
-    name: mongod
-    state: started
-    enabled: yes
 
 - name: Ansible replace string example
   ansible.builtin.replace:
@@ -20,6 +15,11 @@
     regexp: '127.0.0.1'
     replace: '0.0.0.0'
 
+- name: systemd setup
+  ansible.builtin.systemd:
+    name: mongod
+    state: started
+    enabled: yes
 
 - name: download and unzip
   ansible.builtin.import_role:

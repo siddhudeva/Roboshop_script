@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend full setup - ansible">
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mongod/files/mongo.repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongod/files/mongodb.repo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00073" summary="forntend configurations updated">
-      <created>1639562129246</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1639562129246</updated>
     </task>
     <task id="LOCAL-00074" summary="original frontend file">
       <created>1639562437438</created>
@@ -407,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640043686764</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="frontend full setup - ansible">
+      <created>1640043964897</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1640043964897</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="UnknownFeatures">
