@@ -19,7 +19,7 @@ aws ec2 run-instances --launch-template LaunchTemplateId=${L_TEMPID} --tag-speci
 fi
  IPADDRESS=$(aws ec2 describe-instances --filter "Name=tag:Name,Values=${component}" | jq .Reservations[].Instances[].PrivateIpAddress | sed 's/"//g' | grep -v null )
 
-sleep10
+sleep 10
 
 #updateing route53
 }
