@@ -21,6 +21,9 @@ fi
 
 sleep 10
 
+sed -e "s/IPADDRESS/${IPADDRESS}/" -e "s/component/${component}/" resource.json >/tmp/resource.json
+aws route53 change-resource-record-sets --hosted-zone-id ${ID_ZONE} --change-batch file:///tmp/resource.json | jq
+
 #updateing route53
 }
 
