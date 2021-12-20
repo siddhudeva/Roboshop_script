@@ -1,2 +1,8 @@
 [FRONTEND]
-172.31.82.42
+  frontend${{ENV}}.roboshop.internal
+[MONGOD]
+  mongod${{ENV}}.roboshop.internal
+[RABBITMQ]
+  rabbitmq${{ENV}}.roboshop.internal
+[CATALOGUE]
+  catalogue${{ENV}}.roboshop.internal

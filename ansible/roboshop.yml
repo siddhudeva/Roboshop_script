@@ -1,5 +1,17 @@
-- name: roboshop
+- name: frontend setup
   hosts: FRONTEND
   become: yes
   roles:
     - frontend
+
+- name: rabbit mq setup
+  hosts: RABBITMQ
+  become: yes
+  roles:
+    - rabbitmq
+
+- name: catalogue setup
+  hosts: CATALOGUE
+  become: yes
+  roles:
+    - catalogue
