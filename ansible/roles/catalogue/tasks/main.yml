@@ -28,7 +28,11 @@ state: absent
     remote_src: yes
     become_user: roboshop
 
-- name: installing
+-- name: Installation of npm
+  npm:
+    name:
+    path: /app/location
+
 
 
 #  $ mv catalogue-main catalogue
