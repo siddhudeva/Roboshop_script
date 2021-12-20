@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend full setup - ansible">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/catalogue/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/mongod/files/mongodb.repo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/ec2 instance.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/ec2 instance.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/resource.json" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/resource.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Dispatch file added V1.1&#10;configuration updated1.0">
-      <created>1639548064221</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1639548064221</updated>
-    </task>
-    <task id="LOCAL-00065" summary="disptch file 1.0">
-      <created>1639549424403</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1639549424403</updated>
     </task>
     <task id="LOCAL-00066" summary="disptch file 1.0">
       <created>1639549487714</created>
@@ -416,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639984062371</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="frontend full setup - ansible">
+      <created>1640015335078</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1640015335078</updated>
+    </task>
+    <task id="LOCAL-00114" summary="frontend full setup - ansible">
+      <created>1640015514334</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1640015514334</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="UnknownFeatures">
