@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend setup - ansible">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend full setup - ansible">
+      <change afterPath="$PROJECT_DIR$/ansible/ec2 instance.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/resource.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mongod/vars/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/files/roboshop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/files/roboshop.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +44,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\frontend" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Practice" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible_robo\Robo Ec2" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\components" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\.idea\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
@@ -65,20 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00054" summary="shipping file added">
-      <created>1639502452262</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1639502452262</updated>
-    </task>
-    <task id="LOCAL-00055" summary="shipping file added v 1.0">
-      <created>1639503017082</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1639503017082</updated>
     </task>
     <task id="LOCAL-00056" summary="shipping file added v 1.0">
       <created>1639504763280</created>
@@ -409,7 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639936112057</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="frontend full setup - ansible">
+      <created>1639937128971</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1639937128971</updated>
+    </task>
+    <task id="LOCAL-00104" summary="frontend full setup - ansible">
+      <created>1639937359514</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1639937359514</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -428,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue and cart files are updated v1.2.1" />
     <MESSAGE value="catalogue and cart files are updated v1.2.1.0" />
     <MESSAGE value="0" />
     <MESSAGE value="catalogue file 1.1" />
@@ -453,7 +454,8 @@
     <MESSAGE value="ansible file-setup" />
     <MESSAGE value="ansible frontend file-setup" />
     <MESSAGE value="frontend setup - ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend setup - ansible" />
+    <MESSAGE value="frontend full setup - ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend full setup - ansible" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
