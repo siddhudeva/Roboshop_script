@@ -1,10 +1,4 @@
 
-#  # rm -rf frontend-master static README.md
-#  # mv localhost.conf /etc/nginx/default.d/roboshop.conf
-#  Finally restart the service once to effect the changes.
-#
-## systemctl restart nginx
-
 - name: Frontend install
   ansible.builtin.yum:
     name: nginx
@@ -26,10 +20,15 @@
     dest: /usr/share/nginx/html/
     remote_src: yes
 
-- name: docking roboshop.cnf
+- name: Application user
+  ansible.builtin.user:
+    name: roboshop
+
+- name: adding roboshop.cnf
   ansible.builtin.copy:
     src: roboshop.conf
     dest: /etc/nginx/default.d/roboshop.conf
+    become_user: roboshop
 
 - name: Start Nginx
   ansible.builtin.systemd:

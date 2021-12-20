@@ -4,7 +4,13 @@
   roles:
     - frontend
 
-#- name: rabbit mq setup
+- name: mongod setup
+  hosts: MONGOD
+  become: yes
+  roles:
+    - mongod
+
+#- name: rabbitmq setup
 #  hosts: RABBITMQ
 #  become: yes
 #  roles:

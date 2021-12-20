@@ -1,6 +1,6 @@
 - name: Repo file adding
   ansible.builtin.copy:
-    src: mongodb,repo
+    src: mongodb.repo
     dest: /etc/yum.repo.d/
 
 - name: installing mongod
@@ -33,7 +33,7 @@
 
 - name: loading schemas
   community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/user.js"
+    file: "/tmp/mongodb-main/users.js"
     idempotent: yes
 
 
