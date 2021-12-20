@@ -15,7 +15,7 @@ L_TEMPID=lt-0078ea8f7c4e4b68e
  if [ $? -ne 0 ]; then
     echo -e "\e[1;31m This instance is already there\e[0m"
   else
-aws ec2 run-instances --launch-template LaunchTemplateId=${L_TEMPID} --tag-specifications "ResourceType=instance,Tags=[{Key=name,Value=${component}}]" | jq
+aws ec2 run-instances --launch-template LaunchTemplateId=${L_TEMPID} --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${component}}]" | jq
 fi
  IPADDRESS=$(aws ec2 describe-instances --filter "Name=tag:Name,Values=${component}" | jq .Reservations[].Instances[].PrivateIpAddress | sed 's/"//g' | grep -v null )
 

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend full setup - ansible">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/ec2 instance.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/ec2 instance.sh" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend full setup - ansible" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,27 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00059" summary="payment file updated V1.0">
-      <created>1639505840469</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1639505840469</updated>
-    </task>
-    <task id="LOCAL-00060" summary="payment file updated V1.0">
-      <created>1639506526894</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1639506526894</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Dispatch file added V1.0">
-      <created>1639507071735</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1639507071735</updated>
     </task>
     <task id="LOCAL-00062" summary="Dispatch file added V1.1&#10;configuration updated">
       <created>1639507820529</created>
@@ -408,7 +384,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639981115848</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="frontend full setup - ansible">
+      <created>1639982614599</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1639982614599</updated>
+    </task>
+    <task id="LOCAL-00109" summary="frontend full setup - ansible">
+      <created>1639982752780</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1639982752780</updated>
+    </task>
+    <task id="LOCAL-00110" summary="frontend full setup - ansible">
+      <created>1639982820588</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1639982820588</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="UnknownFeatures">
