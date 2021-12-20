@@ -1,8 +1,8 @@
 [FRONTEND]
-  frontend${{ENV}}.roboshop.internal
+  frontend{{ENV}}.roboshop.internal
 [MONGOD]
-  mongod${{ENV}}.roboshop.internal
+  mongod{{ENV}}.roboshop.internal
 [RABBITMQ]
-  rabbitmq${{ENV}}.roboshop.internal
+  rabbitmq{{ENV}}.roboshop.internal
 [CATALOGUE]
-  catalogue${{ENV}}.roboshop.internal
+  catalogue{{ENV}}.roboshop.internal
