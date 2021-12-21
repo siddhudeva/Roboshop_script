@@ -28,8 +28,8 @@ sleep 10
 sed -e "s/IPADDRESS/${IPADDRESS}$ENV/" -e "s/component/${component}$ENV/" resource.json >/tmp/resource.json
 aws route53 change-resource-record-sets --hosted-zone-id ${ID_ZONE} --change-batch file:///tmp/resource.json | jq
 
-#updateing route53
 }
+#updateing route53
 
 # for instent creation of ec2 instances using loops function to create
 if [ ${component} == "all" ]; then

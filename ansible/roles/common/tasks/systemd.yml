@@ -3,7 +3,7 @@
     src: systemd.service
     dest: /etc/systemd/system/{{COMPONENT}}.service
 
-- name: enable a timer for dnf-automatic
+- name: {{COMPONENT}} enabled and started
   systemd:
     name: "{{COMPONENT}}"
     state: restarted
