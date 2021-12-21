@@ -1,0 +1,13 @@
+- name: when conditon
+  hosts: localhost
+  vars:
+    abc: ABC
+  tasks:
+    - name: printing sample1
+      when: "abc vars == ABC"
+      debug:
+        msg: "abc vars - ABC"
+    - name: printing sample2
+      when: "abc vars ABC"
+      debug:
+        msg: "abc vars - abc"

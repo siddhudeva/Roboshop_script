@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rabbitmq component is added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/files/rabbitm.repo" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/files/rabbitmq.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/02_sample_when.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00124" summary="frontend full setup - ansible">
-      <created>1640044427345</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1640044427345</updated>
-    </task>
-    <task id="LOCAL-00125" summary="frontend full setup - ansible">
-      <created>1640045276342</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1640045276342</updated>
     </task>
     <task id="LOCAL-00126" summary="frontend full setup - ansible">
       <created>1640047009060</created>
@@ -409,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640079009506</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="rabbitmq component is added">
+      <created>1640079900080</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1640079900080</updated>
+    </task>
+    <task id="LOCAL-00174" summary="rabbitmq component is added">
+      <created>1640080040977</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1640080040977</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="UnknownFeatures">
