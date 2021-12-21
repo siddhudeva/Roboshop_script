@@ -11,7 +11,7 @@
 - name: Installation of npm
   npm:
     name: npm
-    path: /home/roboshop/catalogue/
+    path: /home/roboshop/catalogue
   become_user: roboshop
 
 
