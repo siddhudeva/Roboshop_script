@@ -6,6 +6,7 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: download
+    become_user: roboshop
 
 - name: Remove Old App Content
   ansible.builtin.file:
@@ -17,4 +18,3 @@
     src: /tmp/{{COMPONENT}}-main/
     dest: /home/roboshop/{{COMPONENT}}/
     remote_src: yes
-    become_user: roboshop
