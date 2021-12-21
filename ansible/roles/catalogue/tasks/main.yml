@@ -15,20 +15,20 @@
     name: common
     tasks_from: download
 
-  - name: removing existing directory
+- name: removing existing directory
   ansible.builtin.file:
-  src: /home/roboshop/catalogue
-state: absent
+    src: /home/roboshop/catalogue
+    state: absent
 
 - name: Copy file with owner and permissions
-  ansible.builtin.copy:
+   ansible.builtin.copy:
     src: /tmp/catalogue-main/
     dest: /home/roboshop/catalogue/
     remote_src: yes
     become_user: roboshop
 
 -- name: Installation of npm
-  npm:
+   npm:
     name: npm
     path: /home/roboshop/catalogue/
 
