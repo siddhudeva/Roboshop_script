@@ -11,13 +11,11 @@
     name: roboshop
 
 - name: download and unzip
-  ansible.builtin.unarchive:
-    src: https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip
-    dest: /tmp/
-    remote_src: yes
-    become_user: roboshop
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
 
-- name: removing existing directory
+  - name: removing existing directory
   ansible.builtin.file:
   src: /home/roboshop/catalogue
 state: absent
