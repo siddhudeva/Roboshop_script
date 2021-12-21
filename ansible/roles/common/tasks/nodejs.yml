@@ -5,6 +5,7 @@
       - make
       - gcc-c++
     state: installed
+- name: start
 
 - name: application user setup and download
   import_tasks: app_user-setup.yml
