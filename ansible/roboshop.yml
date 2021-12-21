@@ -34,14 +34,14 @@
 #  roles:
 #    - user
 #
-#- name: cart-setup
-#  hosts: CART
-#  become: yes
-#  roles:
-#    - cart
-
-- name: rabbitmq
-  hosts: RABBITMQ
+- name: cart-setup
+  hosts: CART
   become: yes
   roles:
-    - rabbitmq
+    - cart
+
+#- name: rabbitmq
+#  hosts: RABBITMQ
+#  become: yes
+#  roles:
+#    - rabbitmq

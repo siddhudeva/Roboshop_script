@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="user component is added">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/files/rabbitm.repo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rabbitmq component is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/cart/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cart/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/files/rabbitm.repo" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/files/rabbitmq.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00123" summary="frontend full setup - ansible">
-      <created>1640044329525</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1640044329525</updated>
     </task>
     <task id="LOCAL-00124" summary="frontend full setup - ansible">
       <created>1640044427345</created>
@@ -413,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640077302823</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="rabbitmq component is added">
+      <created>1640079009506</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1640079009506</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -432,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="cart and catalogue files are updated1.0" />
     <MESSAGE value="cart and catalogue files are updated1.1 &#10;SPELLINGS ERROR -CORRECTED" />
     <MESSAGE value="user file added V1.0" />
     <MESSAGE value="shipping file added" />
@@ -457,7 +452,8 @@
     <MESSAGE value="catalogue full setup" />
     <MESSAGE value="redis database is added" />
     <MESSAGE value="user component is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="user component is added" />
+    <MESSAGE value="rabbitmq component is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq component is added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
