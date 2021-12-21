@@ -3,15 +3,6 @@
     name: common
     tasks_from: nodejs
 
-- name: roboshop user
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: app_user-setup
-
-- name: Installation of npm
-  npm:
-    name: npm
-    path: /home/roboshop/catalogue
 
 
 
