@@ -4,9 +4,9 @@
     abc: ABC
   tasks:
     - name: printing sample1
-      when: abc == "AB"
+      when: abc == "abc"
       debug:
-        msg: "abc var = ABC"
+        msg: "abc var = abc"
     - name: printing sample2
       when: abc == "ABC"
       debug:
