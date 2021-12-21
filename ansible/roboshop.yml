@@ -33,11 +33,15 @@
 #  become: yes
 #  roles:
 #    - user
+#
+#- name: cart-setup
+#  hosts: CART
+#  become: yes
+#  roles:
+#    - cart
 
-- name: cart-setup
-  hosts: CART
+- name: rabbitmq
+  hosts: RABBITMQ
   become: yes
   roles:
-    - cart
-
-
+    - rabbitmq

@@ -1,4 +1,4 @@
 - user: cart component setup
-  ansible.builtin.import_role:
+  ansible.builtin.import_tasks:
     name: common
     tasks_from: nodejs
