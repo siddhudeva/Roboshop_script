@@ -9,12 +9,12 @@
 #  become: yes
 #  roles:
 #    - mongod
-
-- name: catalogue setup
-  hosts: CATALOGUE
-  become: yes
-  roles:
-    - catalogue
+#
+#- name: catalogue setup
+#  hosts: CATALOGUE
+#  become: yes
+#  roles:
+#    - catalogue
 
 #- name: rabbitmq setup
 #  hosts: RABBITMQ
@@ -22,3 +22,8 @@
 #  roles:
 #    - rabbitmq
 #
+- name: redis setup
+  hosts: REDIS
+  become: yes
+  roles:
+    - redis
