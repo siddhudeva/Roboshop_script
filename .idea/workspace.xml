@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="redis database is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/files/redis.repo" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/redis/files/redis.repo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00109" summary="frontend full setup - ansible">
-      <created>1639982752780</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1639982752780</updated>
-    </task>
-    <task id="LOCAL-00110" summary="frontend full setup - ansible">
-      <created>1639982820588</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1639982820588</updated>
     </task>
     <task id="LOCAL-00111" summary="frontend full setup - ansible">
       <created>1639983045123</created>
@@ -407,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640065250967</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="redis database is added">
+      <created>1640065884129</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1640065884129</updated>
+    </task>
+    <task id="LOCAL-00159" summary="redis database is added">
+      <created>1640066044513</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1640066044513</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="UnknownFeatures">
