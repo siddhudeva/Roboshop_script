@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup - ansible">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/files/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/catalogue/templates/systemd.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup">
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,27 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00095" summary="ansible file-setup">
-      <created>1639893678505</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1639893678505</updated>
-    </task>
-    <task id="LOCAL-00096" summary="ansible file-setup">
-      <created>1639893904030</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1639893904030</updated>
-    </task>
-    <task id="LOCAL-00097" summary="ansible frontend file-setup">
-      <created>1639919565382</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1639919565382</updated>
     </task>
     <task id="LOCAL-00098" summary="ansible frontend file-setup">
       <created>1639922970452</created>
@@ -411,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640059791608</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="catalogue full setup">
+      <created>1640061538464</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1640061538464</updated>
+    </task>
+    <task id="LOCAL-00145" summary="catalogue full setup">
+      <created>1640061723994</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1640061723994</updated>
+    </task>
+    <task id="LOCAL-00146" summary="catalogue full setup">
+      <created>1640061810661</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1640061810661</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -430,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="0" />
     <MESSAGE value="catalogue file 1.1" />
     <MESSAGE value="cart and catalogue files are updated" />
     <MESSAGE value="cart and catalogue files are updated1.0" />
@@ -455,7 +450,8 @@
     <MESSAGE value="frontend setup - ansible" />
     <MESSAGE value="frontend full setup - ansible" />
     <MESSAGE value="catalogue full setup - ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue full setup - ansible" />
+    <MESSAGE value="catalogue full setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue full setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
