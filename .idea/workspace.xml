@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="redis database is added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/ec2 instance.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/ec2 instance.sh" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="user component is added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,20 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00118" summary="frontend full setup - ansible">
-      <created>1640041812520</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1640041812520</updated>
-    </task>
-    <task id="LOCAL-00119" summary="frontend full setup - ansible">
-      <created>1640042082588</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1640042082588</updated>
     </task>
     <task id="LOCAL-00120" summary="frontend full setup - ansible">
       <created>1640043014909</created>
@@ -408,7 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640067545629</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="redis database is added">
+      <created>1640075977460</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1640075977460</updated>
+    </task>
+    <task id="LOCAL-00168" summary="user component is added">
+      <created>1640076008862</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1640076008862</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -427,7 +424,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="cart and catalogue files are updated" />
     <MESSAGE value="cart and catalogue files are updated1.0" />
     <MESSAGE value="cart and catalogue files are updated1.1 &#10;SPELLINGS ERROR -CORRECTED" />
     <MESSAGE value="user file added V1.0" />
@@ -452,7 +448,8 @@
     <MESSAGE value="catalogue full setup - ansible" />
     <MESSAGE value="catalogue full setup" />
     <MESSAGE value="redis database is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis database is added" />
+    <MESSAGE value="user component is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="user component is added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
