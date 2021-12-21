@@ -1,9 +1,9 @@
-- name: creating repo file
+- name: Copy redis repo file
   ansible.builtin.copy:
     src: redis.repo
     dest: /etc/yum.repos.d/redis.repo
 
-- name: installing redis
+- name: Install Redis
   ansible.builtin.yum:
     name: redis
     state: installed
