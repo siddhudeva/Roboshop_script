@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup">
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,34 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00101" summary="frontend setup - ansible">
-      <created>1639935430719</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1639935430719</updated>
-    </task>
-    <task id="LOCAL-00102" summary="frontend setup - ansible">
-      <created>1639936112057</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1639936112057</updated>
-    </task>
-    <task id="LOCAL-00103" summary="frontend full setup - ansible">
-      <created>1639937128971</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1639937128971</updated>
-    </task>
-    <task id="LOCAL-00104" summary="frontend full setup - ansible">
-      <created>1639937359514</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1639937359514</updated>
     </task>
     <task id="LOCAL-00105" summary="frontend full setup - ansible">
       <created>1639980618874</created>
@@ -407,7 +377,35 @@
       <option name="project" value="LOCAL" />
       <updated>1640062364224</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="catalogue full setup">
+      <created>1640062915497</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1640062915497</updated>
+    </task>
+    <task id="LOCAL-00151" summary="catalogue full setup">
+      <created>1640062949616</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1640062949616</updated>
+    </task>
+    <task id="LOCAL-00152" summary="catalogue full setup">
+      <created>1640063017291</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1640063017291</updated>
+    </task>
+    <task id="LOCAL-00153" summary="catalogue full setup">
+      <created>1640063115161</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1640063115161</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="UnknownFeatures">
