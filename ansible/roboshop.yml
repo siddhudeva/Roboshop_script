@@ -1,14 +1,20 @@
-- name: frontend setup
-  hosts: FRONTEND
-  become: yes
-  roles:
-    - frontend
+#- name: frontend setup
+#  hosts: FRONTEND
+#  become: yes
+#  roles:
+#    - frontend
 
-- name: mongod setup
-  hosts: MONGOD
+#- name: mongod setup
+#  hosts: MONGOD
+#  become: yes
+#  roles:
+#    - mongod
+
+- name: catalogue setup
+  hosts: CATALOGUE
   become: yes
   roles:
-    - mongod
+    - catalogue
 
 #- name: rabbitmq setup
 #  hosts: RABBITMQ
@@ -16,8 +22,3 @@
 #  roles:
 #    - rabbitmq
 #
-#- name: catalogue setup
-#  hosts: CATALOGUE
-#  become: yes
-#  roles:
-#    - catalogue
