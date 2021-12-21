@@ -6,7 +6,7 @@
     - name: printing sample1
       when: abc == "ABC"
       debug:
-        msg: "abc var = ABC"
+        msg: "sample 1"
     - name: printing sample2
       when: abc == "abc"
       debug:
