@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup - ansible">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/catalogue/files/systemd.service" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup - ansible" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,41 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00089" summary="ansible practice file added">
-      <created>1639831388897</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1639831388897</updated>
-    </task>
-    <task id="LOCAL-00090" summary="ansible practice file added">
-      <created>1639831570121</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1639831570121</updated>
-    </task>
-    <task id="LOCAL-00091" summary="ansible practice file added">
-      <created>1639839511969</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1639839511969</updated>
-    </task>
-    <task id="LOCAL-00092" summary="ansible practice file added">
-      <created>1639839974330</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1639839974330</updated>
-    </task>
-    <task id="LOCAL-00093" summary="ansible practice file added">
-      <created>1639840044010</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1639840044010</updated>
     </task>
     <task id="LOCAL-00094" summary="frontend ansible file added">
       <created>1639878937698</created>
@@ -407,7 +370,42 @@
       <option name="project" value="LOCAL" />
       <updated>1640059161535</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="catalogue full setup - ansible">
+      <created>1640059483765</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1640059483765</updated>
+    </task>
+    <task id="LOCAL-00139" summary="catalogue full setup - ansible">
+      <created>1640059551525</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1640059551525</updated>
+    </task>
+    <task id="LOCAL-00140" summary="catalogue full setup - ansible">
+      <created>1640059625324</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1640059625324</updated>
+    </task>
+    <task id="LOCAL-00141" summary="catalogue full setup - ansible">
+      <created>1640059679902</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1640059679902</updated>
+    </task>
+    <task id="LOCAL-00142" summary="catalogue full setup - ansible">
+      <created>1640059751088</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1640059751088</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="UnknownFeatures">
