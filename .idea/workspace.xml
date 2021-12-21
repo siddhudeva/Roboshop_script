@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="redis database is added">
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,34 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00113" summary="frontend full setup - ansible">
-      <created>1640015335078</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1640015335078</updated>
-    </task>
-    <task id="LOCAL-00114" summary="frontend full setup - ansible">
-      <created>1640015514334</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1640015514334</updated>
-    </task>
-    <task id="LOCAL-00115" summary="frontend full setup - ansible">
-      <created>1640015705006</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1640015705006</updated>
-    </task>
-    <task id="LOCAL-00116" summary="frontend full setup - ansible">
-      <created>1640016050432</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1640016050432</updated>
     </task>
     <task id="LOCAL-00117" summary="frontend full setup - ansible">
       <created>1640041676579</created>
@@ -408,7 +381,35 @@
       <option name="project" value="LOCAL" />
       <updated>1640066908049</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="redis database is added">
+      <created>1640067026235</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1640067026235</updated>
+    </task>
+    <task id="LOCAL-00163" summary="redis database is added">
+      <created>1640067066772</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1640067066772</updated>
+    </task>
+    <task id="LOCAL-00164" summary="redis database is added">
+      <created>1640067147297</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1640067147297</updated>
+    </task>
+    <task id="LOCAL-00165" summary="redis database is added">
+      <created>1640067223262</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1640067223262</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -22,8 +22,17 @@
 #  roles:
 #    - rabbitmq
 #
-- name: redis setup
-  hosts: REDIS
+#- name: redis setup
+#  hosts: REDIS
+#  become: yes
+#  roles:
+#    - redis
+
+- name: user setup
+  hosts: USER
   become: yes
   roles:
-    - redis
+    - user
+
+
+
