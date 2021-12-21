@@ -10,4 +10,4 @@
     - name: printing sample2
       when: abc == "ABC"
       debug:
-        msg: "abc var = abc"
+        msg: "sample2"
