@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup">
-      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/templates/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/catalogue/templates/systemd.service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/redis/files/redis.repo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00106" summary="frontend full setup - ansible">
-      <created>1639980850588</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1639980850588</updated>
     </task>
     <task id="LOCAL-00107" summary="frontend full setup - ansible">
       <created>1639981115848</created>
@@ -407,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640063374904</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="catalogue full setup">
+      <created>1640063618874</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1640063618874</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="UnknownFeatures">
