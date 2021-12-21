@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue full setup - ansible">
+      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/app_user-setup.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,20 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00084" summary="ec2 instance filtering and creating">
-      <created>1639824946687</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1639824946687</updated>
-    </task>
-    <task id="LOCAL-00085" summary="ec2 instance filtering and creating">
-      <created>1639825083921</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1639825083921</updated>
     </task>
     <task id="LOCAL-00086" summary="ec2 instance filtering and creating">
       <created>1639826944779</created>
@@ -407,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640058321812</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="catalogue full setup - ansible">
+      <created>1640058366519</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1640058366519</updated>
+    </task>
+    <task id="LOCAL-00134" summary="catalogue full setup - ansible">
+      <created>1640058416368</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1640058416368</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="UnknownFeatures">

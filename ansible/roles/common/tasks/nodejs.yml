@@ -1,0 +1,7 @@
+- name: installing nodejs
+  ansible.builtin.yum:
+    name:
+      - nodejs
+      - make
+      - gcc-c++
+    state: installed
