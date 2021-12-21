@@ -23,8 +23,8 @@
 - name: starting and enabling redis
   ansible.builtin.systemd:
     name: redis
-    state: restart
-    enabled: yes
+    state: restarted
+    enabled: ture
 
 
 
