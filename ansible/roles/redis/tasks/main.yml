@@ -23,7 +23,7 @@
 - name: redis service start and enable
   systemd:
     name: redis
-    state: started
+    state: restarted
     enabled: True
 
 
