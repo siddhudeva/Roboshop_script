@@ -28,7 +28,7 @@
 #  roles:
 #    - redis
 
-- name: user setup
+- name: user-setup
   hosts: USER
   become: yes
   roles:
