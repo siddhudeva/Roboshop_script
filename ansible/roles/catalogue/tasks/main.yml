@@ -27,8 +27,8 @@
     remote_src: yes
     become_user: roboshop
 
--- name: Installation of npm
-   npm:
+- name: Installation of npm
+  npm:
     name: npm
     path: /home/roboshop/catalogue/
 
