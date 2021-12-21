@@ -12,7 +12,7 @@
   npm:
     name: npm
     path: /home/roboshop/catalogue/
-
+  become_user: roboshop
 
 
 #  $ mv catalogue-main catalogue
