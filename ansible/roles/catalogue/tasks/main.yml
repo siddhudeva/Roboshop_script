@@ -1,5 +1,5 @@
 - name: installing nodejs
-  asnible.builtin.yum:
+  ansible.builtin.yum:
     name:
       - nodejs
       - make
