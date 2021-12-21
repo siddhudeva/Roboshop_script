@@ -12,7 +12,7 @@
 - name: installing npm
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
-    become_user: roboshop
+  become_user: roboshop
 
 - name: systemd setup and starting
   import_tasks: systemd.yml
