@@ -27,12 +27,17 @@
 #  become: yes
 #  roles:
 #    - redis
+#
+#- name: user-setup
+#  hosts: USER
+#  become: yes
+#  roles:
+#    - user
 
-- name: user-setup
-  hosts: USER
+- name: cart-setup
+  hosts: CART
   become: yes
   roles:
-    - user
-
+    - cart
 
 
