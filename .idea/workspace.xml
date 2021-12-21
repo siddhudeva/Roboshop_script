@@ -62,13 +62,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00120" summary="frontend full setup - ansible">
-      <created>1640043014909</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1640043014909</updated>
-    </task>
     <task id="LOCAL-00121" summary="frontend full setup - ansible">
       <created>1640043686764</created>
       <option name="number" value="00121" />
@@ -405,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640076008862</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="user component is added">
+      <created>1640076410805</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1640076410805</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="UnknownFeatures">
