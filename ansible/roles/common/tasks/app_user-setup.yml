@@ -7,9 +7,9 @@
     name: common
     tasks_from: download
 
-- name: removing existing directory
+- name: Remove Old App Content
   ansible.builtin.file:
-    src: /home/roboshop/{{COMPONENT}}
+    path: /home/roboshop/{{COMPONENT}}
     state: absent
 
 - name: Copy file with owner and permissions
