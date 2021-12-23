@@ -11,6 +11,7 @@
 - name: install mvn dependencies
   ansible.builtin.shell:
     name: "mvn clean package"
+    state: present
   become_user: roboshop
 
 - name: rename the content

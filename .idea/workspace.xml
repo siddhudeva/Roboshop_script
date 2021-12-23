@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="shipping module setup">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/shipping/templates/systemd.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00144" summary="catalogue full setup">
-      <created>1640061538464</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1640061538464</updated>
-    </task>
-    <task id="LOCAL-00145" summary="catalogue full setup">
-      <created>1640061723994</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1640061723994</updated>
     </task>
     <task id="LOCAL-00146" summary="catalogue full setup">
       <created>1640061810661</created>
@@ -410,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640240858279</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="shipping module setup">
+      <created>1640242407989</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1640242407989</updated>
+    </task>
+    <task id="LOCAL-00194" summary="shipping module setup">
+      <created>1640242700206</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1640242700206</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="UnknownFeatures">
