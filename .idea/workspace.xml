@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="payment module added">
-      <change afterPath="$PROJECT_DIR$/ansible/03_sample.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sample file added">
+      <change beforePath="$PROJECT_DIR$/ansible/03_sample.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/03_sample.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,34 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00154" summary="catalogue full setup">
-      <created>1640063374904</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1640063374904</updated>
-    </task>
-    <task id="LOCAL-00155" summary="catalogue full setup">
-      <created>1640063618874</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1640063618874</updated>
-    </task>
-    <task id="LOCAL-00156" summary="redis database is added">
-      <created>1640064979455</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1640064979455</updated>
-    </task>
-    <task id="LOCAL-00157" summary="redis database is added">
-      <created>1640065250967</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1640065250967</updated>
     </task>
     <task id="LOCAL-00158" summary="redis database is added">
       <created>1640065884129</created>
@@ -407,7 +379,35 @@
       <option name="project" value="LOCAL" />
       <updated>1640271732794</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="sample file added">
+      <created>1640272291003</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272291003</updated>
+    </task>
+    <task id="LOCAL-00204" summary="sample file added">
+      <created>1640272468733</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272468733</updated>
+    </task>
+    <task id="LOCAL-00205" summary="sample file added">
+      <created>1640272525763</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272525763</updated>
+    </task>
+    <task id="LOCAL-00206" summary="sample file added">
+      <created>1640272544445</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272544445</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -426,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="payment file updated V1.0" />
     <MESSAGE value="Dispatch file added V1.0" />
     <MESSAGE value="Dispatch file added V1.1&#10;configuration updated" />
     <MESSAGE value="Dispatch file added V1.1&#10;configuration updated1.0" />
@@ -451,7 +450,8 @@
     <MESSAGE value="shipping module setup" />
     <MESSAGE value="ec2 instance small modification is done" />
     <MESSAGE value="payment module added" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment module added" />
+    <MESSAGE value="sample file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample file added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

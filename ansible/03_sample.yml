@@ -3,6 +3,7 @@
   hosts: localhost
   tasks:
       - name: echo the massage that wriiten
-        debug: hai there
+        ansible.builtin.debug:
+          msg: this is working
 
 ...
