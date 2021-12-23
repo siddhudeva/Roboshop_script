@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sample file added">
-      <change beforePath="$PROJECT_DIR$/ansible/03_sample.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/03_sample.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,27 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00159" summary="redis database is added">
-      <created>1640066044513</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1640066044513</updated>
-    </task>
-    <task id="LOCAL-00160" summary="redis database is added">
-      <created>1640066708419</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1640066708419</updated>
-    </task>
-    <task id="LOCAL-00161" summary="redis database is added">
-      <created>1640066908049</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1640066908049</updated>
     </task>
     <task id="LOCAL-00162" summary="redis database is added">
       <created>1640067026235</created>
@@ -407,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640272640478</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="sample file added">
+      <created>1640276983823</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1640276983823</updated>
+    </task>
+    <task id="LOCAL-00209" summary="sample file added">
+      <created>1640277107345</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1640277107345</updated>
+    </task>
+    <task id="LOCAL-00210" summary="sample file added">
+      <created>1640277162956</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1640277162956</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="UnknownFeatures">

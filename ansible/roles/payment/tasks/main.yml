@@ -1,20 +1,30 @@
-- name: installing python
-  ansible.builtin.yum:
-    name:
-      - python36
-      - gcc
-      - python3-devel
-    state: installed
+- name: testing screen
+  ansible.builtin.debug:
+    msg: hai there
 
-- name: app_user
-  ansible.builtin.import_role:
-    name: common
-    task_from: app_user-setup
 
-- name: Install specified python requirements
-  pip:
-    requirements: /home/roboshiop/{{COMPONENT}}/requirements.txt
-  executable: pip3
+
+
+
+
+
+#- name: installing python
+#  ansible.builtin.yum:
+#    name:
+#      - python36
+#      - gcc
+#      - python3-devel
+#    state: installed
+#
+#- name: app_user
+#  ansible.builtin.import_role:
+#    name: common
+#    task_from: app_user-setup
+#
+#- name: Install specified python requirements
+#  pip:
+#    requirements: /home/roboshiop/{{COMPONENT}}/requirements.txt
+#  executable: pip3
 
 
 
