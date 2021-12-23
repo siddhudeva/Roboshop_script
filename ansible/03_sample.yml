@@ -1,0 +1,6 @@
+- name: this is a sample testing file
+  hosts: localhost
+  roles:
+    task:
+      - name: echo the massage that wriiten
+        debug: hai there
