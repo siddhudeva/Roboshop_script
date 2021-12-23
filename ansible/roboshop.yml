@@ -1,47 +1,55 @@
-#- name: frontend setup
-#  hosts: FRONTEND
-#  become: yes
-#  roles:
-#    - frontend
+- name: frontend setup
+  hosts: FRONTEND
+  become: yes
+  tags: frontend
+  roles:
+    - frontend
 
-#- name: mongod setup
-#  hosts: MONGOD
-#  become: yes
-#  roles:
-#    - mongod
-##
-#- name: catalogue setup
-#  hosts: CATALOGUE
-#  become: yes
-#  roles:
-#    - catalogue
+- name: mongod setup
+  hosts: MONGOD
+  tags: mongod
+  become: yes
+  roles:
+    - mongod
+#
+- name: catalogue setup
+  hosts: CATALOGUE
+  tags: catalogue
+  become: yes
+  roles:
+    - catalogue
 
-#- name: rabbitmq setup
-#  hosts: RABBITMQ
-#  become: yes
-#  roles:
-#    - rabbitmq
-#
-#- name: redis setup
-#  hosts: REDIS
-#  become: yes
-#  roles:
-#    - redis
-#
-#- name: user-setup
-#  hosts: USER
-#  become: yes
-#  roles:
-#    - user
-#
+- name: rabbitmq setup
+  hosts: RABBITMQ
+  become: yes
+  tags: rabbitmq
+  roles:
+    - rabbitmq
+
+- name: redis setup
+  hosts: REDIS
+  become: yes
+  tags: redis
+  roles:
+    - redis
+
+- name: user-setup
+  hosts: USER
+  become: yes
+  tags: user
+  roles:
+    - user
+
 - name: cart-setup
   hosts: CART
   become: yes
+  tags: cart
   roles:
     - cart
 
-#- name: rabbitmq
-#  hosts: RABBITMQ
-#  become: yes
-#  roles:
-#    - rabbitmq
+- name: shipping setup
+  hosts: SHIPPING
+  become: yes
+  tags: shipping
+  roles:
+    - shipping

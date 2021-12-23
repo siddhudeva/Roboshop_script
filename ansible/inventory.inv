@@ -12,3 +12,9 @@
   redis.roboshop.internal
 [CART]
   cart.roboshop.internal
+[SHIPPING]
+  shipping.roboshop.internal
+[MYSQL]
+  mysql.roboshop.internal
+[SHIPPING]
+  shipping.roboshop.internal
