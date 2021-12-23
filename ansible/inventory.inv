@@ -18,3 +18,5 @@
   mysql.roboshop.internal
 [SHIPPING]
   shipping.roboshop.internal
+[PYTHON]
+  python.roboshop.internal
