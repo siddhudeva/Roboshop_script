@@ -3,10 +3,10 @@
     name: maven
     state: installed
 
-- name: App user and unzipping
-  ansible.builtin.import_role:
-    src: common
-    task_from: app-user-setup
+- name: app user setup and unzipping
+  import_role:
+    name: common
+    tasks_from: app_user-setup
 
 - name: Running mvn clean
   shell: "mvn clean install"
