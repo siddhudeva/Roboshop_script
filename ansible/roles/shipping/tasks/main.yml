@@ -10,6 +10,7 @@
 
 - name: Running mvn clean
   shell: "mvn clean install"
+
 #
 #- name: renameing the service file
 #  shell: mv /home/roboshop/{{COMPONENT}}-main /home/roboshop/{{COMPONENT}}
