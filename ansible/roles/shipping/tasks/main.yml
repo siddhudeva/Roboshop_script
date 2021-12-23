@@ -10,6 +10,7 @@
 
 - name: Running mvn clean
   shell: "mvn clean install"
+  become_user: roboshop
 
 #
 #- name: renameing the service file
