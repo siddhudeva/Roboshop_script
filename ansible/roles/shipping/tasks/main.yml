@@ -4,7 +4,7 @@
     state: installed
 
 - name: app user setup and unzipping
-  import_role:
+  ansible.builtin.import_role:
     name: common
     tasks_from: app_user-setup
 
