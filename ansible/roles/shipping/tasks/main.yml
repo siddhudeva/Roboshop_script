@@ -11,14 +11,11 @@
 - name: install mvn dependencies
   ansible.builtin.shell:
     name: "mvn clean package"
-    state: present
-  become_user: roboshop
+    state: installed
 
 - name: rename the content
   ansible.builtin.shell:
     name: mv /home/roboshop/shipping/target/shipping-1.0.jar /home/roboshop/shipping/targetshipping.jar
-- name: updating and placing to sytemd
-  ansible.builtin.template:
 
 - name: app user setup and unzipping
   ansible.builtin.import_role:
