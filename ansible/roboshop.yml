@@ -54,7 +54,7 @@
   roles:
     - shipping
     -
-- name: python setup
+- name: payment setup
   hosts: PAYMENT
   become: yes
   tags: payment
