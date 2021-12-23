@@ -1,6 +1,6 @@
 ---
 - name: this is a sample testing file
-  hosts: localhost
+  hosts: 54.83.155.148
   tasks:
       - name: echo the massage that wriiten
         ansible.builtin.debug:
