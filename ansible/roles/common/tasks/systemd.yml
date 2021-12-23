@@ -5,6 +5,6 @@
 
 - name: service enabled and started
   systemd:
-    name: "{{COMPONENT}}"
+    name: "{{COMPONENT}}.service"
     state: restarted
     enabled: True

@@ -10,31 +10,18 @@
 
 - name: install mvn dependencies
   ansible.builtin.shell:
-    name: "mvn clean install"
-  become_user: roboshop
-#- name: renameing the service file
-#  shell: mv /home/roboshop/{{COMPONENT}}-main /home/roboshop/{{COMPONENT}}
-#  remote_src: yes
-#- name:
+    name: "mvn clean package"
 
+- name: rename the content
+  ansible.builtin.shell:
+    name: mv /home/roboshop/shipping/target/shipping-1.0.jar /home/roboshop/shipping/targetshipping.jar
+- name: updating and placing to sytemd
+  ansible.builtin.template:
 
-
-
-
-
-
-## yum install maven -y
-#As per the standard process, we always run the applications as a normal user.
-#Create a user
-#
-#  # useradd roboshop
-#Download the repo
-#$ cd /home/roboshop
-#$ curl -s -L -o /tmp/shipping.zip "https://github.com/roboshop-devops-project/shipping/archive/main.zip"
-#$ unzip /tmp/shipping.zip
-#$ mv shipping-main shipping
-#$ cd shipping
-#$ mvn clean package
+- name: app user setup and unzipping
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd.yml
 #$ mv target/shipping-1.0.jar shipping.jar
 #Update Servers IP address in /home/roboshop/shipping/systemd.service
 #

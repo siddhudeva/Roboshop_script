@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="shipping module setup">
+      <change afterPath="$PROJECT_DIR$/ansible/roles/shipping/templates/systemd.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/systemd.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00143" summary="catalogue full setup - ansible">
-      <created>1640059791608</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1640059791608</updated>
     </task>
     <task id="LOCAL-00144" summary="catalogue full setup">
       <created>1640061538464</created>
@@ -407,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640240362477</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="shipping module setup">
+      <created>1640240858279</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1640240858279</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="UnknownFeatures">
