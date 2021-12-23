@@ -1,6 +1,6 @@
 ---
 - name: this is a sample testing file
-  hosts: 54.83.155.148
+  hosts: "payment.roboshop.internal"
   tasks:
       - name: echo the massage that wriiten
         ansible.builtin.debug:
