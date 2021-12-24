@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instances updation" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instances updation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/ansible.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,27 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00166" summary="redis database is added">
-      <created>1640067545629</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1640067545629</updated>
-    </task>
-    <task id="LOCAL-00167" summary="redis database is added">
-      <created>1640075977460</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1640075977460</updated>
-    </task>
-    <task id="LOCAL-00168" summary="user component is added">
-      <created>1640076008862</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1640076008862</updated>
     </task>
     <task id="LOCAL-00169" summary="user component is added">
       <created>1640076410805</created>
@@ -405,7 +388,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640321170326</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="ec2 instances updation">
+      <created>1640321588498</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1640321588498</updated>
+    </task>
+    <task id="LOCAL-00216" summary="ec2 instances updation">
+      <created>1640321698021</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1640321698021</updated>
+    </task>
+    <task id="LOCAL-00217" summary="ec2 instances updation">
+      <created>1640321791511</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1640321791511</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="UnknownFeatures">
