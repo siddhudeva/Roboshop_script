@@ -15,7 +15,7 @@ ID_ZONE=Z0094801QOS7DHKY0DMZ
 L_TEMPID=lt-0078ea8f7c4e4b68e
 
 #ec2 instance creating
- aws ec2 describe-instances --filters Name=tag:Name,Values=${component} | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E 'run|stop' | jq
+ aws ec2 describe-instances --filters Name=tag:Name,Values=${component} | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E 'run|stop'
  if [ $? -ne 0 ]; then
     echo -e "\e[1;31m This instance is already there\e[0m"
   else
