@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rabbitmq-v1">
-      <change beforePath="$PROJECT_DIR$/ansible01/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rabbitmq-v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,13 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00182" summary="rabbitmq component is added">
-      <created>1640090818300</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1640090818300</updated>
     </task>
     <task id="LOCAL-00183" summary="ansible configuration file is added">
       <created>1640144504852</created>
@@ -407,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640446945692</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="rabbitmq-v1">
+      <created>1640447039172</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1640447039172</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="UnknownFeatures">
