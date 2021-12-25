@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instances updation">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/inventory01.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory01.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontendv1/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontendv1/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00172" summary="rabbitmq component is added">
-      <created>1640079009506</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1640079009506</updated>
     </task>
     <task id="LOCAL-00173" summary="rabbitmq component is added">
       <created>1640079900080</created>
@@ -409,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640437029374</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="frontend01">
+      <created>1640439317612</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1640439317612</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -428,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Dispatch file added V1.1&#10;configuration updated1.0" />
     <MESSAGE value="disptch file 1.0" />
     <MESSAGE value="forntend configurations updated" />
     <MESSAGE value="original frontend file" />
@@ -453,7 +451,8 @@
     <MESSAGE value="sample file added" />
     <MESSAGE value="configuration file" />
     <MESSAGE value="ec2 instances updation" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 instances updation" />
+    <MESSAGE value="frontend01" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
