@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instances updation">
+      <change afterPath="$PROJECT_DIR$/ansible/roles/frontendv1/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/ansible.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00169" summary="user component is added">
-      <created>1640076410805</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1640076410805</updated>
     </task>
     <task id="LOCAL-00170" summary="user component is added">
       <created>1640076716669</created>
@@ -409,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640321791511</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="ec2 instances updation">
+      <created>1640322867503</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1640322867503</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="UnknownFeatures">

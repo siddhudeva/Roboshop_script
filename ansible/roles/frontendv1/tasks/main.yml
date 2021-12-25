@@ -1,0 +1,42 @@
+- name: isntalling nginx
+  ansible.builtin.yum:
+    name: nginx
+    state: installed
+
+- name: Start service httpd, if not started
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: yes
+
+- name: Unarchive a file that needs to be downloaded
+  ansible.builtin.unarchive:
+    src: https://github.com/roboshop-devops-project/frontend/archive/main.zip
+    dest: /tmp/
+    remote_src: yes
+
+- name: deleting html files in nginx
+  file:
+    path: /usr/share/nginx/html/
+    state: absent
+
+- name: Copying frontend files.
+  ansible.builtin.copy:
+    src: /tmp/frontend-main/
+    dest: /usr/share/nginx/html/
+
+- name: Copying frontend files (static).
+  ansible.builtin.copy:
+    src: /usr/share/nginx/html/static/
+    dest: /usr/share/nginx/html/
+
+#- name: Copy conf file to defaultd.
+#  ansible.builtin.copy:
+#    src: /usr/share/nginx/html/localhost.conf
+#    dest: /etc/nginx/default.d/roboshop.conf
+#
+#- name: Restart service httpd, in all cases
+#  ansible.builtin.service:
+#    name:  nginx
+#    state: restarted
+

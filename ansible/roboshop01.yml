@@ -1,0 +1,6 @@
+- name: frontend setup
+  hosts: FRONTEND
+  become: yes
+  tags: frontend
+  roles:
+    - frontendv1

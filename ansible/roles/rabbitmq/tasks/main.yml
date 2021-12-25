@@ -2,6 +2,7 @@
   ansible.builtin.copy:
     src: rabbitm.repo
     dest: /etc/yum.repos.d/rabbitmq.repo
+
 - name: installation of rabbitmq
   ansible.builtin.yum:
     name: rabbitmq-server
