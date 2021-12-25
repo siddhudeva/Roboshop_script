@@ -18,6 +18,7 @@
 - community.rabbitmq.rabbitmq_user:
     user: joe
     password: changeme
+    tags: ["adminstrator"]
     vhost: /
     configure_priv: .*
     read_priv: .*
