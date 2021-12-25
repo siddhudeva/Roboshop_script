@@ -15,10 +15,10 @@
     dest: /tmp/
     remote_src: yes
 
-- name: deleting html files in nginx
-  file:
-    path: /usr/share/nginx/html/
-    state: absent
+#- name: deleting html files in nginx
+#  file:
+#    path: /usr/share/nginx/html/
+#    state: absent
 
 - name: Copying frontend files.
   ansible.builtin.copy:

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend01" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend01-v1">
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontendv1/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontendv1/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00174" summary="rabbitmq component is added">
-      <created>1640080040977</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1640080040977</updated>
     </task>
     <task id="LOCAL-00175" summary="rabbitmq component is added">
       <created>1640089334353</created>
@@ -405,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640441211029</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="frontend01-v1">
+      <created>1640441471463</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1640441471463</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -424,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="disptch file 1.0" />
     <MESSAGE value="forntend configurations updated" />
     <MESSAGE value="original frontend file" />
     <MESSAGE value="ROBOSHOP Updated-cart" />
@@ -449,7 +450,8 @@
     <MESSAGE value="configuration file" />
     <MESSAGE value="ec2 instances updation" />
     <MESSAGE value="frontend01" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend01" />
+    <MESSAGE value="frontend01-v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend01-v1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
