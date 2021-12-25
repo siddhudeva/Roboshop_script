@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 instances updation">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/frontendv1/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +40,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles/shipping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\shipping" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\frontend" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Practice" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible_robo\Robo Ec2" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
@@ -66,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00170" summary="user component is added">
-      <created>1640076716669</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1640076716669</updated>
     </task>
     <task id="LOCAL-00171" summary="user component is added">
       <created>1640077302823</created>
@@ -410,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640322867503</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="ec2 instances updation">
+      <created>1640436487662</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1640436487662</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="UnknownFeatures">
