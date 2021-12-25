@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend01-v1">
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/frontend/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/inventory.inv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/rabbitmq/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/roboshop01.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rabbitmq-v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/inventory.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +42,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible01/roles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible01" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\shipping" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\frontend" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
@@ -67,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00179" summary="rabbitmq component is added">
-      <created>1640090612980</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1640090612980</updated>
     </task>
     <task id="LOCAL-00180" summary="rabbitmq component is added">
       <created>1640090655972</created>
@@ -411,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640442358378</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="rabbitmq-v1">
+      <created>1640446276818</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1640446276818</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -430,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="forntend configurations updated" />
     <MESSAGE value="original frontend file" />
     <MESSAGE value="ROBOSHOP Updated-cart" />
     <MESSAGE value="ROBOSHOP Updated-payment" />
@@ -455,7 +452,8 @@
     <MESSAGE value="ec2 instances updation" />
     <MESSAGE value="frontend01" />
     <MESSAGE value="frontend01-v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend01-v1" />
+    <MESSAGE value="rabbitmq-v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq-v1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
