@@ -20,16 +20,6 @@
     dest: /usr/share/nginx/html/
     remote_src: yes
 
-- name: Application user
-  ansible.builtin.user:
-    name: roboshop
-
-- name: adding roboshop.cnf
-  ansible.builtin.copy:
-    src: roboshop.conf
-    dest: /etc/nginx/default.d/roboshop.conf
-    become_user: roboshop
-
 - name: Start Nginx
   ansible.builtin.systemd:
     name: nginx
