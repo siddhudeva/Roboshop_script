@@ -24,6 +24,7 @@
   ansible.builtin.copy:
     src: /tmp/frontend-main/
     dest: /usr/share/nginx/html/
+    remote_src: yes
 
 - name: Copying frontend files (static).
   ansible.builtin.copy:
