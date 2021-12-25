@@ -1,0 +1,6 @@
+[FRONTEND]
+ frontend.roboshop.internal
+[RABBITMQ]
+  rabbitmq.roboshop.internal
+[CATALOGUE]
+  catalogue.roboshop.internal

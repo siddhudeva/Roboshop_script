@@ -1,0 +1,12 @@
+- name: frontend setup
+  hosts: FRONTEND
+  become: yes
+  tags: frontend
+  roles:
+    - frontend
+- name: rabbitmq setup
+  hosts: RABBITMQ
+  become: yes
+  tags: rabbitmq
+  roles:
+    - rabbitmq
