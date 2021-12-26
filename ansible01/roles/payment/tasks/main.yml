@@ -26,6 +26,10 @@
     requirements: /home/roboshop/payment/requirements.txt
     executable: pip3
 
+- name: app user details
+  ansible.builtin.debug:
+    msg: "{{app_user-info}}"
+
 #    Update the roboshop user and group id in payment.ini file.
 #
 #    Setup the service
