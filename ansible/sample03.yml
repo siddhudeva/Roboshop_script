@@ -1,3 +1,4 @@
+---
 - name: checking commands
   hosts: localhost
   ansible.builtin.shell:
@@ -6,3 +7,4 @@
       - pwd
 
 
+...
