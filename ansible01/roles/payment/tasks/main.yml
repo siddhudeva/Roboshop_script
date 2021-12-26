@@ -40,7 +40,7 @@
   ansible.builtin.lineinfile:
       path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
       regexp: '^gid'
-      line: gid = {{app_user-info.group}}
+      line: gid = {{app_user_info.group}}
 
 
 #    Update the roboshop user and group id in payment.ini file.
