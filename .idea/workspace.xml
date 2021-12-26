@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="payment">
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/payment/files/systemd.service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00232" summary="rabbitmq-v1">
-      <created>1640447566453</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1640447566453</updated>
-    </task>
-    <task id="LOCAL-00233" summary="rabbitmq-v1">
-      <created>1640448013396</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1640448013396</updated>
     </task>
     <task id="LOCAL-00234" summary="rabbitmq-v1">
       <created>1640448308249</created>
@@ -407,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640504867347</updated>
     </task>
-    <option name="localTasksCounter" value="281" />
+    <task id="LOCAL-00281" summary="payment">
+      <created>1640504935789</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1640504935789</updated>
+    </task>
+    <task id="LOCAL-00282" summary="payment">
+      <created>1640504962722</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1640504962722</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="UnknownFeatures">

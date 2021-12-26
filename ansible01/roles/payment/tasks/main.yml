@@ -42,12 +42,8 @@
       regexp: '^gid'
       line: gid = {{app_user_info.group}}
 
+- name: daemon load and start service
+  asnible.builtin.import_rule:
+    name: common
+    task_from: systemd.service
 
-#    Update the roboshop user and group id in payment.ini file.
-#
-#    Setup the service
-#
-#  # mv /home/roboshop/payment/systemd.service /etc/systemd/system/payment.service
-#  # systemctl daemon-reload
-#  # systemctl enable payment
-#  # systemctl start payment
