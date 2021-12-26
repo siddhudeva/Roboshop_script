@@ -5,7 +5,7 @@
 
 - name: installing mongod
   ansible.builtin.yum:
-    name: mongod-org
+    name: mongodb-org
     state: installed
 
 - name: replacing config file
