@@ -31,8 +31,3 @@
       - mongo < users.js
     chdir: /etc/mongodb-main/
 
-
-
-## cd mongodb-main
-## mongo < catalogue.js
-## mongo < users.js
