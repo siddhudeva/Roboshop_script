@@ -15,6 +15,7 @@
 - name: Add the user 'roboshop'
   ansible.builtin.user:
     name: roboshop
+    state: present
 
 - name: Unarchive a file that needs to be downloaded
   ansible.builtin.unarchive:
