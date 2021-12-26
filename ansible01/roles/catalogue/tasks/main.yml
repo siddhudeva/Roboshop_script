@@ -20,16 +20,16 @@
   ansible.builtin.unarchive:
     src: https://github.com/roboshop-devops-project/catalogue/archive/main.zip
     dest: /tmp/
-    owner: roboshop
     remote_src: yes
 
-- name:
+- name: Copy App Content
   ansible.builtin.copy:
-    src: /tmp/roboshop-main/
+    src: /tmp/catalogue-main/
     dest: /home/roboshop/catalogue/
-    follow: yes
+    remote_src: yes
+  become_user: roboshop
 
-- name: Install package.
+- name: Install packages
   yum:
     name: cd /home/roboshop/catalogue
     state: present
