@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sample03">
+      <change beforePath="$PROJECT_DIR$/ansible/sample03.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/sample03.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00220" summary="ec2 instances updation">
-      <created>1640437029374</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1640437029374</updated>
     </task>
     <task id="LOCAL-00221" summary="frontend01">
       <created>1640439317612</created>
@@ -405,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640495279610</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="sample03">
+      <created>1640496738902</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1640496738902</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -424,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ansible practice file added" />
     <MESSAGE value="frontend ansible file added" />
     <MESSAGE value="ansible file-setup" />
     <MESSAGE value="ansible frontend file-setup" />
@@ -449,7 +450,8 @@
     <MESSAGE value="    rabbitmq-v1.0 final" />
     <MESSAGE value="cataloguev1.0 final" />
     <MESSAGE value="mongod final" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongod final" />
+    <MESSAGE value="sample03" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample03" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
