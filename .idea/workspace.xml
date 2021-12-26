@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cataloguev1.0 final">
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/app_user.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/nodejs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/systemd.service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/unzipping.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/frontend/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/rabbitmq/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/start_service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/frontend/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00205" summary="sample file added">
-      <created>1640272525763</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1640272525763</updated>
     </task>
     <task id="LOCAL-00206" summary="sample file added">
       <created>1640272544445</created>
@@ -416,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640486472405</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="cataloguev1.0 final">
+      <created>1640488185399</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1640488185399</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="UnknownFeatures">
