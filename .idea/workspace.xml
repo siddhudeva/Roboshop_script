@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sample03">
-      <change beforePath="$PROJECT_DIR$/ansible/sample03.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/sample03.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/mongod/meta/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00221" summary="frontend01">
-      <created>1640439317612</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1640439317612</updated>
-    </task>
-    <task id="LOCAL-00222" summary="frontend01">
-      <created>1640441211029</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1640441211029</updated>
     </task>
     <task id="LOCAL-00223" summary="frontend01-v1">
       <created>1640441471463</created>
@@ -407,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640496738902</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="sample03">
+      <created>1640496873584</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1640496873584</updated>
+    </task>
+    <task id="LOCAL-00271" summary="sample03">
+      <created>1640496916736</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1640496916736</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="UnknownFeatures">

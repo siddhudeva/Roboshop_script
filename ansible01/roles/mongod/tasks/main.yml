@@ -26,10 +26,10 @@
     name: common
     tasks_from: unzipping
 
-- name: loading schemas
-  ansible.builtin.shell:
-    name:
-      - mongo < catalogue.js
-      - mongo < users.js
-    chdir: /etc/mongod-main/
-
+- name: Load Schema
+community.mongodb.mongodb_shell:
+  file: "/tmp/mongodb-main/{{item}}.js"
+  idempotent: yes
+loop:
+  - catalogue
+  - users
