@@ -39,6 +39,7 @@
     src: systemd.service
     dest: /etc/systemd/system/catalogue.service
 
+- name: started and enabling
   ansible.builtin.systemd:
     name: "catalogue"
     state: restarted
