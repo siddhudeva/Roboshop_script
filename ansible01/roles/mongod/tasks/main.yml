@@ -22,7 +22,7 @@
 - name: unzipping content
   ansible.builtin.import_role:
     name: common
-    tasks_from: unzipinng
+    tasks_from: unzipping
 
 - name: loading schema
   ansible.builtin.shell:
