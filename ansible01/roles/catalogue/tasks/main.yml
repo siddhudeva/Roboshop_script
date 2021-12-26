@@ -34,7 +34,20 @@
     path: /home/roboshop/catalogue
   become_user: roboshop
 
-## mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+- name: copying service file
+  ansible.builtin.copy:
+    src: systemd.service
+    dest: /etc/systemd/system/catalogue.serivce
+  become_user: roboshop
+
+- name: restarting services
+  ansible.builtin.systemd:
+    name: catalogue.service
+    state: started
+    enabled: true
+
+
+    # mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 ## systemctl daemon-reload
 ## systemctl start catalogue
 ## systemctl enable catalogue
