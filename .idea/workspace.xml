@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final">
-      <change beforePath="$PROJECT_DIR$/ansible01/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/inventory.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00208" summary="sample file added">
-      <created>1640276983823</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1640276983823</updated>
     </task>
     <task id="LOCAL-00209" summary="sample file added">
       <created>1640277107345</created>
@@ -408,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640489915658</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="mongod final">
+      <created>1640490189560</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1640490189560</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="UnknownFeatures">
