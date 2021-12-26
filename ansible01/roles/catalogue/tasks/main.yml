@@ -6,12 +6,6 @@
       - gcc-c++
     state: installed
 
-- name: Remove the user 'roboshop'
-  ansible.builtin.user:
-    name: roboshop
-    state: absent
-    remove: yes
-
 - name: Add the user 'roboshop'
   ansible.builtin.user:
     name: roboshop
