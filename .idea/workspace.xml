@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rabbitmq-v1">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="    rabbitmq-v1.0 final">
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/rabbitmq/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/rabbitmq/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,27 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00186" summary="shipping module setup">
-      <created>1640239197891</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1640239197891</updated>
-    </task>
-    <task id="LOCAL-00187" summary="shipping module setup">
-      <created>1640239793418</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1640239793418</updated>
-    </task>
-    <task id="LOCAL-00188" summary="shipping module setup">
-      <created>1640240002557</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1640240002557</updated>
     </task>
     <task id="LOCAL-00189" summary="shipping module setup">
       <created>1640240067730</created>
@@ -408,7 +388,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640448308249</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="rabbitmq-v1.0 final">
+      <created>1640451000830</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1640451000830</updated>
+    </task>
+    <task id="LOCAL-00236" summary="rabbitmq-v1.0 final">
+      <created>1640451136752</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1640451136752</updated>
+    </task>
+    <task id="LOCAL-00237" summary="rabbitmq-v1.0 final">
+      <created>1640451218023</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1640451218023</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -427,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="original frontend file" />
     <MESSAGE value="ROBOSHOP Updated-cart" />
     <MESSAGE value="ROBOSHOP Updated-payment" />
     <MESSAGE value="ec2 instance filtering and creating" />
@@ -452,7 +452,8 @@
     <MESSAGE value="frontend01" />
     <MESSAGE value="frontend01-v1" />
     <MESSAGE value="rabbitmq-v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq-v1" />
+    <MESSAGE value="rabbitmq-v1.0 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq-v1.0 final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,42 @@
+- name: installing nodejs
+  ansible.builtin.yum:
+    name:
+      - nodejs
+      - make
+      - gcc-c++
+    state: installed
+
+- name: Remove the user 'roboshop'
+  ansible.builtin.user:
+    name: roboshop
+    state: absent
+    remove: yes
+
+- name: Add the user 'roboshop'
+  ansible.builtin.user:
+    name: roboshop
+
+- name: Unarchive a file that needs to be downloaded
+  ansible.builtin.unarchive:
+    src: https://github.com/roboshop-devops-project/catalogue/archive/main.zip
+    dest: /tmp/
+    owner: roboshop
+    remote_src: yes
+
+- name:
+  ansible.builtin.copy:
+    src: /tmp/roboshop-main/
+    dest: /home/roboshop/catalogue/
+    follow: yes
+
+- name: Install package.
+  yum:
+    name: cd /home/roboshop/catalogue
+    state: present
+
+
+
+## mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+## systemctl daemon-reload
+## systemctl start catalogue
+## systemctl enable catalogue

@@ -1,9 +1,22 @@
-- name: rabbitmq setup
-  hosts: RABBITMQ
+- name: catalogue setup
+  hosts: CATALOGUE
   become: yes
-  tags: rabbitmq
+  tags: catalogue
   roles:
-    - rabbitmq
+    - catalogue
+
+
+
+
+
+
+
+#- name: rabbitmq setup
+#  hosts: RABBITMQ
+#  become: yes
+#  tags: rabbitmq
+#  roles:
+#    - rabbitmq
 
 
 #- name: frontend setup
