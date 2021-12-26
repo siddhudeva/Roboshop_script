@@ -1,16 +1,16 @@
 - name: Add repository
   yum_repository:
-    name: mongo.repo
-    baseurl: https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo
+    name: {{COMPONENT}}.repo
+    baseurl: https://raw.githubusercontent.com/roboshop-devops-project/{{COMPONENT}}/main/mongo.repo
 
 - name: installing mongod
   ansible.builtin.yum:
-    name: mongod-org
+    name: {{COMPONENT}}-org
     state: installed
 
 - name: replacing config file
   ansible.builtin.replace:
-    path: /etc/mongod.conf
+    path: /etc/{{COMPONENT}}.conf
     regexp: '127.0.0.1'
     replace: '0.0.0.0'
 
@@ -29,5 +29,5 @@
     name:
       - mongo < catalogue.js
       - mongo < users.js
-    chdir: /etc/mongodb-main/
+    chdir: /etc/{{COMPONENT}}-main/
 

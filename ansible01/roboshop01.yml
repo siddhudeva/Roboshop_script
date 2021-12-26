@@ -1,12 +1,20 @@
-- name: catalogue setup
-  hosts: CATALOGUE
+- name: mongod setup
+  hosts: MONGOD
   become: yes
-  tags: catalogue
+  tags: mongod
   roles:
-    - catalogue
+    - mongod
 
 
 
+
+#
+#- name: catalogue setup
+#  hosts: CATALOGUE
+#  become: yes
+#  tags: catalogue
+#  roles:
+#    - catalogue
 
 
 

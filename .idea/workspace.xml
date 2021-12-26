@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cataloguev1.0 final">
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/start_service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final">
+      <change beforePath="$PROJECT_DIR$/ansible01/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/inventory.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00206" summary="sample file added">
-      <created>1640272544445</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1640272544445</updated>
-    </task>
-    <task id="LOCAL-00207" summary="sample file added">
-      <created>1640272640478</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1640272640478</updated>
     </task>
     <task id="LOCAL-00208" summary="sample file added">
       <created>1640276983823</created>
@@ -409,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640488185399</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="cataloguev1.0 final">
+      <created>1640489897482</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1640489897482</updated>
+    </task>
+    <task id="LOCAL-00256" summary="mongod final">
+      <created>1640489915658</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1640489915658</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -428,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ec2 instance filtering and creating" />
     <MESSAGE value="ansible practice file added" />
     <MESSAGE value="frontend ansible file added" />
     <MESSAGE value="ansible file-setup" />
@@ -453,7 +451,8 @@
     <MESSAGE value="rabbitmq-v1.0 final" />
     <MESSAGE value="    rabbitmq-v1.0 final" />
     <MESSAGE value="cataloguev1.0 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="cataloguev1.0 final" />
+    <MESSAGE value="mongod final" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongod final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
