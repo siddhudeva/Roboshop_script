@@ -1,3 +1,0 @@
-- name: dependencies
-  dependencies:
-    - role: common
