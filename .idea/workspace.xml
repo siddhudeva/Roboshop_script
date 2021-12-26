@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sample03">
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.ym;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/inventory.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="payment">
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.ym;" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00225" summary="frontend01-v1">
-      <created>1640441725085</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1640441725085</updated>
-    </task>
-    <task id="LOCAL-00226" summary="frontend01-v1">
-      <created>1640441845181</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1640441845181</updated>
     </task>
     <task id="LOCAL-00227" summary="frontend01-v1">
       <created>1640442358378</created>
@@ -411,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640497636006</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="sample03">
+      <created>1640501008476</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1640501008476</updated>
+    </task>
+    <task id="LOCAL-00275" summary="payment">
+      <created>1640501231768</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1640501231768</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -430,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="frontend ansible file added" />
     <MESSAGE value="ansible file-setup" />
     <MESSAGE value="ansible frontend file-setup" />
     <MESSAGE value="frontend setup - ansible" />
@@ -455,7 +450,8 @@
     <MESSAGE value="cataloguev1.0 final" />
     <MESSAGE value="mongod final" />
     <MESSAGE value="sample03" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample03" />
+    <MESSAGE value="payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

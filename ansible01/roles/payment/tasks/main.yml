@@ -24,6 +24,7 @@
 - name: Install specified python requirements
   pip:
     requirements: /home/roboshop/payment/requirements.txt
+    executable: pip3
 
 #    Update the roboshop user and group id in payment.ini file.
 #
