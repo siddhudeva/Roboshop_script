@@ -62,13 +62,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00196" summary="shipping module setup">
-      <created>1640242892963</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1640242892963</updated>
-    </task>
     <task id="LOCAL-00197" summary="ec2 instance small modification is done">
       <created>1640265537464</created>
       <option name="number" value="00197" />
@@ -405,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640484729280</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="cataloguev1.0 final">
+      <created>1640485191638</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1640485191638</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="UnknownFeatures">
