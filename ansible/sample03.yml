@@ -1,0 +1,9 @@
+- name: checking commands
+  hosts: localhost
+  tasks:
+    ansible.builtin.shell:
+     name:
+       - ll
+       - pwd
+
+

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final">
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/files/mongod.repo" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/files/mongodb.repo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,27 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00217" summary="ec2 instances updation">
-      <created>1640321791511</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1640321791511</updated>
-    </task>
-    <task id="LOCAL-00218" summary="ec2 instances updation">
-      <created>1640322867503</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1640322867503</updated>
-    </task>
-    <task id="LOCAL-00219" summary="ec2 instances updation">
-      <created>1640436487662</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1640436487662</updated>
     </task>
     <task id="LOCAL-00220" summary="ec2 instances updation">
       <created>1640437029374</created>
@@ -408,7 +384,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640494691924</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="mongod final">
+      <created>1640495050726</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1640495050726</updated>
+    </task>
+    <task id="LOCAL-00267" summary="mongod final">
+      <created>1640495239980</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1640495239980</updated>
+    </task>
+    <task id="LOCAL-00268" summary="mongod final">
+      <created>1640495279610</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1640495279610</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="UnknownFeatures">
