@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="    rabbitmq-v1.0 final">
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/files/systemd.service" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cataloguev1.0 final">
       <change beforePath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00192" summary="shipping module setup">
-      <created>1640240858279</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1640240858279</updated>
-    </task>
-    <task id="LOCAL-00193" summary="shipping module setup">
-      <created>1640242407989</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1640242407989</updated>
     </task>
     <task id="LOCAL-00194" summary="shipping module setup">
       <created>1640242700206</created>
@@ -408,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640483865971</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="cataloguev1.0 final">
+      <created>1640484276582</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1640484276582</updated>
+    </task>
+    <task id="LOCAL-00242" summary="cataloguev1.0 final">
+      <created>1640484472719</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1640484472719</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -427,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ROBOSHOP Updated-payment" />
     <MESSAGE value="ec2 instance filtering and creating" />
     <MESSAGE value="ansible practice file added" />
     <MESSAGE value="frontend ansible file added" />
@@ -452,7 +450,8 @@
     <MESSAGE value="rabbitmq-v1" />
     <MESSAGE value="rabbitmq-v1.0 final" />
     <MESSAGE value="    rabbitmq-v1.0 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="    rabbitmq-v1.0 final" />
+    <MESSAGE value="cataloguev1.0 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="cataloguev1.0 final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
