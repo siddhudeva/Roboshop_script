@@ -39,14 +39,11 @@
     src: systemd.service
     dest: /etc/systemd/system/catalogue.serivce
 
-
-- name: restarting services
   ansible.builtin.systemd:
-    name: catalogue
+    name: "catalogue"
     state: restarted
     enabled: yes
     daemon_reload: yes
-
 
     # mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 ## systemctl daemon-reload
