@@ -30,6 +30,19 @@
   ansible.builtin.debug:
     msg: "{{app_user-info}}"
 
+- name: replace line
+    lineinfile:
+      path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
+      regexp: '^uid'
+      line: uid = {{app_user-info.uid}}
+
+- name: replace line
+    lineinfile:
+      path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
+      regexp: '^gid'
+      line: gid = {{app_user-info.group}}
+
+
 #    Update the roboshop user and group id in payment.ini file.
 #
 #    Setup the service
