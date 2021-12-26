@@ -28,13 +28,13 @@
 
 - name: app user details
   ansible.builtin.debug:
-    msg: "{{app_user-info}}"
+    msg: "{{app_user_info}}"
 
 - name: replace line
   ansible.builtin.lineinfile:
       path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
       regexp: '^uid'
-      line: uid = {{app_user-info.uid}}
+      line: uid = {{app_user_info.uid}}
 
 - name: replace line
   ansible.builtin.lineinfile:
