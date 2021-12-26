@@ -30,13 +30,13 @@
   ansible.builtin.debug:
     msg: "{{app_user_info}}"
 
-- name: replace line
+- name: replace line user
   ansible.builtin.lineinfile:
       path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
       regexp: '^uid'
       line: uid = {{app_user_info.uid}}
 
-- name: replace line
+- name: replace line group
   ansible.builtin.lineinfile:
       path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
       regexp: '^gid'

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="payment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,27 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00229" summary="rabbitmq-v1">
-      <created>1640446724922</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1640446724922</updated>
-    </task>
-    <task id="LOCAL-00230" summary="rabbitmq-v1">
-      <created>1640446945692</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1640446945692</updated>
-    </task>
-    <task id="LOCAL-00231" summary="rabbitmq-v1">
-      <created>1640447039172</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1640447039172</updated>
     </task>
     <task id="LOCAL-00232" summary="rabbitmq-v1">
       <created>1640447566453</created>
@@ -408,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640503619281</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="payment">
+      <created>1640504763302</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1640504763302</updated>
+    </task>
+    <task id="LOCAL-00279" summary="payment">
+      <created>1640504822040</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1640504822040</updated>
+    </task>
+    <task id="LOCAL-00280" summary="payment">
+      <created>1640504867347</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1640504867347</updated>
+    </task>
+    <option name="localTasksCounter" value="281" />
     <servers />
   </component>
   <component name="UnknownFeatures">
