@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mongod final">
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/files/mongod.repo" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/files/mongodb.repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00216" summary="ec2 instances updation">
-      <created>1640321698021</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1640321698021</updated>
     </task>
     <task id="LOCAL-00217" summary="ec2 instances updation">
       <created>1640321791511</created>
@@ -405,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640494060865</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="mongod final">
+      <created>1640494691924</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1640494691924</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="UnknownFeatures">

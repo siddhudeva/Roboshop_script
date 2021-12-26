@@ -1,7 +1,7 @@
 - name: Adding repo file
   ansible.builtin.copy:
-    src: mongod.repo
-    dest: /etc/yum.repos.d/mongod.repo
+    src: mongodb.repo
+    dest: /etc/yum.repos.d/mongodb.repo
 
 - name: installing mongod
   ansible.builtin.yum:
