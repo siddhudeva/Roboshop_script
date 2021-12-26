@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cataloguev1.0 final">
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/app_user.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/nodejs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/systemd.service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/common/tasks/unzipping.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/frontend/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/rabbitmq/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/catalogue/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/frontend/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +49,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible01/roles/rabbitmq" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles\rabbitmq" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles\frontend" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\shipping" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
@@ -63,20 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00203" summary="sample file added">
-      <created>1640272291003</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1640272291003</updated>
-    </task>
-    <task id="LOCAL-00204" summary="sample file added">
-      <created>1640272468733</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1640272468733</updated>
     </task>
     <task id="LOCAL-00205" summary="sample file added">
       <created>1640272525763</created>
@@ -407,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640486348981</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="cataloguev1.0 final">
+      <created>1640486413503</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1640486413503</updated>
+    </task>
+    <task id="LOCAL-00253" summary="cataloguev1.0 final">
+      <created>1640486472405</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1640486472405</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="UnknownFeatures">

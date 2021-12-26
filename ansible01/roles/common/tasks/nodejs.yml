@@ -1,0 +1,34 @@
+- name: installing nodejs
+  ansible.builtin.yum:
+    name:
+      - nodejs
+      - make
+      - gcc-c++
+    state: installed
+
+- name: app_user
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app_user
+
+- name: download
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
+
+
+- name: unzipping content
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: unzipping
+
+
+- name: installing npm package
+  community.general.npm:
+    path: /home/roboshop/{{COMPONENT}}
+  become_user: roboshop
+
+- name: starting and enabling
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd.service
