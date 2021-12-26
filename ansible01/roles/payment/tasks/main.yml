@@ -42,8 +42,9 @@
       regexp: '^gid'
       line: gid = {{app_user_info.group}}
 
+
 - name: daemon load and start service
-  ansible.builtin.import_rule:
+  ansible.builtin.import_role:
     name: common
     task_from: systemd.service
 
