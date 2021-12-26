@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sample03">
-      <change afterPath="$PROJECT_DIR$/ansible01/roles/mongod/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.ym;" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/mongod/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/inventory.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible01/roboshop01.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roboshop01.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00223" summary="frontend01-v1">
-      <created>1640441471463</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1640441471463</updated>
-    </task>
-    <task id="LOCAL-00224" summary="frontend01-v1">
-      <created>1640441593116</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1640441593116</updated>
     </task>
     <task id="LOCAL-00225" summary="frontend01-v1">
       <created>1640441725085</created>
@@ -409,7 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640496916736</updated>
     </task>
-    <option name="localTasksCounter" value="272" />
+    <task id="LOCAL-00272" summary="sample03">
+      <created>1640497547650</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1640497547650</updated>
+    </task>
+    <task id="LOCAL-00273" summary="sample03">
+      <created>1640497636006</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1640497636006</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="UnknownFeatures">

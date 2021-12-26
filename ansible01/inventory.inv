@@ -6,3 +6,5 @@
   catalogue.roboshop.internal
 [MONGOD]
  mongod.roboshop.internal
+[PAYMENT]
+ payment.roboshop.internal

@@ -1,0 +1,35 @@
+- name: instaling python and apps
+  ansible.builtin.yum:
+    name:
+      - python36
+      - gcc
+      - python3-devel
+
+- name: application user add
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app_user
+
+- name: application user add
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
+
+
+- name: application user add
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: unzipping
+
+- name: Install specified python requirements
+  pip:
+    requirements: /home/roboshop/payment/requirements.txt
+
+#    Update the roboshop user and group id in payment.ini file.
+#
+#    Setup the service
+#
+#  # mv /home/roboshop/payment/systemd.service /etc/systemd/system/payment.service
+#  # systemctl daemon-reload
+#  # systemctl enable payment
+#  # systemctl start payment
