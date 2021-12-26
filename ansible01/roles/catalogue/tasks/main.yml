@@ -45,7 +45,7 @@
     enabled: yes
     daemon_reload: yes
 
-    # mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+# mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 ## systemctl daemon-reload
 ## systemctl start catalogue
 ## systemctl enable catalogue
