@@ -15,9 +15,11 @@
     replace: '0.0.0.0'
 
 - name: starting application
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: start_service
+  ansible.builtin.systemd:
+    name: mongod
+    state: restarted
+    enabled: yes
+
 
 - name: unzipping content
   ansible.builtin.import_role:
