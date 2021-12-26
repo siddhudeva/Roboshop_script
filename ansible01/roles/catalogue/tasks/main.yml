@@ -38,7 +38,7 @@
   ansible.builtin.copy:
     src: systemd.service
     dest: /etc/systemd/system/catalogue.serivce
-  become_user: roboshop
+
 
 - name: restarting services
   ansible.builtin.systemd:
