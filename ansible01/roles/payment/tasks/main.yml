@@ -4,6 +4,9 @@
       - python36
       - gcc
       - python3-devel
+- name: starting python services
+  ansible.builtin.systemd:
+    name: p
 
 - name: application user add
   ansible.builtin.import_role:
