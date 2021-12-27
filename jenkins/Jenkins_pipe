@@ -1,0 +1,11 @@
+pipeline {
+  agent any
+
+  stages {
+    stage( 'ansible playbook run' ) {
+      steps {
+        sh 'ansible-playbook 03_sample.yml'
+      }
+    }
+  }
+}

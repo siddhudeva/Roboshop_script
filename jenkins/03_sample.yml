@@ -1,0 +1,9 @@
+---
+- name: this is a sample testing file
+  hosts: PAYMENT
+  tasks:
+      - name: echo the massage that wriiten
+        ansible.builtin.debug:
+          msg: this is working
+
+...

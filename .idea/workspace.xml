@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="payment">
-      <change afterPath="$PROJECT_DIR$/jenkins/Jenkins01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible01/roles/payment/tasks/main.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins sample file">
+      <change afterPath="$PROJECT_DIR$/jenkins/Jenkins_pipe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00240" summary="    rabbitmq-v1.0 final">
-      <created>1640483865971</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1640483865971</updated>
     </task>
     <task id="LOCAL-00241" summary="cataloguev1.0 final">
       <created>1640484276582</created>
@@ -409,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640505959559</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="jenkins sample file">
+      <created>1640603070542</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1640603070542</updated>
+    </task>
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -428,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ansible file-setup" />
     <MESSAGE value="ansible frontend file-setup" />
     <MESSAGE value="frontend setup - ansible" />
     <MESSAGE value="frontend full setup - ansible" />
@@ -453,7 +450,8 @@
     <MESSAGE value="mongod final" />
     <MESSAGE value="sample03" />
     <MESSAGE value="payment" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment" />
+    <MESSAGE value="jenkins sample file" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins sample file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
