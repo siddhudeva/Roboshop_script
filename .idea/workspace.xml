@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins pipeline to create a ec2 instance">
-      <change beforePath="$PROJECT_DIR$/ansible/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/Jenkinsfile" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins pipeline to create a ec2 instance" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,13 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00248" summary="cataloguev1.0 final">
-      <created>1640485431664</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1640485431664</updated>
     </task>
     <task id="LOCAL-00249" summary="cataloguev1.0 final">
       <created>1640485571825</created>
@@ -407,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640606758287</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="jenkins pipeline to create a ec2 instance">
+      <created>1640606955648</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1640606955648</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="UnknownFeatures">
