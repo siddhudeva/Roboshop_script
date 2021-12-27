@@ -1,0 +1,10 @@
+pipeline {
+    agent WORKSTATION
+    stages {
+        stage('build') {
+            steps {
+                sh 'bash ec2 instance.sh frontend'
+            }
+        }
+    }
+}
