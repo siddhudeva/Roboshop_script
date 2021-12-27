@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage( 'ansible playbook run' ) {
       steps {
-        sh 'ansible-playbook 03_sample.yml'
+        sh 'echo helloworld this is pipeline for intergration'
       }
     }
   }
