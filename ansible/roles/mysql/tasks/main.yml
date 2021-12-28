@@ -29,7 +29,7 @@
   register: root_password
 
 - name: Ensure root can login into MySQL localhost using temporary password
-  shell: "mysql -uroot -p'{{ root_password.stdout }}' --connect-expired-password"
+  shell: "mysql -uroot -p'{{ root_password }}' --connect-expired-password"
   register: root_login_tmp_pass
   ignore_errors: yes
 
