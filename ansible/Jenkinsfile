@@ -40,17 +40,17 @@
 //     }
 // }
 
-  pipeline {
-    agent any
-    triggers { pollSCM('H */4 * * 1-5') }
-    stages {
-      stage ( 'Example' ) {
-        steps{
-          sh 'echo pipeline trigger'
-        }
-      }
-    }
-  }
+//   pipeline {
+//     agent any
+//     triggers { pollSCM('H */4 * * 1-5') }
+//     stages {
+//       stage ( 'Example' ) {
+//         steps{
+//           sh 'echo pipeline trigger'
+//         }
+//       }
+//     }
+//   }
 // pipeline {
 //     agent any
 //     triggers {
@@ -65,3 +65,21 @@
 //     }
 // }
 
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            input {
+                message "Should we continue?"
+                ok "Yes, we should."
+                submitter "siddhu,mourya"
+                parameters {
+                    string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+                }
+            }
+            steps {
+                echo "Hello, ${PERSON}, nice to meet you."
+            }
+        }
+    }
+}
