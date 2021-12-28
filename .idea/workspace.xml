@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins pipeline to create a ec2 instance">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/mysql/files/mysql_repo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mysql ansible file added">
+      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00250" summary="cataloguev1.0 final">
-      <created>1640485795482</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1640485795482</updated>
     </task>
     <task id="LOCAL-00251" summary="cataloguev1.0 final">
       <created>1640486348981</created>
@@ -409,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640612118479</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="mysql ansible file added">
+      <created>1640665891597</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1640665891597</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -428,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="frontend setup - ansible" />
     <MESSAGE value="frontend full setup - ansible" />
     <MESSAGE value="catalogue full setup - ansible" />
     <MESSAGE value="catalogue full setup" />
@@ -453,7 +450,8 @@
     <MESSAGE value="payment" />
     <MESSAGE value="jenkins sample file" />
     <MESSAGE value="jenkins pipeline to create a ec2 instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkins pipeline to create a ec2 instance" />
+    <MESSAGE value="mysql ansible file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql ansible file added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
