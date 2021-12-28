@@ -2,7 +2,6 @@
   ansible.builtin.copy:
     src: mysql.repo
     dest: /etc/yum.repos.d/mysql.repo
-    remote_src: yes
 
 - name: Install MySQL server & Ansible MySQL Modules
   ansible.builtin.yum:
