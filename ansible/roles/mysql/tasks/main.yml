@@ -1,0 +1,74 @@
+- name: mysql repo
+  ansible.builtin.copy:
+    src: mysql_repo
+    dest: /etc/yum.repos.d/mysql.repo
+
+- name: install mysql
+  ansible.builtin.yum:
+    name: mysql-community-server
+    state: installed
+
+- name: starting and enabling
+  ansible.builtin.systemd:
+    name: mysqld
+    state: started
+    enabled: yes
+
+#- name: temparary password
+#  ansible.builtin.sh:
+#    cmd: grep 'temporary password' /var/log/mysqld.log
+#    register: temp_pass
+
+
+
+- name: get root password
+  shell: "grep 'A temporary password is generated for root@localhost' /var/log/mysqld.log | awk -F ' ' '{print $(NF)}'"
+  register: root_password
+
+- name: Ensure root can login into MySQL localhost using temporary password
+  shell: "mysql -uroot -p'{{ root_password.stdout }}' --connect-expired-password"
+  with_items:
+    - 127.0.0.1
+    - ::1
+    - localhost
+  register: root_login_tmp_pass
+  ignore_errors: yes
+
+- name: update expired root user password
+  command: mysql --user root --password={{ root_password.stdout }} --connect-expired-password --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY 'DevOps321';"
+  when: root_login_tmp_pass is succeeded
+
+- name: update root user password
+  command: mysql --user root --password DevOps321 --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY DevOps321 ;"
+  when: root_login_tmp_pass is failed
+
+
+
+
+
+
+#
+#    Next, We need to change the default root password in order to start using the database service.
+#  # mysql_secure_installation
+#
+#    You can check the new password working or not using the following command.
+#
+#  # mysql -u root -p
+#
+#    Run the following SQL commands to remove the password policy.
+#    > uninstall plugin validate_password;
+#    Setup Needed for Application.
+#    As per the architecture diagram, MySQL is needed by
+#
+#    Shipping Service
+#    So we need to load that schema into the database, So those applications will detect them and run accordingly.
+#
+#    To download schema, Use the following command
+#
+#  # curl -s -L -o /tmp/mysql.zip "https://github.com/roboshop-devops-project/mysql/archive/main.zip"
+#    Load the schema for Services.
+#
+#  # cd /tmp
+#  # unzip mysql.zip
+#  # cd mysql-main
+## mysql -u root -pRoboShop@1 <shipping.sql
