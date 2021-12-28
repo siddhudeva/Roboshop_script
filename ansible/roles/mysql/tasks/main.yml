@@ -34,11 +34,11 @@
   ignore_errors: yes
 
 - name: update expired root user password
-  command: mysql --user root --password={{ root_password.stdout }} --connect-expired-password --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY 'DevOps321';"
+  shell: mysql --user root --password={{ root_password.stdout }} --connect-expired-password --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY 'DevOps321';"
   when: root_login_tmp_pass is succeeded
 
 - name: update root user password
-  command: mysql --user root --password DevOps321 --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY DevOps321 ;"
+  shell: mysql --user root --password DevOps321 --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY DevOps321 ;"
   when: root_login_tmp_pass is failed
 
 
