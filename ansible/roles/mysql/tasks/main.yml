@@ -30,10 +30,6 @@
 
 - name: Ensure root can login into MySQL localhost using temporary password
   shell: "mysql -uroot -p'{{ root_password.stdout }}' --connect-expired-password"
-  with_items:
-    - 127.0.0.1
-    - ::1
-    - localhost
   register: root_login_tmp_pass
   ignore_errors: yes
 
