@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkinsfile updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkinsfile updated - trigger crontab">
+      <change beforePath="$PROJECT_DIR$/ansible/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/Jenkinsfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00264" summary="mongod final">
-      <created>1640494060865</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1640494060865</updated>
-    </task>
-    <task id="LOCAL-00265" summary="mongod final">
-      <created>1640494691924</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1640494691924</updated>
     </task>
     <task id="LOCAL-00266" summary="mongod final">
       <created>1640495050726</created>
@@ -406,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640687848974</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="jenkinsfile updated - trigger crontab">
+      <created>1640688150469</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1640688150469</updated>
+    </task>
+    <task id="LOCAL-00314" summary="jenkinsfile updated - trigger crontab">
+      <created>1640688213198</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1640688213198</updated>
+    </task>
+    <option name="localTasksCounter" value="315" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -425,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue full setup - ansible" />
     <MESSAGE value="catalogue full setup" />
     <MESSAGE value="redis database is added" />
     <MESSAGE value="user component is added" />
@@ -450,7 +451,8 @@
     <MESSAGE value="jenkins pipeline to create a ec2 instance" />
     <MESSAGE value="mysql ansible file added" />
     <MESSAGE value="jenkinsfile updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkinsfile updated" />
+    <MESSAGE value="jenkinsfile updated - trigger crontab" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkinsfile updated - trigger crontab" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
