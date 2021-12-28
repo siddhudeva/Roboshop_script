@@ -1,6 +1,6 @@
 - name: mysql repo
   ansible.builtin.copy:
-    src: mysql_repo
+    src: mysql_repo.yml
     dest: /etc/yum.repos.d/mysql.repo
     remote_src: yes
 
