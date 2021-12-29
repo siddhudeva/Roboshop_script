@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/cart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/catalogue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/dispatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/shipping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/user" vcs="Git" />
   </component>
 </project>
