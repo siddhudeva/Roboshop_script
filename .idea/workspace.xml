@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="pipeline initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/03_sample.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/Jenkins01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/Jenkins_pipe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/seed.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/vars/golang.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/vars/nodejs.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/vars/python.groovy" beforeDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="pipeline initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00274" summary="sample03">
-      <created>1640501008476</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1640501008476</updated>
     </task>
     <task id="LOCAL-00275" summary="payment">
       <created>1640501231768</created>
@@ -418,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640791963677</updated>
     </task>
-    <option name="localTasksCounter" value="323" />
+    <task id="LOCAL-00323" summary="pipeline initial commit">
+      <created>1640793553975</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1640793553975</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
     <servers />
   </component>
   <component name="UnknownFeatures">
