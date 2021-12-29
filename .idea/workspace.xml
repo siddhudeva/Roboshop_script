@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkinsfile updated - inputs">
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="seed.groovy file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/seed.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -71,20 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00268" summary="mongod final">
-      <created>1640495279610</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1640495279610</updated>
-    </task>
-    <task id="LOCAL-00269" summary="sample03">
-      <created>1640496738902</created>
-      <option name="number" value="00269" />
-      <option name="presentableId" value="LOCAL-00269" />
-      <option name="project" value="LOCAL" />
-      <updated>1640496738902</updated>
     </task>
     <task id="LOCAL-00270" summary="sample03">
       <created>1640496873584</created>
@@ -415,7 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640690415997</updated>
     </task>
-    <option name="localTasksCounter" value="317" />
+    <task id="LOCAL-00317" summary="jenkinsfile updated - inputs">
+      <created>1640773517253</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1640773517253</updated>
+    </task>
+    <task id="LOCAL-00318" summary="seed.groovy file">
+      <created>1640773666656</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1640773666656</updated>
+    </task>
+    <option name="localTasksCounter" value="319" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -434,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="redis database is added" />
     <MESSAGE value="user component is added" />
     <MESSAGE value="rabbitmq component is added" />
     <MESSAGE value="ansible configuration file is added" />
@@ -459,7 +454,8 @@
     <MESSAGE value="jenkinsfile updated" />
     <MESSAGE value="jenkinsfile updated - trigger crontab" />
     <MESSAGE value="jenkinsfile updated - inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkinsfile updated - inputs" />
+    <MESSAGE value="seed.groovy file" />
+    <option name="LAST_COMMIT_MESSAGE" value="seed.groovy file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
