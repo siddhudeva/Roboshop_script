@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="pipeline initial commit">
-      <change afterPath="$PROJECT_DIR$/jenkins/vars/golang.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkins/vars/nodejs.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkins/vars/python.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/03_sample.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/Jenkins01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/Jenkins_pipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/seed.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/vars/golang.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/vars/nodejs.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/vars/python.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -70,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00273" summary="sample03">
-      <created>1640497636006</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1640497636006</updated>
     </task>
     <task id="LOCAL-00274" summary="sample03">
       <created>1640501008476</created>
@@ -414,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640775250920</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="pipeline initial commit">
+      <created>1640791963677</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1640791963677</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="UnknownFeatures">
