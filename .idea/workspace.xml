@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="seed.groovy file">
-      <change beforePath="$PROJECT_DIR$/jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/seed.groovy" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="pipeline initial commit">
+      <change afterPath="$PROJECT_DIR$/jenkins/vars/golang.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/vars/nodejs.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/vars/python.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00271" summary="sample03">
-      <created>1640496916736</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1640496916736</updated>
-    </task>
-    <task id="LOCAL-00272" summary="sample03">
-      <created>1640497547650</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1640497547650</updated>
     </task>
     <task id="LOCAL-00273" summary="sample03">
       <created>1640497636006</created>
@@ -410,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640774844932</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="pipeline initial commit">
+      <created>1640775024376</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1640775024376</updated>
+    </task>
+    <task id="LOCAL-00321" summary="pipeline initial commit">
+      <created>1640775250920</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1640775250920</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -429,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="user component is added" />
     <MESSAGE value="rabbitmq component is added" />
     <MESSAGE value="ansible configuration file is added" />
     <MESSAGE value="shipping module setup" />
@@ -454,7 +457,8 @@
     <MESSAGE value="jenkinsfile updated - trigger crontab" />
     <MESSAGE value="jenkinsfile updated - inputs" />
     <MESSAGE value="seed.groovy file" />
-    <option name="LAST_COMMIT_MESSAGE" value="seed.groovy file" />
+    <MESSAGE value="pipeline initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="pipeline initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
