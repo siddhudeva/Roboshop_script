@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nodejs file">
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/Jenkinsfile" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="all individual files are addded with Jenkinsfile">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/catalogue/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/catalogue/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/catalogue" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -52,11 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\jenkins" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles\rabbitmq" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles\frontend" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible01\roles" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\user" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\shipping" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\payment" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\dispatch" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\catalogue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -71,13 +68,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00278" summary="payment">
-      <created>1640504763302</created>
-      <option name="number" value="00278" />
-      <option name="presentableId" value="LOCAL-00278" />
-      <option name="project" value="LOCAL" />
-      <updated>1640504763302</updated>
     </task>
     <task id="LOCAL-00279" summary="payment">
       <created>1640504822040</created>
@@ -415,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640795066867</updated>
     </task>
-    <option name="localTasksCounter" value="327" />
+    <task id="LOCAL-00327" summary="all individual files are addded with Jenkinsfile">
+      <created>1640796138320</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1640796138320</updated>
+    </task>
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -434,7 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ansible configuration file is added" />
     <MESSAGE value="shipping module setup" />
     <MESSAGE value="ec2 instance small modification is done" />
     <MESSAGE value="payment module added" />
@@ -459,7 +455,8 @@
     <MESSAGE value="seed.groovy file" />
     <MESSAGE value="pipeline initial commit" />
     <MESSAGE value="nodejs file" />
-    <option name="LAST_COMMIT_MESSAGE" value="nodejs file" />
+    <MESSAGE value="all individual files are addded with Jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="all individual files are addded with Jenkinsfile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
