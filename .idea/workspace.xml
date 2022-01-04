@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="tags purpose">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue without tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/catalogue/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/catalogue/Jenkinsfile" afterDir="false" />
     </list>
@@ -73,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00295" summary="jenkins pipeline to create a ec2 instance">
-      <created>1640606730185</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1640606730185</updated>
     </task>
     <task id="LOCAL-00296" summary="jenkins pipeline to create a ec2 instance">
       <created>1640606758287</created>
@@ -417,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641286065335</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="catalogue without tag">
+      <created>1641288084543</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1641288084543</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -436,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="payment module added" />
     <MESSAGE value="sample file added" />
     <MESSAGE value="configuration file" />
     <MESSAGE value="ec2 instances updation" />
@@ -461,7 +460,8 @@
     <MESSAGE value="all individual files are addded with Jenkinsfile" />
     <MESSAGE value="cart jenkins file updated for tag" />
     <MESSAGE value="tags purpose" />
-    <option name="LAST_COMMIT_MESSAGE" value="tags purpose" />
+    <MESSAGE value="catalogue without tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue without tag" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
