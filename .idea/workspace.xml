@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cart jenkins file updated for tag">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="tags purpose" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -72,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00290" summary="jenkins sample file">
-      <created>1640603553622</created>
-      <option name="number" value="00290" />
-      <option name="presentableId" value="LOCAL-00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1640603553622</updated>
-    </task>
-    <task id="LOCAL-00291" summary="jenkins sample file">
-      <created>1640603692864</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1640603692864</updated>
     </task>
     <task id="LOCAL-00292" summary="jenkins pipeline to create a ec2 instance">
       <created>1640605015370</created>
@@ -416,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641281147115</updated>
     </task>
-    <option name="localTasksCounter" value="339" />
+    <task id="LOCAL-00339" summary="cart jenkins file updated for tag">
+      <created>1641285223821</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1641285223821</updated>
+    </task>
+    <task id="LOCAL-00340" summary="tags purpose">
+      <created>1641285303830</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1641285303830</updated>
+    </task>
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -435,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ec2 instance small modification is done" />
     <MESSAGE value="payment module added" />
     <MESSAGE value="sample file added" />
     <MESSAGE value="configuration file" />
@@ -460,7 +451,8 @@
     <MESSAGE value="nodejs file" />
     <MESSAGE value="all individual files are addded with Jenkinsfile" />
     <MESSAGE value="cart jenkins file updated for tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart jenkins file updated for tag" />
+    <MESSAGE value="tags purpose" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags purpose" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
