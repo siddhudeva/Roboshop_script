@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="all individual files are addded with Jenkinsfile" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cart jenkins file updated for tag" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/dispatch" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -64,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00282" summary="payment">
-      <created>1640504962722</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1640504962722</updated>
     </task>
     <task id="LOCAL-00283" summary="payment">
       <created>1640505420015</created>
@@ -408,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641269211361</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <task id="LOCAL-00331" summary="cart jenkins file updated for tag">
+      <created>1641269932318</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1641269932318</updated>
+    </task>
+    <option name="localTasksCounter" value="332" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -427,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="shipping module setup" />
     <MESSAGE value="ec2 instance small modification is done" />
     <MESSAGE value="payment module added" />
     <MESSAGE value="sample file added" />
@@ -452,7 +451,8 @@
     <MESSAGE value="pipeline initial commit" />
     <MESSAGE value="nodejs file" />
     <MESSAGE value="all individual files are addded with Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="all individual files are addded with Jenkinsfile" />
+    <MESSAGE value="cart jenkins file updated for tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart jenkins file updated for tag" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
