@@ -8,7 +8,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/catalogue" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -64,20 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00292" summary="jenkins pipeline to create a ec2 instance">
-      <created>1640605015370</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1640605015370</updated>
-    </task>
-    <task id="LOCAL-00293" summary="jenkins pipeline to create a ec2 instance">
-      <created>1640606409514</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1640606409514</updated>
     </task>
     <task id="LOCAL-00294" summary="jenkins pipeline to create a ec2 instance">
       <created>1640606543315</created>
@@ -408,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641285303830</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="tags purpose">
+      <created>1641285566003</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1641285566003</updated>
+    </task>
+    <task id="LOCAL-00342" summary="tags purpose">
+      <created>1641285699517</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1641285699517</updated>
+    </task>
+    <option name="localTasksCounter" value="343" />
     <servers />
   </component>
   <component name="UnknownFeatures">
