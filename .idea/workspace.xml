@@ -73,13 +73,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00297" summary="jenkins pipeline to create a ec2 instance">
-      <created>1640606955648</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1640606955648</updated>
-    </task>
     <task id="LOCAL-00298" summary="jenkins pipeline to create a ec2 instance">
       <created>1640612118479</created>
       <option name="number" value="00298" />
@@ -416,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641290930927</updated>
     </task>
-    <option name="localTasksCounter" value="346" />
+    <task id="LOCAL-00346" summary="catalogue without tag">
+      <created>1641305599143</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1641305599143</updated>
+    </task>
+    <option name="localTasksCounter" value="347" />
     <servers />
   </component>
   <component name="UnknownFeatures">
