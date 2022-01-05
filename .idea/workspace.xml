@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue without tag">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="tag creation - tag1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +10,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -66,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00299" summary="mysql ansible file added">
-      <created>1640665891597</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1640665891597</updated>
     </task>
     <task id="LOCAL-00300" summary="mysql ansible file added">
       <created>1640666267914</created>
@@ -410,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641317632604</updated>
     </task>
-    <option name="localTasksCounter" value="348" />
+    <task id="LOCAL-00348" summary="tag creation - tag1.1">
+      <created>1641347051140</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1641347051140</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -429,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="sample file added" />
     <MESSAGE value="configuration file" />
     <MESSAGE value="ec2 instances updation" />
     <MESSAGE value="frontend01" />
@@ -454,7 +459,8 @@
     <MESSAGE value="cart jenkins file updated for tag" />
     <MESSAGE value="tags purpose" />
     <MESSAGE value="catalogue without tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue without tag" />
+    <MESSAGE value="tag creation - tag1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tag creation - tag1.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
