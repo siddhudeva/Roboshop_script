@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="tag creation - tag1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cart" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00300" summary="mysql ansible file added">
-      <created>1640666267914</created>
-      <option name="number" value="00300" />
-      <option name="presentableId" value="LOCAL-00300" />
-      <option name="project" value="LOCAL" />
-      <updated>1640666267914</updated>
     </task>
     <task id="LOCAL-00301" summary="mysql ansible file added">
       <created>1640678067557</created>
@@ -416,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641347051140</updated>
     </task>
-    <option name="localTasksCounter" value="349" />
+    <task id="LOCAL-00349" summary="cart">
+      <created>1641348271191</created>
+      <option name="number" value="00349" />
+      <option name="presentableId" value="LOCAL-00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1641348271191</updated>
+    </task>
+    <option name="localTasksCounter" value="350" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -435,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="configuration file" />
     <MESSAGE value="ec2 instances updation" />
     <MESSAGE value="frontend01" />
     <MESSAGE value="frontend01-v1" />
@@ -460,7 +457,8 @@
     <MESSAGE value="tags purpose" />
     <MESSAGE value="catalogue without tag" />
     <MESSAGE value="tag creation - tag1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="tag creation - tag1.1" />
+    <MESSAGE value="cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
