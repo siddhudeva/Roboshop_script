@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Dispatch file is created">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend ansible updated">
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +24,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -48,7 +54,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/user" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -74,20 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00313" summary="jenkinsfile updated - trigger crontab">
-      <created>1640688150469</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1640688150469</updated>
-    </task>
-    <task id="LOCAL-00314" summary="jenkinsfile updated - trigger crontab">
-      <created>1640688213198</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1640688213198</updated>
     </task>
     <task id="LOCAL-00315" summary="jenkinsfile updated - trigger crontab">
       <created>1640689100420</created>
@@ -418,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641470031516</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="Dispatch file is created">
+      <created>1641476750840</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1641476750840</updated>
+    </task>
+    <task id="LOCAL-00363" summary="frontend ansible updated">
+      <created>1641476969960</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1641476969960</updated>
+    </task>
+    <option name="localTasksCounter" value="364" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -437,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="rabbitmq-v1.0 final" />
     <MESSAGE value="    rabbitmq-v1.0 final" />
     <MESSAGE value="cataloguev1.0 final" />
     <MESSAGE value="mongod final" />
@@ -462,7 +466,8 @@
     <MESSAGE value="sonar shell script" />
     <MESSAGE value="shipping file is updated" />
     <MESSAGE value="Dispatch file is created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dispatch file is created" />
+    <MESSAGE value="frontend ansible updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend ansible updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
