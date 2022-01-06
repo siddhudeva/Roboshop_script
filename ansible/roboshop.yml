@@ -61,9 +61,9 @@
 #  roles:
 #    - payment
 
-- name: mysql setup
-  hosts: MYSQL
-  become: yes
-  tags: mysql
-  roles:
-    - mysql
+#- name: mysql setup
+#  hosts: MYSQL
+#  become: yes
+#  tags: mysql
+#  roles:
+#    - mysql
