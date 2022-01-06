@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sonar shell script">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="shipping file is updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/shipping/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/shipping/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/payment/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/payment/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/shipping" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/payment" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -73,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00308" summary="mysql ansible file added">
-      <created>1640681422530</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1640681422530</updated>
     </task>
     <task id="LOCAL-00309" summary="mysql ansible file added">
       <created>1640681596670</created>
@@ -417,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641446946995</updated>
     </task>
-    <option name="localTasksCounter" value="357" />
+    <task id="LOCAL-00357" summary="shipping file is updated">
+      <created>1641462523370</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1641462523370</updated>
+    </task>
+    <option name="localTasksCounter" value="358" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -436,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="frontend01-v1" />
     <MESSAGE value="rabbitmq-v1" />
     <MESSAGE value="rabbitmq-v1.0 final" />
     <MESSAGE value="    rabbitmq-v1.0 final" />
@@ -461,7 +460,8 @@
     <MESSAGE value="cart" />
     <MESSAGE value="catalogue and user files are updated" />
     <MESSAGE value="sonar shell script" />
-    <option name="LAST_COMMIT_MESSAGE" value="sonar shell script" />
+    <MESSAGE value="shipping file is updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="shipping file is updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
