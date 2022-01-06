@@ -17,7 +17,7 @@
 
   cd /opt && tar -xvzf latest-unix.tar.gz &>>${Log} && mv nexus-3.37.3-02 nexus 2>>${Log} && mv sonatype-work nexusdata 2>>${Log}
 
-  echo -e "\e[1;31m unzipping content\e[0m"
+  echo -e "\e[1;32m unzipping content\e[0m"
 
   cat /etc/passwd | grep nexus &>>${Log}
    if [ $? -ne 0 ]; then
@@ -27,7 +27,6 @@
   echo -e "\e[1;32m adding userpermission to the Files\e[0m"
   else
    echo -e "\e[1;32m nexus user is already there\e[0m"
-   exit
   fi
   sed -e -i '/Dkaraf.data/ s/sonatype-work/nexus/g' -e '/Dkaraf.log/ s/sonatype-work/nexus/g' -e '/Djava.io.tmpdir/ s/sonatype-work/nexus/g' /opt/nexus/bin/nexus.vmoptions &>>${Log}
    echo -e "\e[1;32mnexus.vmoptions file is updated\e[0m"
