@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend ansible updated">
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/payment" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -79,13 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00315" summary="jenkinsfile updated - trigger crontab">
-      <created>1640689100420</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1640689100420</updated>
     </task>
     <task id="LOCAL-00316" summary="jenkinsfile updated - inputs">
       <created>1640690415997</created>
@@ -423,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641476969960</updated>
     </task>
-    <option name="localTasksCounter" value="364" />
+    <task id="LOCAL-00364" summary="frontend ansible updated">
+      <created>1641485081763</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1641485081763</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="UnknownFeatures">
