@@ -12,6 +12,11 @@
   ansible.builtin.file:
     path: /home/roboshop/{{COMPONENT}}
     state: absent
+- name: Remove Old App Content
+
+  ansible.builtin.file:
+    path: /home/roboshop/{{COMPONENT}}
+    state: directory
 
 - name: unarchiving files
   ansible.builtin.unarchive:
