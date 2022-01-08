@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="dispatch file updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/ec2_instance.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/ec2_instance.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/download.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00327" summary="all individual files are addded with Jenkinsfile">
-      <created>1640796138320</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1640796138320</updated>
     </task>
     <task id="LOCAL-00328" summary="all individual files are addded with Jenkinsfile">
       <created>1641186908980</created>
@@ -417,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641638972455</updated>
     </task>
-    <option name="localTasksCounter" value="376" />
+    <task id="LOCAL-00376" summary="dispatch file updated">
+      <created>1641647630486</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1641647630486</updated>
+    </task>
+    <option name="localTasksCounter" value="377" />
     <servers />
   </component>
   <component name="UnknownFeatures">
