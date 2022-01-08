@@ -5,65 +5,65 @@
   roles:
     - frontend
 
-#- name: mongod setup
-#  hosts: MONGOD
-#  tags: mongod
-#  become: yes
-#  roles:
-#    - mongod
+- name: mongod setup
+  hosts: MONGOD
+  tags: mongod
+  become: yes
+  roles:
+    - mongod
 
-#- name: catalogue setup
-#  hosts: CATALOGUE
-#  tags: catalogue
-#  become: yes
-#  roles:
-#    - catalogue
+- name: catalogue setup
+  hosts: CATALOGUE
+  tags: catalogue
+  become: yes
+  roles:
+    - catalogue
 
-#- name: rabbitmq setup
-#  hosts: RABBITMQ
-#  become: yes
-#  tags: rabbitmq
-#  roles:
-#    - rabbitmq
+- name: rabbitmq setup
+  hosts: RABBITMQ
+  become: yes
+  tags: rabbitmq
+  roles:
+    - rabbitmq
 
-#- name: redis setup
-#  hosts: REDIS
-#  become: yes
-#  tags: redis
-#  roles:
-#    - redis
+- name: redis setup
+  hosts: REDIS
+  become: yes
+  tags: redis
+  roles:
+    - redis
 
-#- name: user-setup
-#  hosts: USER
-#  become: yes
-#  tags: user
-#  roles:
-#    - user
+- name: user-setup
+  hosts: USER
+  become: yes
+  tags: user
+  roles:
+    - user
 
-#- name: cart-setup
-#  hosts: CART
-#  become: yes
-#  tags: cart
-#  roles:
-#    - cart
+- name: cart-setup
+  hosts: CART
+  become: yes
+  tags: cart
+  roles:
+    - cart
 
-#- name: shipping setup
-#  hosts: SHIPPING
-#  become: yes
-#  tags: shipping
-#  roles:
-#    - shipping
+- name: shipping setup
+  hosts: SHIPPING
+  become: yes
+  tags: shipping
+  roles:
+    - shipping
 
-#- name: payment setup
-#  hosts: PAYMENT
-#  become: yes
-#  tags: payment
-#  roles:
-#    - payment
+- name: payment setup
+  hosts: PAYMENT
+  become: yes
+  tags: payment
+  roles:
+    - payment
 
-#- name: mysql setup
-#  hosts: MYSQL
-#  become: yes
-#  tags: mysql
-#  roles:
-#    - mysql
+- name: mysql setup
+  hosts: MYSQL
+  become: yes
+  tags: mysql
+  roles:
+    - mysql

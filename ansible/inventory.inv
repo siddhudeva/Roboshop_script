@@ -1,2 +1,20 @@
 [FRONTEND]
   frontend-dev.roboshop.internal  gitTag=V
+[CATALOGUE]
+  catalogue-dev.roboshop.internal
+[CART]
+  cart-dev.roboshop.internal  gitTag=V
+[USER]
+  user-dev.roboshop.internal
+[PAYMENT]
+  payment-dev.roboshop.internal  gitTag=V
+[SHIPPING]
+  shipping-dev.roboshop.internal
+[RABBITMQ]
+  rabbitmq-dev.roboshop.internal  gitTag=V
+[REDIS]
+  redis-dev.roboshop.internal
+[MYSQL]
+  mysql-dev.roboshop.internal  gitTag=V
+[MONGOD]
+  mongod-dev.roboshop.internal
