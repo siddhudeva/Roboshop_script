@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend file is updated">
-      <change beforePath="$PROJECT_DIR$/Roboshop/payment/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/payment/Jenkinsfile" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="payment file updated">
+      <change beforePath="$PROJECT_DIR$/Roboshop/dispatch/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/dispatch/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/payment" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/dispatch" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -71,20 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00323" summary="pipeline initial commit">
-      <created>1640793553975</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1640793553975</updated>
-    </task>
-    <task id="LOCAL-00324" summary="pipeline initial commit">
-      <created>1640794424216</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1640794424216</updated>
     </task>
     <task id="LOCAL-00325" summary="nodejs file">
       <created>1640794908568</created>
@@ -415,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641634509253</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="payment file updated">
+      <created>1641635567166</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1641635567166</updated>
+    </task>
+    <task id="LOCAL-00373" summary="payment file updated">
+      <created>1641635698289</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1641635698289</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -434,7 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mongod final" />
     <MESSAGE value="sample03" />
     <MESSAGE value="payment" />
     <MESSAGE value="jenkins sample file" />
@@ -459,7 +458,8 @@
     <MESSAGE value="frontend ansible updated" />
     <MESSAGE value="catalogue file updated" />
     <MESSAGE value="frontend file is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend file is updated" />
+    <MESSAGE value="payment file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment file updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
