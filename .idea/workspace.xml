@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue file updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue file updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/inventory.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventory.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/vars/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,20 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00318" summary="seed.groovy file">
-      <created>1640773666656</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1640773666656</updated>
-    </task>
-    <task id="LOCAL-00319" summary="seed.groovy file">
-      <created>1640774844932</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1640774844932</updated>
     </task>
     <task id="LOCAL-00320" summary="pipeline initial commit">
       <created>1640775024376</created>
@@ -413,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641620293385</updated>
     </task>
-    <option name="localTasksCounter" value="367" />
+    <task id="LOCAL-00367" summary="catalogue file updated">
+      <created>1641620546519</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1641620546519</updated>
+    </task>
+    <task id="LOCAL-00368" summary="catalogue file updated">
+      <created>1641620618134</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1641620618134</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="UnknownFeatures">
