@@ -1,5 +1,13 @@
-- name: download and unzip
-  ansible.builtin.unarchive:
-    src: https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip
+#- name: download and unzip
+#  ansible.builtin.unarchive:
+#    src: http://nexus.roboshop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}.{{gitTag}}.zip
+#    dest: /tmp/
+#    remote_src: yes
+
+
+- name: Downloading artifactory
+  ansible.builtin.get_url:
+    src: http://nexus.roboshop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}.{{gitTag}}.zip
     dest: /tmp/
-    remote_src: yes
+    username: admin
+    password: {{NEXUS_PSW}}

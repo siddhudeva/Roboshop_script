@@ -6,15 +6,22 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: download
+  become_user: roboshop
 
 - name: Remove Old App Content
   ansible.builtin.file:
     path: /home/roboshop/{{COMPONENT}}
     state: absent
 
+- name: unarchiving files
+  ansible.builtin.unarchive:
+    src: /tmp/{{COMPONENT}}.{{gitTag}}.zip
+    dest: /home/roboshop/
+    remote_src: yes
+
 - name: Copy file with owner and permissions
   ansible.builtin.copy:
-    src: /tmp/{{COMPONENT}}-main/
+    src:    /tmp/{{COMPONENT}}-main/
     dest: /home/roboshop/{{COMPONENT}}/
     remote_src: yes
   become_user: roboshop
