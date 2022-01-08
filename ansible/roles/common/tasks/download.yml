@@ -10,4 +10,4 @@
     src: http://nexus.roboshop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}.{{gitTag}}.zip
     dest: /tmp/
     username: admin
-    password: {{ NEXUS_PSW }}
+    password: "{{ NEXUS_PSW }}"
