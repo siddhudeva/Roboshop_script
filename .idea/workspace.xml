@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nodejs file fopr frontend and catalogues are updated">
-      <change afterPath="$PROJECT_DIR$/Roboshop/robo_ansible" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible directory created">
+      <change afterPath="$PROJECT_DIR$/ANSIBLE_RAGHU/ansible/01sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;repository&#10;directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
@@ -73,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00331" summary="cart jenkins file updated for tag">
-      <created>1641269932318</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1641269932318</updated>
     </task>
     <task id="LOCAL-00332" summary="cart jenkins file updated for tag">
       <created>1641270163049</created>
@@ -417,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641661784548</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="ansible directory created">
+      <created>1641972534640</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1641972534640</updated>
+    </task>
+    <option name="localTasksCounter" value="381" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -466,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="jenkins pipeline to create a ec2 instance" />
     <MESSAGE value="mysql ansible file added" />
     <MESSAGE value="jenkinsfile updated" />
     <MESSAGE value="jenkinsfile updated - trigger crontab" />
@@ -491,7 +490,8 @@
     <MESSAGE value="dispatch file updated" />
     <MESSAGE value="ec2 launch template updated" />
     <MESSAGE value="nodejs file fopr frontend and catalogues are updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="nodejs file fopr frontend and catalogues are updated" />
+    <MESSAGE value="ansible directory created" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible directory created" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

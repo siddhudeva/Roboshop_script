@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/Roboshop/dispatch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/frontend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Roboshop/robo_ansible" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/shipping" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/user" vcs="Git" />
   </component>
