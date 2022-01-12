@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 launch template updated">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nodejs file fopr frontend and catalogues are updated">
+      <change afterPath="$PROJECT_DIR$/Roboshop/robo_ansible" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongod/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00330" summary="all individual files are addded with Jenkinsfile">
-      <created>1641269211361</created>
-      <option name="number" value="00330" />
-      <option name="presentableId" value="LOCAL-00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1641269211361</updated>
     </task>
     <task id="LOCAL-00331" summary="cart jenkins file updated for tag">
       <created>1641269932318</created>
@@ -415,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641651825088</updated>
     </task>
-    <option name="localTasksCounter" value="379" />
+    <task id="LOCAL-00379" summary="nodejs file fopr frontend and catalogues are updated">
+      <created>1641661784548</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1641661784548</updated>
+    </task>
+    <option name="localTasksCounter" value="380" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -464,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="jenkins sample file" />
     <MESSAGE value="jenkins pipeline to create a ec2 instance" />
     <MESSAGE value="mysql ansible file added" />
     <MESSAGE value="jenkinsfile updated" />
@@ -489,7 +490,8 @@
     <MESSAGE value="payment file updated" />
     <MESSAGE value="dispatch file updated" />
     <MESSAGE value="ec2 launch template updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 launch template updated" />
+    <MESSAGE value="nodejs file fopr frontend and catalogues are updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="nodejs file fopr frontend and catalogues are updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

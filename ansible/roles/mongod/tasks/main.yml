@@ -8,7 +8,6 @@
     name: mongodb-org
     state: installed
 
-
 - name: Ansible replace string example
   ansible.builtin.replace:
     path: /etc/mongod.conf
