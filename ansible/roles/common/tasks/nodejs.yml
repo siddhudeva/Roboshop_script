@@ -12,7 +12,7 @@
 - name: importing task from download.yml file
   ansible.builtin.import_role:
     name: common
-    tasks_from: app_user_setup
+    tasks_from: app_user-setup
 
 
 - name: installing npm
