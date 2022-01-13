@@ -7,7 +7,7 @@
 - name: download and unzip
   ansible.builtin.import_role:
     name: common
-    tasks_from: download
+    tasks_from: app_user-setup
 
 - name: Remove file (delete file)
   ansible.builtin.file:
