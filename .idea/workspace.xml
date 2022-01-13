@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible directory created">
-      <change afterPath="$PROJECT_DIR$/Ansible_R/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ansible_R/.idea/Ansible_R.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ansible_R/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ansible_R/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ansible_R/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="catalogue file ansible revisited">
+      <change afterPath="$PROJECT_DIR$/ansible/roles/user/templates/user.service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANSIBLE_RAGHU/ansible/01sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/app_user-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/app_user-setup.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/download.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00333" summary="cart jenkins file updated for tag">
-      <created>1641270448739</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1641270448739</updated>
     </task>
     <task id="LOCAL-00334" summary="cart jenkins file updated for tag">
       <created>1641275531840</created>
@@ -427,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641972952620</updated>
     </task>
-    <option name="localTasksCounter" value="382" />
+    <task id="LOCAL-00382" summary="catalogue file ansible revisited">
+      <created>1642064438431</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1642064438431</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -476,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mysql ansible file added" />
     <MESSAGE value="jenkinsfile updated" />
     <MESSAGE value="jenkinsfile updated - trigger crontab" />
     <MESSAGE value="jenkinsfile updated - inputs" />
@@ -501,7 +490,8 @@
     <MESSAGE value="ec2 launch template updated" />
     <MESSAGE value="nodejs file fopr frontend and catalogues are updated" />
     <MESSAGE value="ansible directory created" />
-    <option name="LAST_COMMIT_MESSAGE" value="ansible directory created" />
+    <MESSAGE value="catalogue file ansible revisited" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue file ansible revisited" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
