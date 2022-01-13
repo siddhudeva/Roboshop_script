@@ -3,6 +3,12 @@
 #    src: http://nexus.roboshop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}.{{gitTag}}.zip
 #    dest: /tmp/
 #    remote_src: yes
+- name: download and unzip
+  ansible.builtin.unarchive:
+    src: https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip
+    dest: /tmp/
+    remote: yes
+  when: GIT_DOWNLOAD is defined
 
 
 - name: Downloading artifactory
@@ -11,4 +17,4 @@
     dest: /tmp/
     username: admin
     password: Admin123
-    
+  when: GIT_DOWNLOAD is not defined
