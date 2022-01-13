@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="shipping file ansible revisited">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="    shipping file ansible revisited">
       <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00340" summary="tags purpose">
-      <created>1641285303830</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1641285303830</updated>
     </task>
     <task id="LOCAL-00341" summary="tags purpose">
       <created>1641285566003</created>
@@ -417,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642088397709</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="    shipping file ansible revisited">
+      <created>1642088717437</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1642088717439</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -466,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="seed.groovy file" />
     <MESSAGE value="pipeline initial commit" />
     <MESSAGE value="nodejs file" />
     <MESSAGE value="all individual files are addded with Jenkinsfile" />
@@ -491,7 +489,8 @@
     <MESSAGE value="user file ansible revisited" />
     <MESSAGE value="frontend file ansible revisited" />
     <MESSAGE value="shipping file ansible revisited" />
-    <option name="LAST_COMMIT_MESSAGE" value="shipping file ansible revisited" />
+    <MESSAGE value="    shipping file ansible revisited" />
+    <option name="LAST_COMMIT_MESSAGE" value="    shipping file ansible revisited" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
