@@ -6,12 +6,24 @@
       - gcc-c++
     state: installed
 
-- name: application user setup and download
-  import_tasks: app_user-setup.yml
+#- name: application user setup and download
+#  import_tasks: app_user-setup.yml
+- 
+- name: importing task from download.yml file
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app_user_setup
+
 
 - name: installing npm
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
+  become_user: roboshop
+
+- name: Template a file to /etc/file.conf
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/{{COMPONENT}}.service
   become_user: roboshop
 
 - name: systemd setup and starting

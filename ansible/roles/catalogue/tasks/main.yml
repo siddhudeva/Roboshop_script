@@ -1,8 +1,12 @@
+#- name: installing nodejs
+#  ansible.builtin.import_role:
+#    name: common
+#    tasks_from: nodejs
+
 - name: installing nodejs
-  ansible.builtin.import_role:
+  ansible.builtin.import-role:
     name: common
     tasks_from: nodejs
-
 
 
 

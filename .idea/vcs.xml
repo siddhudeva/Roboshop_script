@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ansible_R" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/ROBO_Test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/cart" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/catalogue" vcs="Git" />
@@ -11,5 +12,6 @@
     <mapping directory="$PROJECT_DIR$/Roboshop/robo_ansible" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/shipping" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/robo_ansible" vcs="Git" />
   </component>
 </project>
