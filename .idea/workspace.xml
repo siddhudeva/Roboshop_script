@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend file ansible revisited">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="shipping file ansible revisited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/app_user-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/app_user-setup.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00339" summary="cart jenkins file updated for tag">
-      <created>1641285223821</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1641285223821</updated>
     </task>
     <task id="LOCAL-00340" summary="tags purpose">
       <created>1641285303830</created>
@@ -418,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642083149583</updated>
     </task>
-    <option name="localTasksCounter" value="388" />
+    <task id="LOCAL-00388" summary="shipping file ansible revisited">
+      <created>1642088397705</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1642088397709</updated>
+    </task>
+    <option name="localTasksCounter" value="389" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="jenkinsfile updated - inputs" />
     <MESSAGE value="seed.groovy file" />
     <MESSAGE value="pipeline initial commit" />
     <MESSAGE value="nodejs file" />
@@ -492,7 +490,8 @@
     <MESSAGE value="catalogue file ansible revisited" />
     <MESSAGE value="user file ansible revisited" />
     <MESSAGE value="frontend file ansible revisited" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend file ansible revisited" />
+    <MESSAGE value="shipping file ansible revisited" />
+    <option name="LAST_COMMIT_MESSAGE" value="shipping file ansible revisited" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
