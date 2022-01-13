@@ -14,7 +14,7 @@
     path: /usr/share/nginx/html/
     state: absent
 
-- name: Copy file with owner and permissions
+- name: Copy file with owner and permission
   ansible.builtin.copy:
     src: /tmp/frontend-main/static/
     dest: /usr/share/nginx/html/
