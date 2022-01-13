@@ -1,6 +1,7 @@
 - name: Adding roboshop user
   ansible.builtin.user:
     name: roboshop
+    state: present
 
 - name: download and unzip
   ansible.builtin.import_role:
@@ -21,7 +22,7 @@
 - name: unarchiving files
   ansible.builtin.unarchive:
     src: /tmp/{{COMPONENT}}.{{gitTag}}.zip
-    dest: /home/roboshop/
+    dest: /tmp/
     remote_src: yes
 
 - name: Copy file with owner and permissions

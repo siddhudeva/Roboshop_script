@@ -11,7 +11,7 @@
 - name: install mvn dependencies
   ansible.builtin.shell:
     name: mvn clean package && mv /target/{{COMPONENT}}-1.0.jar shipping.jar
-  chdir:
+  chdir: /home/roboshop/shipping
 
 - name: rename the content
   ansible.builtin.shell:
