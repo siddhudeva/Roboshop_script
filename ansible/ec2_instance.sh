@@ -12,7 +12,7 @@ fi
 
 CREATE_EC2() {
 ID_ZONE=Z0094801QOS7DHKY0DMZ
-L_TEMPID=lt-0d752341ac1ed555d
+L_TEMPID=	lt-05edbb1dc71fc1e82
 
 #ec2 instance creating
  aws ec2 describe-instances --filters Name=tag:Name,Values=${component} | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E 'run|stop'
