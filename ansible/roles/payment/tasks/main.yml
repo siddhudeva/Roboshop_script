@@ -9,7 +9,7 @@
 - name: app_user
   ansible.builtin.import_role:
     name: common
-    task_from: app_user-setup
+    tasks_from: app_user-setup
 
 - name: Install specified python requirements
   pip:
