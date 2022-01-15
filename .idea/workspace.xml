@@ -74,20 +74,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00351" summary="cart">
-      <created>1641349485719</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1641349485719</updated>
-    </task>
-    <task id="LOCAL-00352" summary="cart">
-      <created>1641363456113</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
-      <option name="project" value="LOCAL" />
-      <updated>1641363456113</updated>
-    </task>
     <task id="LOCAL-00353" summary="catalogue and user files are updated">
       <created>1641363496866</created>
       <option name="number" value="00353" />
@@ -417,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642215745726</updated>
     </task>
-    <option name="localTasksCounter" value="400" />
+    <task id="LOCAL-00400" summary="terraform variable examples">
+      <created>1642216276953</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1642216276953</updated>
+    </task>
+    <task id="LOCAL-00401" summary="terraform variable examples">
+      <created>1642216423038</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1642216423038</updated>
+    </task>
+    <option name="localTasksCounter" value="402" />
     <servers />
   </component>
   <component name="UnknownFeatures">
