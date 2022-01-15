@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform variable examples">
-      <change afterPath="$PROJECT_DIR$/terraform/resources/01.resource.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/resources/01.resource.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/resources/01.resource.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00365" summary="catalogue file updated">
-      <created>1641541588340</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1641541588340</updated>
     </task>
     <task id="LOCAL-00366" summary="catalogue file updated">
       <created>1641620293385</created>
@@ -417,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642219217015</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="terraform variable examples">
+      <created>1642219788779</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1642219788779</updated>
+    </task>
+    <option name="localTasksCounter" value="415" />
     <servers />
   </component>
   <component name="UnknownFeatures">
