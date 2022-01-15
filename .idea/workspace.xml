@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform variable examples" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform variable examples">
+      <change afterPath="$PROJECT_DIR$/terraform/resources/01.resource.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,20 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00363" summary="frontend ansible updated">
-      <created>1641476969960</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1641476969960</updated>
-    </task>
-    <task id="LOCAL-00364" summary="frontend ansible updated">
-      <created>1641485081763</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1641485081763</updated>
     </task>
     <task id="LOCAL-00365" summary="catalogue file updated">
       <created>1641541588340</created>
@@ -415,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642218877620</updated>
     </task>
-    <option name="localTasksCounter" value="412" />
+    <task id="LOCAL-00412" summary="terraform variable examples">
+      <created>1642219125275</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1642219125275</updated>
+    </task>
+    <task id="LOCAL-00413" summary="terraform variable examples">
+      <created>1642219217015</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1642219217015</updated>
+    </task>
+    <option name="localTasksCounter" value="414" />
     <servers />
   </component>
   <component name="UnknownFeatures">
