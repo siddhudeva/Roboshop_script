@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform Output examples">
-      <change afterPath="$PROJECT_DIR$/terraform/varibales/sample.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/01.Outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/Outputs/01.Outputs.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform variable examples">
+      <change beforePath="$PROJECT_DIR$/terraform/varibales/sample.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/varibales/sample.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,27 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00347" summary="catalogue without tag">
-      <created>1641317632604</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
-      <option name="project" value="LOCAL" />
-      <updated>1641317632604</updated>
-    </task>
-    <task id="LOCAL-00348" summary="tag creation - tag1.1">
-      <created>1641347051140</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
-      <option name="project" value="LOCAL" />
-      <updated>1641347051140</updated>
-    </task>
-    <task id="LOCAL-00349" summary="cart">
-      <created>1641348271191</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
-      <option name="project" value="LOCAL" />
-      <updated>1641348271191</updated>
     </task>
     <task id="LOCAL-00350" summary="cart">
       <created>1641349317772</created>
@@ -418,7 +396,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642214952277</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="terraform variable examples">
+      <created>1642215398383</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1642215398383</updated>
+    </task>
+    <task id="LOCAL-00397" summary="terraform variable examples">
+      <created>1642215620472</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1642215620472</updated>
+    </task>
+    <task id="LOCAL-00398" summary="terraform variable examples">
+      <created>1642215671580</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
+      <option name="project" value="LOCAL" />
+      <updated>1642215671580</updated>
+    </task>
+    <option name="localTasksCounter" value="399" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="cart jenkins file updated for tag" />
     <MESSAGE value="tags purpose" />
     <MESSAGE value="catalogue without tag" />
     <MESSAGE value="tag creation - tag1.1" />
@@ -492,7 +490,8 @@
     <MESSAGE value="payment file ansible revisited" />
     <MESSAGE value="ec2 launch template updation" />
     <MESSAGE value="terraform Output examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="terraform Output examples" />
+    <MESSAGE value="terraform variable examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform variable examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
