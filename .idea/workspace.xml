@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 launch template updation">
-      <change afterPath="$PROJECT_DIR$/terraform/01.Outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform Output examples">
+      <change afterPath="$PROJECT_DIR$/terraform/varibales/sample.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/01.Outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/Outputs/01.Outputs.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +48,9 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;repository&#10;directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles/cart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform/Outputs" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -74,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00346" summary="catalogue without tag">
-      <created>1641305599143</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
-      <option name="project" value="LOCAL" />
-      <updated>1641305599143</updated>
     </task>
     <task id="LOCAL-00347" summary="catalogue without tag">
       <created>1641317632604</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642128995099</updated>
     </task>
-    <option name="localTasksCounter" value="395" />
+    <task id="LOCAL-00395" summary="terraform Output examples">
+      <created>1642214952277</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1642214952277</updated>
+    </task>
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="all individual files are addded with Jenkinsfile" />
     <MESSAGE value="cart jenkins file updated for tag" />
     <MESSAGE value="tags purpose" />
     <MESSAGE value="catalogue without tag" />
@@ -492,7 +491,8 @@
     <MESSAGE value="    shipping file ansible revisited" />
     <MESSAGE value="payment file ansible revisited" />
     <MESSAGE value="ec2 launch template updation" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 launch template updation" />
+    <MESSAGE value="terraform Output examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform Output examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
