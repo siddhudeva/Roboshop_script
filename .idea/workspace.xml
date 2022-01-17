@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform resource and provider file to create security group and instance">
-      <change afterPath="$PROJECT_DIR$/terraform/modules/ec2/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/modules/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/modules/sg/main.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform Module creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00370" summary="frontend file is updated">
-      <created>1641624606019</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1641624606019</updated>
     </task>
     <task id="LOCAL-00371" summary="frontend file is updated">
       <created>1641634509253</created>
@@ -420,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642391483473</updated>
     </task>
-    <option name="localTasksCounter" value="419" />
+    <task id="LOCAL-00419" summary="terraform Module creation">
+      <created>1642428358803</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1642428358804</updated>
+    </task>
+    <option name="localTasksCounter" value="420" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -469,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue without tag" />
     <MESSAGE value="tag creation - tag1.1" />
     <MESSAGE value="cart" />
     <MESSAGE value="catalogue and user files are updated" />
@@ -494,7 +490,8 @@
     <MESSAGE value="terraform Output examples" />
     <MESSAGE value="terraform variable examples" />
     <MESSAGE value="terraform resource and provider file to create security group and instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="terraform resource and provider file to create security group and instance" />
+    <MESSAGE value="terraform Module creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform Module creation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
