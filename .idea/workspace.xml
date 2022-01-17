@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform resource and provider file to create security group and instance">
-      <change beforePath="$PROJECT_DIR$/terraform/resources/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/resources/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/modules/ec2/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/modules/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/modules/sg/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +52,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform/Outputs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform/modules/sg" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\sg" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\ec2" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\Outputs" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\cart" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\catalogue" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\user" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\shipping" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -73,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00369" summary="frontend file is updated">
-      <created>1641624096190</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1641624096190</updated>
     </task>
     <task id="LOCAL-00370" summary="frontend file is updated">
       <created>1641624606019</created>
@@ -417,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642390879683</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="terraform resource and provider file to create security group and instance">
+      <created>1642391483473</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1642391483473</updated>
+    </task>
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="UnknownFeatures">
