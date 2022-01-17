@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform variable examples">
+      <change afterPath="$PROJECT_DIR$/terraform/resources/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform/resources/01.resource.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/resources/01.resource.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
