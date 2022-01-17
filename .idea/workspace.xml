@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform Module creation">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform vpc creation (oirginal)">
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/env/dev-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/env/dev.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/env/prod-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/env/prod.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_vpc/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/modules/ec2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/modules/ec2/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +24,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -50,16 +57,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform/modules/sg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform_vpc/env" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_vpc\env" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\sg" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\ec2" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\Outputs" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\cart" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\catalogue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -74,13 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00372" summary="payment file updated">
-      <created>1641635567166</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1641635567166</updated>
     </task>
     <task id="LOCAL-00373" summary="payment file updated">
       <created>1641635698289</created>
@@ -418,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642429288678</updated>
     </task>
-    <option name="localTasksCounter" value="421" />
+    <task id="LOCAL-00421" summary="terraform Module creation">
+      <created>1642430146614</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
+      <option name="project" value="LOCAL" />
+      <updated>1642430146614</updated>
+    </task>
+    <option name="localTasksCounter" value="422" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tag creation - tag1.1" />
     <MESSAGE value="cart" />
     <MESSAGE value="catalogue and user files are updated" />
     <MESSAGE value="sonar shell script" />
@@ -492,7 +498,8 @@
     <MESSAGE value="terraform variable examples" />
     <MESSAGE value="terraform resource and provider file to create security group and instance" />
     <MESSAGE value="terraform Module creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="terraform Module creation" />
+    <MESSAGE value="terraform vpc creation (oirginal)" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform vpc creation (oirginal)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
