@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="route-tables associations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/gateway.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/gateway.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Nat-gw setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,13 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00393" summary="payment file ansible revisited">
-      <created>1642127026994</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1642127026994</updated>
     </task>
     <task id="LOCAL-00394" summary="ec2 launch template updation">
       <created>1642128995099</created>
@@ -419,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642530349370</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="Nat-gw setup">
+      <created>1642531057699</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531057701</updated>
+    </task>
+    <option name="localTasksCounter" value="443" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Dispatch file is created" />
     <MESSAGE value="frontend ansible updated" />
     <MESSAGE value="catalogue file updated" />
     <MESSAGE value="frontend file is updated" />
@@ -493,7 +488,8 @@
     <MESSAGE value="terraform-vpc creation v1.0" />
     <MESSAGE value="subnet creation" />
     <MESSAGE value="route-tables associations" />
-    <option name="LAST_COMMIT_MESSAGE" value="route-tables associations" />
+    <MESSAGE value="Nat-gw setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nat-gw setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
