@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform-vpc creation (oirginal)">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform-vpc creation v1.0">
+      <change afterPath="$PROJECT_DIR$/terraform-vpc/vpc.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/env/dev.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/vars.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,20 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00376" summary="dispatch file updated">
-      <created>1641647630486</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1641647630486</updated>
-    </task>
-    <task id="LOCAL-00377" summary="ec2 launch template updated">
-      <created>1641651711879</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1641651711879</updated>
     </task>
     <task id="LOCAL-00378" summary="ec2 launch template updated">
       <created>1641651825088</created>
@@ -418,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642485111431</updated>
     </task>
-    <option name="localTasksCounter" value="425" />
+    <task id="LOCAL-00425" summary="terraform-vpc creation (oirginal)">
+      <created>1642489738862</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1642489738862</updated>
+    </task>
+    <task id="LOCAL-00426" summary="terraform-vpc creation v1.0">
+      <created>1642489758293</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1642489758293</updated>
+    </task>
+    <option name="localTasksCounter" value="427" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue and user files are updated" />
     <MESSAGE value="sonar shell script" />
     <MESSAGE value="shipping file is updated" />
     <MESSAGE value="Dispatch file is created" />
@@ -492,7 +494,8 @@
     <MESSAGE value="terraform Module creation" />
     <MESSAGE value="terraform vpc creation (oirginal)" />
     <MESSAGE value="terraform-vpc creation (oirginal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="terraform-vpc creation (oirginal)" />
+    <MESSAGE value="terraform-vpc creation v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform-vpc creation v1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
