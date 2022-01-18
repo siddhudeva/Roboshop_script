@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="subnet creation">
-      <change afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00383" summary="user file ansible revisited">
-      <created>1642066287731</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1642066287731</updated>
-    </task>
-    <task id="LOCAL-00384" summary="user file ansible revisited">
-      <created>1642076682867</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1642076682867</updated>
     </task>
     <task id="LOCAL-00385" summary="frontend file ansible revisited">
       <created>1642077607500</created>
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642522361499</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="subnet creation">
+      <created>1642525405829</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1642525405829</updated>
+    </task>
+    <task id="LOCAL-00433" summary="subnet creation">
+      <created>1642525685681</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1642525685681</updated>
+    </task>
+    <option name="localTasksCounter" value="434" />
     <servers />
   </component>
   <component name="UnknownFeatures">
