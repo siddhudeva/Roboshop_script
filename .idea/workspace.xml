@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prod subnet cidr reseted">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="checking of peer connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/data/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/data/data.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -75,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00414" summary="terraform variable examples">
-      <created>1642219788779</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1642219788779</updated>
     </task>
     <task id="LOCAL-00415" summary="terraform resource and provider file to create security group and instance">
       <created>1642386308305</created>
@@ -419,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642574382648</updated>
     </task>
-    <option name="localTasksCounter" value="463" />
+    <task id="LOCAL-00463" summary="checking of peer connection">
+      <created>1642575198103</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1642575198103</updated>
+    </task>
+    <option name="localTasksCounter" value="464" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ec2 launch template updated" />
     <MESSAGE value="nodejs file fopr frontend and catalogues are updated" />
     <MESSAGE value="ansible directory created" />
     <MESSAGE value="catalogue file ansible revisited" />
@@ -493,7 +491,8 @@
     <MESSAGE value="peering connection" />
     <MESSAGE value="peering connection-routetables" />
     <MESSAGE value="prod subnet cidr reseted" />
-    <option name="LAST_COMMIT_MESSAGE" value="prod subnet cidr reseted" />
+    <MESSAGE value="checking of peer connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking of peer connection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
