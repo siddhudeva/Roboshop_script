@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00418" summary="terraform resource and provider file to create security group and instance">
-      <created>1642391483473</created>
-      <option name="number" value="00418" />
-      <option name="presentableId" value="LOCAL-00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1642391483473</updated>
     </task>
     <task id="LOCAL-00419" summary="terraform Module creation">
       <created>1642428358803</created>
@@ -421,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642590680464</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <task id="LOCAL-00467" summary="checking of peer connection">
+      <created>1642597783940</created>
+      <option name="number" value="00467" />
+      <option name="presentableId" value="LOCAL-00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1642597783940</updated>
+    </task>
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="UnknownFeatures">
