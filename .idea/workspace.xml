@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="peering connection" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="default id checking using terraform">
+      <change afterPath="$PROJECT_DIR$/terraform/data/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -71,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00396" summary="terraform variable examples">
-      <created>1642215398383</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1642215398383</updated>
     </task>
     <task id="LOCAL-00397" summary="terraform variable examples">
       <created>1642215620472</created>
@@ -415,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642562478737</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <task id="LOCAL-00445" summary="default id checking using terraform">
+      <created>1642563027370</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1642563027370</updated>
+    </task>
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -464,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue file updated" />
     <MESSAGE value="frontend file is updated" />
     <MESSAGE value="payment file updated" />
     <MESSAGE value="dispatch file updated" />
@@ -489,7 +491,8 @@
     <MESSAGE value="route-tables associations" />
     <MESSAGE value="Nat-gw setup" />
     <MESSAGE value="peering connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="peering connection" />
+    <MESSAGE value="default id checking using terraform" />
+    <option name="LAST_COMMIT_MESSAGE" value="default id checking using terraform" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
