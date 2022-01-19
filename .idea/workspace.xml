@@ -73,13 +73,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00437" summary="route-tables associations">
-      <created>1642527738029</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1642527738029</updated>
-    </task>
     <task id="LOCAL-00438" summary="route-tables associations">
       <created>1642528344466</created>
       <option name="number" value="00438" />
@@ -416,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642610615419</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="Public and Private load balancer added">
+      <created>1642611231220</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1642611231220</updated>
+    </task>
+    <option name="localTasksCounter" value="487" />
     <servers />
   </component>
   <component name="UnknownFeatures">
