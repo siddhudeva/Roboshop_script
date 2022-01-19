@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 creation along with tag">
+      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/terraform_LB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/Jenkins-alb-mutable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/alb.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/env/dev-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/env/dev.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/env/prod-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/env/prod.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_LB/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +31,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_LB" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -52,16 +65,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform_LB" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_LB" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\frontend\terraform-mutable" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform-vpc" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_vpc\env" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\sg" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\ec2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -76,13 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00435" summary="subnet creation">
-      <created>1642527444015</created>
-      <option name="number" value="00435" />
-      <option name="presentableId" value="LOCAL-00435" />
-      <option name="project" value="LOCAL" />
-      <updated>1642527444015</updated>
     </task>
     <task id="LOCAL-00436" summary="route-tables associations">
       <created>1642527570041</created>
@@ -420,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642607765554</updated>
     </task>
-    <option name="localTasksCounter" value="484" />
+    <task id="LOCAL-00484" summary="ec2 creation along with tag">
+      <created>1642608666938</created>
+      <option name="number" value="00484" />
+      <option name="presentableId" value="LOCAL-00484" />
+      <option name="project" value="LOCAL" />
+      <updated>1642608666938</updated>
+    </task>
+    <option name="localTasksCounter" value="485" />
     <servers />
   </component>
   <component name="UnknownFeatures">
