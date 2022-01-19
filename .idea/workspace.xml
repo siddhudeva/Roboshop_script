@@ -4,6 +4,7 @@
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prod subnet cidr reseted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/data/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/data/data.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -74,13 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00413" summary="terraform variable examples">
-      <created>1642219217015</created>
-      <option name="number" value="00413" />
-      <option name="presentableId" value="LOCAL-00413" />
-      <option name="project" value="LOCAL" />
-      <updated>1642219217015</updated>
     </task>
     <task id="LOCAL-00414" summary="terraform variable examples">
       <created>1642219788779</created>
@@ -418,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642573586891</updated>
     </task>
-    <option name="localTasksCounter" value="462" />
+    <task id="LOCAL-00462" summary="prod subnet cidr reseted">
+      <created>1642574382648</created>
+      <option name="number" value="00462" />
+      <option name="presentableId" value="LOCAL-00462" />
+      <option name="project" value="LOCAL" />
+      <updated>1642574382648</updated>
+    </task>
+    <option name="localTasksCounter" value="463" />
     <servers />
   </component>
   <component name="UnknownFeatures">
