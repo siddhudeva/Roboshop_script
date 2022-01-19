@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 creation along with tag">
-      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/terraform_LB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/Jenkins-alb-mutable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Public and Private load balancer added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00436" summary="route-tables associations">
-      <created>1642527570041</created>
-      <option name="number" value="00436" />
-      <option name="presentableId" value="LOCAL-00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1642527570041</updated>
     </task>
     <task id="LOCAL-00437" summary="route-tables associations">
       <created>1642527738029</created>
@@ -433,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642608666938</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="Public and Private load balancer added">
+      <created>1642610615419</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1642610615419</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -482,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalogue file ansible revisited" />
     <MESSAGE value="user file ansible revisited" />
     <MESSAGE value="frontend file ansible revisited" />
     <MESSAGE value="shipping file ansible revisited" />
@@ -507,7 +489,8 @@
     <MESSAGE value="checking of peer connection" />
     <MESSAGE value="ec2 creation" />
     <MESSAGE value="ec2 creation along with tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 creation along with tag" />
+    <MESSAGE value="Public and Private load balancer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Public and Private load balancer added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
