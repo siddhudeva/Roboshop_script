@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 creation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ec2 creation along with tag">
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00422" summary="terraform vpc creation (oirginal)">
-      <created>1642434190890</created>
-      <option name="number" value="00422" />
-      <option name="presentableId" value="LOCAL-00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1642434190890</updated>
-    </task>
-    <task id="LOCAL-00423" summary="terraform-vpc creation (oirginal)">
-      <created>1642485051492</created>
-      <option name="number" value="00423" />
-      <option name="presentableId" value="LOCAL-00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1642485051492</updated>
     </task>
     <task id="LOCAL-00424" summary="terraform-vpc creation (oirginal)">
       <created>1642485111431</created>
@@ -419,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642599576687</updated>
     </task>
-    <option name="localTasksCounter" value="471" />
+    <task id="LOCAL-00471" summary="ec2 creation along with tag">
+      <created>1642600092788</created>
+      <option name="number" value="00471" />
+      <option name="presentableId" value="LOCAL-00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1642600092788</updated>
+    </task>
+    <task id="LOCAL-00472" summary="ec2 creation along with tag">
+      <created>1642600241720</created>
+      <option name="number" value="00472" />
+      <option name="presentableId" value="LOCAL-00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1642600241720</updated>
+    </task>
+    <option name="localTasksCounter" value="473" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ansible directory created" />
     <MESSAGE value="catalogue file ansible revisited" />
     <MESSAGE value="user file ansible revisited" />
     <MESSAGE value="frontend file ansible revisited" />
@@ -493,7 +491,8 @@
     <MESSAGE value="prod subnet cidr reseted" />
     <MESSAGE value="checking of peer connection" />
     <MESSAGE value="ec2 creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 creation" />
+    <MESSAGE value="ec2 creation along with tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="ec2 creation along with tag" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
