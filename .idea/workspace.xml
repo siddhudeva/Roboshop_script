@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="default id checking using terraform" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="peering connection">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/gateway.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/gateway.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/peer.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/peer.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/subnet.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/subnet.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/vpc.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,27 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00405" summary="terraform variable examples">
-      <created>1642217313402</created>
-      <option name="number" value="00405" />
-      <option name="presentableId" value="LOCAL-00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1642217313402</updated>
-    </task>
-    <task id="LOCAL-00406" summary="terraform variable examples">
-      <created>1642217760554</created>
-      <option name="number" value="00406" />
-      <option name="presentableId" value="LOCAL-00406" />
-      <option name="project" value="LOCAL" />
-      <updated>1642217760554</updated>
-    </task>
-    <task id="LOCAL-00407" summary="terraform variable examples">
-      <created>1642217808024</created>
-      <option name="number" value="00407" />
-      <option name="presentableId" value="LOCAL-00407" />
-      <option name="project" value="LOCAL" />
-      <updated>1642217808024</updated>
     </task>
     <task id="LOCAL-00408" summary="terraform variable examples">
       <created>1642218369554</created>
@@ -415,7 +401,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642564608804</updated>
     </task>
-    <option name="localTasksCounter" value="454" />
+    <task id="LOCAL-00454" summary="checlking aws account details">
+      <created>1642565031419</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1642565031419</updated>
+    </task>
+    <task id="LOCAL-00455" summary="checlking aws account details">
+      <created>1642565169975</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
+      <option name="project" value="LOCAL" />
+      <updated>1642565169975</updated>
+    </task>
+    <task id="LOCAL-00456" summary="peering connection">
+      <created>1642565260153</created>
+      <option name="number" value="00456" />
+      <option name="presentableId" value="LOCAL-00456" />
+      <option name="project" value="LOCAL" />
+      <updated>1642565260153</updated>
+    </task>
+    <option name="localTasksCounter" value="457" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -464,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="frontend file is updated" />
     <MESSAGE value="payment file updated" />
     <MESSAGE value="dispatch file updated" />
     <MESSAGE value="ec2 launch template updated" />
@@ -487,9 +493,10 @@
     <MESSAGE value="subnet creation" />
     <MESSAGE value="route-tables associations" />
     <MESSAGE value="Nat-gw setup" />
-    <MESSAGE value="peering connection" />
     <MESSAGE value="default id checking using terraform" />
-    <option name="LAST_COMMIT_MESSAGE" value="default id checking using terraform" />
+    <MESSAGE value="checlking aws account details" />
+    <MESSAGE value="peering connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="peering connection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
