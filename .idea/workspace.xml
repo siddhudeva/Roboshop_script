@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="default id checking using terraform">
-      <change beforePath="$PROJECT_DIR$/terraform/data/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/data/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/data.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -73,20 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00402" summary="terraform variable examples">
-      <created>1642216593690</created>
-      <option name="number" value="00402" />
-      <option name="presentableId" value="LOCAL-00402" />
-      <option name="project" value="LOCAL" />
-      <updated>1642216593690</updated>
-    </task>
-    <task id="LOCAL-00403" summary="terraform variable examples">
-      <created>1642216669801</created>
-      <option name="number" value="00403" />
-      <option name="presentableId" value="LOCAL-00403" />
-      <option name="project" value="LOCAL" />
-      <updated>1642216669801</updated>
     </task>
     <task id="LOCAL-00404" summary="terraform variable examples">
       <created>1642217261221</created>
@@ -417,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642564261969</updated>
     </task>
-    <option name="localTasksCounter" value="451" />
+    <task id="LOCAL-00451" summary="default id checking using terraform">
+      <created>1642564285385</created>
+      <option name="number" value="00451" />
+      <option name="presentableId" value="LOCAL-00451" />
+      <option name="project" value="LOCAL" />
+      <updated>1642564285385</updated>
+    </task>
+    <task id="LOCAL-00452" summary="default id checking using terraform">
+      <created>1642564482556</created>
+      <option name="number" value="00452" />
+      <option name="presentableId" value="LOCAL-00452" />
+      <option name="project" value="LOCAL" />
+      <updated>1642564482556</updated>
+    </task>
+    <option name="localTasksCounter" value="453" />
     <servers />
   </component>
   <component name="UnknownFeatures">
