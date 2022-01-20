@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg file error modified">
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/otputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/otputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00460" summary="prod subnet cidr reseted">
-      <created>1642572033334</created>
-      <option name="number" value="00460" />
-      <option name="presentableId" value="LOCAL-00460" />
-      <option name="project" value="LOCAL" />
-      <updated>1642572033334</updated>
     </task>
     <task id="LOCAL-00461" summary="prod subnet cidr reseted">
       <created>1642573586891</created>
@@ -419,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642674461119</updated>
     </task>
-    <option name="localTasksCounter" value="509" />
+    <task id="LOCAL-00509" summary="sg file error modified">
+      <created>1642674619584</created>
+      <option name="number" value="00509" />
+      <option name="presentableId" value="LOCAL-00509" />
+      <option name="project" value="LOCAL" />
+      <updated>1642674619584</updated>
+    </task>
+    <option name="localTasksCounter" value="510" />
     <servers />
   </component>
   <component name="UnknownFeatures">
