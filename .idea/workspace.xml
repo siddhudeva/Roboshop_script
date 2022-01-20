@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Public and Private load balancer added">
-      <change afterPath="$PROJECT_DIR$/terraform_LB/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/sg.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/alb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/alb.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb">
+      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_LB" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -79,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00441" summary="route-tables associations">
-      <created>1642530349370</created>
-      <option name="number" value="00441" />
-      <option name="presentableId" value="LOCAL-00441" />
-      <option name="project" value="LOCAL" />
-      <updated>1642530349370</updated>
     </task>
     <task id="LOCAL-00442" summary="Nat-gw setup">
       <created>1642531057699</created>
@@ -423,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642611773687</updated>
     </task>
-    <option name="localTasksCounter" value="490" />
+    <task id="LOCAL-00490" summary="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb">
+      <created>1642659433271</created>
+      <option name="number" value="00490" />
+      <option name="presentableId" value="LOCAL-00490" />
+      <option name="project" value="LOCAL" />
+      <updated>1642659433271</updated>
+    </task>
+    <option name="localTasksCounter" value="491" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="user file ansible revisited" />
     <MESSAGE value="frontend file ansible revisited" />
     <MESSAGE value="shipping file ansible revisited" />
     <MESSAGE value="    shipping file ansible revisited" />
@@ -497,7 +491,8 @@
     <MESSAGE value="ec2 creation" />
     <MESSAGE value="ec2 creation along with tag" />
     <MESSAGE value="Public and Private load balancer added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Public and Private load balancer added" />
+    <MESSAGE value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
