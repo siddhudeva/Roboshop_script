@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="routetabke association error resolve-attempt1">
-      <change beforePath="$PROJECT_DIR$/terraform_LB/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/outputs.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="output file">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_LB/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/sg.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00450" summary="default id checking using terraform">
-      <created>1642564261969</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1642564261969</updated>
     </task>
     <task id="LOCAL-00451" summary="default id checking using terraform">
       <created>1642564285385</created>
@@ -418,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642663564406</updated>
     </task>
-    <option name="localTasksCounter" value="499" />
+    <task id="LOCAL-00499" summary="output file">
+      <created>1642663990703</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1642663990703</updated>
+    </task>
+    <option name="localTasksCounter" value="500" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="    shipping file ansible revisited" />
     <MESSAGE value="payment file ansible revisited" />
     <MESSAGE value="ec2 launch template updation" />
     <MESSAGE value="terraform Output examples" />
@@ -492,7 +493,8 @@
     <MESSAGE value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
     <MESSAGE value="security group added for ec2 instance" />
     <MESSAGE value="routetabke association error resolve-attempt1" />
-    <option name="LAST_COMMIT_MESSAGE" value="routetabke association error resolve-attempt1" />
+    <MESSAGE value="output file" />
+    <option name="LAST_COMMIT_MESSAGE" value="output file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

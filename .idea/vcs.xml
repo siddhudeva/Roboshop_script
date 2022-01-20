@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Ansible_R" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Jenkins" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/ROBO_Test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/cart" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/catalogue" vcs="Git" />
