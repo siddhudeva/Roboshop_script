@@ -1,15 +1,17 @@
 [FRONTEND]
-  frontend-dev.roboshop.internal  gitTag=V
+  frontend-dev.roboshop.internal  gitTag=V1.0.5
 [CATALOGUE]
-  catalogue-dev.roboshop.internal
+  catalogue-dev.roboshop.internal gitTag=V1.0.4
 [CART]
-  cart-dev.roboshop.internal  gitTag=V
+  cart-dev.roboshop.internal  gitTag=V1.0.0
 [USER]
-  user-dev.roboshop.internal
+  user-dev.roboshop.internal gitTag=V1.0.5
+[DISPATCH]
+  dispatch-dev.roboshop.internal gitTag=V1.0.9
 [PAYMENT]
-  payment-dev.roboshop.internal  gitTag=V
+  payment-dev.roboshop.internal  gitTag=V1.0.9
 [SHIPPING]
-  shipping-dev.roboshop.internal
+  shipping-dev.roboshop.internal gitTag=V1.0.4
 [RABBITMQ]
   rabbitmq-dev.roboshop.internal  gitTag=V
 [REDIS]

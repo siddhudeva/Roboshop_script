@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg file error modified">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app-deploy file added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkins-Mutablefile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkins-Mutablefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00463" summary="checking of peer connection">
-      <created>1642575198103</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1642575198103</updated>
     </task>
     <task id="LOCAL-00464" summary="checking of peer connection">
       <created>1642576304253</created>
@@ -418,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642680094696</updated>
     </task>
-    <option name="localTasksCounter" value="512" />
+    <task id="LOCAL-00512" summary="app-deploy file added">
+      <created>1642681343149</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1642681343149</updated>
+    </task>
+    <option name="localTasksCounter" value="513" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ec2 launch template updation" />
     <MESSAGE value="terraform Output examples" />
     <MESSAGE value="terraform variable examples" />
     <MESSAGE value="terraform resource and provider file to create security group and instance" />
@@ -492,7 +493,8 @@
     <MESSAGE value="routetabke association error resolve-attempt1" />
     <MESSAGE value="output file" />
     <MESSAGE value="sg file error modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="sg file error modified" />
+    <MESSAGE value="app-deploy file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="app-deploy file added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
