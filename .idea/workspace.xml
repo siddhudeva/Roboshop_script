@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="security group added for ec2 instance">
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="routetabke association error resolve-attempt1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +14,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_LB" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,20 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00444" summary="peering connection">
-      <created>1642562478737</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1642562478737</updated>
-    </task>
-    <task id="LOCAL-00445" summary="default id checking using terraform">
-      <created>1642563027370</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1642563027370</updated>
     </task>
     <task id="LOCAL-00446" summary="default id checking using terraform">
       <created>1642563206656</created>
@@ -418,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642660351082</updated>
     </task>
-    <option name="localTasksCounter" value="493" />
+    <task id="LOCAL-00493" summary="security group added for ec2 instance">
+      <created>1642660786290</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1642660786290</updated>
+    </task>
+    <task id="LOCAL-00494" summary="routetabke association error resolve-attempt1">
+      <created>1642660997017</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1642660997017</updated>
+    </task>
+    <option name="localTasksCounter" value="495" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="shipping file ansible revisited" />
     <MESSAGE value="    shipping file ansible revisited" />
     <MESSAGE value="payment file ansible revisited" />
     <MESSAGE value="ec2 launch template updation" />
@@ -492,7 +489,8 @@
     <MESSAGE value="Public and Private load balancer added" />
     <MESSAGE value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
     <MESSAGE value="security group added for ec2 instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="security group added for ec2 instance" />
+    <MESSAGE value="routetabke association error resolve-attempt1" />
+    <option name="LAST_COMMIT_MESSAGE" value="routetabke association error resolve-attempt1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
