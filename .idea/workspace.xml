@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="INVENTORY FILE UPDATED WITH GITTAGS">
-      <change afterPath="$PROJECT_DIR$/ansible/roboshop-pull.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible pull command added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00465" summary="checking of peer connection">
-      <created>1642577642245</created>
-      <option name="number" value="00465" />
-      <option name="presentableId" value="LOCAL-00465" />
-      <option name="project" value="LOCAL" />
-      <updated>1642577642245</updated>
     </task>
     <task id="LOCAL-00466" summary="checking of peer connection">
       <created>1642590680464</created>
@@ -420,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642695235900</updated>
     </task>
-    <option name="localTasksCounter" value="514" />
+    <task id="LOCAL-00514" summary="ansible pull command added">
+      <created>1642696311714</created>
+      <option name="number" value="00514" />
+      <option name="presentableId" value="LOCAL-00514" />
+      <option name="project" value="LOCAL" />
+      <updated>1642696311714</updated>
+    </task>
+    <option name="localTasksCounter" value="515" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -469,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="terraform variable examples" />
     <MESSAGE value="terraform resource and provider file to create security group and instance" />
     <MESSAGE value="terraform Module creation" />
     <MESSAGE value="terraform vpc creation (oirginal)" />
@@ -494,7 +489,8 @@
     <MESSAGE value="sg file error modified" />
     <MESSAGE value="app-deploy file added" />
     <MESSAGE value="INVENTORY FILE UPDATED WITH GITTAGS" />
-    <option name="LAST_COMMIT_MESSAGE" value="INVENTORY FILE UPDATED WITH GITTAGS" />
+    <MESSAGE value="ansible pull command added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible pull command added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
