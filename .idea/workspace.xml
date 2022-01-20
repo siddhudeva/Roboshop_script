@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible pull command added">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="APP_VERSION variable added from command line (In jenkins string to varibale__commandline variable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkins-Mutablefile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkins-Mutablefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -78,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00470" summary="ec2 creation">
-      <created>1642599576687</created>
-      <option name="number" value="00470" />
-      <option name="presentableId" value="LOCAL-00470" />
-      <option name="project" value="LOCAL" />
-      <updated>1642599576687</updated>
     </task>
     <task id="LOCAL-00471" summary="ec2 creation along with tag">
       <created>1642600092788</created>
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642698564868</updated>
     </task>
-    <option name="localTasksCounter" value="519" />
+    <task id="LOCAL-00519" summary="APP_VERSION variable added from command line (In jenkins string to varibale__commandline variable)">
+      <created>1642700909659</created>
+      <option name="number" value="00519" />
+      <option name="presentableId" value="LOCAL-00519" />
+      <option name="project" value="LOCAL" />
+      <updated>1642700909659</updated>
+    </task>
+    <option name="localTasksCounter" value="520" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -471,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="terraform resource and provider file to create security group and instance" />
     <MESSAGE value="terraform Module creation" />
     <MESSAGE value="terraform vpc creation (oirginal)" />
     <MESSAGE value="terraform-vpc creation (oirginal)" />
@@ -496,7 +493,8 @@
     <MESSAGE value="app-deploy file added" />
     <MESSAGE value="INVENTORY FILE UPDATED WITH GITTAGS" />
     <MESSAGE value="ansible pull command added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ansible pull command added" />
+    <MESSAGE value="APP_VERSION variable added from command line (In jenkins string to varibale__commandline variable)" />
+    <option name="LAST_COMMIT_MESSAGE" value="APP_VERSION variable added from command line (In jenkins string to varibale__commandline variable)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
