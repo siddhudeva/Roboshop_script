@@ -4,7 +4,6 @@
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg file error modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/alb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/alb.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00457" summary="peering connection-routetables">
-      <created>1642568259520</created>
-      <option name="number" value="00457" />
-      <option name="presentableId" value="LOCAL-00457" />
-      <option name="project" value="LOCAL" />
-      <updated>1642568259520</updated>
     </task>
     <task id="LOCAL-00458" summary="peering connection-routetables">
       <created>1642568431941</created>
@@ -420,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642668669702</updated>
     </task>
-    <option name="localTasksCounter" value="506" />
+    <task id="LOCAL-00506" summary="sg file error modified">
+      <created>1642672278905</created>
+      <option name="number" value="00506" />
+      <option name="presentableId" value="LOCAL-00506" />
+      <option name="project" value="LOCAL" />
+      <updated>1642672278905</updated>
+    </task>
+    <option name="localTasksCounter" value="507" />
     <servers />
   </component>
   <component name="UnknownFeatures">
