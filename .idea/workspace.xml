@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="NEXUS account cridentials are added and locals specified (for command line variables)">
+      <change afterPath="$PROJECT_DIR$/terraform-vpc/route53.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/vpc.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +19,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -75,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00472" summary="ec2 creation along with tag">
-      <created>1642600241720</created>
-      <option name="number" value="00472" />
-      <option name="presentableId" value="LOCAL-00472" />
-      <option name="project" value="LOCAL" />
-      <updated>1642600241720</updated>
     </task>
     <task id="LOCAL-00473" summary="ec2 creation along with tag">
       <created>1642600392992</created>
@@ -419,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642701785462</updated>
     </task>
-    <option name="localTasksCounter" value="521" />
+    <task id="LOCAL-00521" summary="NEXUS account cridentials are added and locals specified (for command line variables)">
+      <created>1642702992072</created>
+      <option name="number" value="00521" />
+      <option name="presentableId" value="LOCAL-00521" />
+      <option name="project" value="LOCAL" />
+      <updated>1642702992072</updated>
+    </task>
+    <option name="localTasksCounter" value="522" />
     <servers />
   </component>
   <component name="UnknownFeatures">
