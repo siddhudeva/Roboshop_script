@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb">
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="security group added for ec2 instance">
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00442" summary="Nat-gw setup">
-      <created>1642531057699</created>
-      <option name="number" value="00442" />
-      <option name="presentableId" value="LOCAL-00442" />
-      <option name="project" value="LOCAL" />
-      <updated>1642531057701</updated>
-    </task>
-    <task id="LOCAL-00443" summary="Nat-gw setup">
-      <created>1642531479434</created>
-      <option name="number" value="00443" />
-      <option name="presentableId" value="LOCAL-00443" />
-      <option name="project" value="LOCAL" />
-      <updated>1642531479434</updated>
     </task>
     <task id="LOCAL-00444" summary="peering connection">
       <created>1642562478737</created>
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642659433271</updated>
     </task>
-    <option name="localTasksCounter" value="491" />
+    <task id="LOCAL-00491" summary="security group added for ec2 instance">
+      <created>1642660194008</created>
+      <option name="number" value="00491" />
+      <option name="presentableId" value="LOCAL-00491" />
+      <option name="project" value="LOCAL" />
+      <updated>1642660194008</updated>
+    </task>
+    <task id="LOCAL-00492" summary="security group added for ec2 instance">
+      <created>1642660351082</created>
+      <option name="number" value="00492" />
+      <option name="presentableId" value="LOCAL-00492" />
+      <option name="project" value="LOCAL" />
+      <updated>1642660351082</updated>
+    </task>
+    <option name="localTasksCounter" value="493" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="frontend file ansible revisited" />
     <MESSAGE value="shipping file ansible revisited" />
     <MESSAGE value="    shipping file ansible revisited" />
     <MESSAGE value="payment file ansible revisited" />
@@ -492,7 +491,8 @@
     <MESSAGE value="ec2 creation along with tag" />
     <MESSAGE value="Public and Private load balancer added" />
     <MESSAGE value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
-    <option name="LAST_COMMIT_MESSAGE" value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
+    <MESSAGE value="security group added for ec2 instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="security group added for ec2 instance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
