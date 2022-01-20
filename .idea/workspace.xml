@@ -75,20 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00467" summary="checking of peer connection">
-      <created>1642597783940</created>
-      <option name="number" value="00467" />
-      <option name="presentableId" value="LOCAL-00467" />
-      <option name="project" value="LOCAL" />
-      <updated>1642597783940</updated>
-    </task>
-    <task id="LOCAL-00468" summary="checking of peer connection">
-      <created>1642598404034</created>
-      <option name="number" value="00468" />
-      <option name="presentableId" value="LOCAL-00468" />
-      <option name="project" value="LOCAL" />
-      <updated>1642598404034</updated>
-    </task>
     <task id="LOCAL-00469" summary="ec2 creation">
       <created>1642598468192</created>
       <option name="number" value="00469" />
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642697260797</updated>
     </task>
-    <option name="localTasksCounter" value="516" />
+    <task id="LOCAL-00516" summary="ansible pull command added">
+      <created>1642698149663</created>
+      <option name="number" value="00516" />
+      <option name="presentableId" value="LOCAL-00516" />
+      <option name="project" value="LOCAL" />
+      <updated>1642698149663</updated>
+    </task>
+    <task id="LOCAL-00517" summary="ansible pull command added">
+      <created>1642698206577</created>
+      <option name="number" value="00517" />
+      <option name="presentableId" value="LOCAL-00517" />
+      <option name="project" value="LOCAL" />
+      <updated>1642698206577</updated>
+    </task>
+    <option name="localTasksCounter" value="518" />
     <servers />
   </component>
   <component name="UnknownFeatures">
