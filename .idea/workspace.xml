@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app-deploy file added">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="INVENTORY FILE UPDATED WITH GITTAGS">
+      <change afterPath="$PROJECT_DIR$/ansible/roboshop-pull.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkins-Mutablefile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkins-Mutablefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -52,16 +52,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform_LB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_LB" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\frontend\terraform-mutable" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform-vpc" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_vpc\env" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform\modules\sg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -76,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00464" summary="checking of peer connection">
-      <created>1642576304253</created>
-      <option name="number" value="00464" />
-      <option name="presentableId" value="LOCAL-00464" />
-      <option name="project" value="LOCAL" />
-      <updated>1642576304253</updated>
     </task>
     <task id="LOCAL-00465" summary="checking of peer connection">
       <created>1642577642245</created>
@@ -420,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642681343149</updated>
     </task>
-    <option name="localTasksCounter" value="513" />
+    <task id="LOCAL-00513" summary="INVENTORY FILE UPDATED WITH GITTAGS">
+      <created>1642695235898</created>
+      <option name="number" value="00513" />
+      <option name="presentableId" value="LOCAL-00513" />
+      <option name="project" value="LOCAL" />
+      <updated>1642695235900</updated>
+    </task>
+    <option name="localTasksCounter" value="514" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -469,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="terraform Output examples" />
     <MESSAGE value="terraform variable examples" />
     <MESSAGE value="terraform resource and provider file to create security group and instance" />
     <MESSAGE value="terraform Module creation" />
@@ -494,7 +493,8 @@
     <MESSAGE value="output file" />
     <MESSAGE value="sg file error modified" />
     <MESSAGE value="app-deploy file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="app-deploy file added" />
+    <MESSAGE value="INVENTORY FILE UPDATED WITH GITTAGS" />
+    <option name="LAST_COMMIT_MESSAGE" value="INVENTORY FILE UPDATED WITH GITTAGS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
