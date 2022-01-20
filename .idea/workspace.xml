@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg file error modified" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg file error modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00462" summary="prod subnet cidr reseted">
-      <created>1642574382648</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1642574382648</updated>
     </task>
     <task id="LOCAL-00463" summary="checking of peer connection">
       <created>1642575198103</created>
@@ -416,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642678159776</updated>
     </task>
-    <option name="localTasksCounter" value="511" />
+    <task id="LOCAL-00511" summary="sg file error modified">
+      <created>1642680094696</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1642680094696</updated>
+    </task>
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="UnknownFeatures">
