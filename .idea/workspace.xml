@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="vpc dns features added">
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/common.auto.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/common.auto.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route53.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/vars.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app deploy configured" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,27 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00474" summary="ec2 creation along with tag">
-      <created>1642600495697</created>
-      <option name="number" value="00474" />
-      <option name="presentableId" value="LOCAL-00474" />
-      <option name="project" value="LOCAL" />
-      <updated>1642600495697</updated>
-    </task>
-    <task id="LOCAL-00475" summary="ec2 creation along with tag">
-      <created>1642600559799</created>
-      <option name="number" value="00475" />
-      <option name="presentableId" value="LOCAL-00475" />
-      <option name="project" value="LOCAL" />
-      <updated>1642600559799</updated>
-    </task>
-    <task id="LOCAL-00476" summary="ec2 creation along with tag">
-      <created>1642600848568</created>
-      <option name="number" value="00476" />
-      <option name="presentableId" value="LOCAL-00476" />
-      <option name="project" value="LOCAL" />
-      <updated>1642600848568</updated>
     </task>
     <task id="LOCAL-00477" summary="ec2 creation along with tag">
       <created>1642600869445</created>
@@ -420,7 +395,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642703683663</updated>
     </task>
-    <option name="localTasksCounter" value="523" />
+    <task id="LOCAL-00523" summary="vpc dns features added">
+      <created>1642703969060</created>
+      <option name="number" value="00523" />
+      <option name="presentableId" value="LOCAL-00523" />
+      <option name="project" value="LOCAL" />
+      <updated>1642703969060</updated>
+    </task>
+    <task id="LOCAL-00524" summary="app deploy configured">
+      <created>1642704050145</created>
+      <option name="number" value="00524" />
+      <option name="presentableId" value="LOCAL-00524" />
+      <option name="project" value="LOCAL" />
+      <updated>1642704050145</updated>
+    </task>
+    <task id="LOCAL-00525" summary="app deploy configured">
+      <created>1642704204830</created>
+      <option name="number" value="00525" />
+      <option name="presentableId" value="LOCAL-00525" />
+      <option name="project" value="LOCAL" />
+      <updated>1642704204830</updated>
+    </task>
+    <option name="localTasksCounter" value="526" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -469,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="terraform-vpc creation (oirginal)" />
     <MESSAGE value="terraform-vpc creation v1.0" />
     <MESSAGE value="subnet creation" />
     <MESSAGE value="route-tables associations" />
@@ -494,7 +489,8 @@
     <MESSAGE value="APP_VERSION variable added from command line (In jenkins string to varibale__commandline variable)" />
     <MESSAGE value="NEXUS account cridentials are added and locals specified (for command line variables)" />
     <MESSAGE value="vpc dns features added" />
-    <option name="LAST_COMMIT_MESSAGE" value="vpc dns features added" />
+    <MESSAGE value="app deploy configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="app deploy configured" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
