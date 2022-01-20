@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="output file">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/sg.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg file error modified">
+      <change beforePath="$PROJECT_DIR$/terraform_LB/alb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/alb.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00451" summary="default id checking using terraform">
-      <created>1642564285385</created>
-      <option name="number" value="00451" />
-      <option name="presentableId" value="LOCAL-00451" />
-      <option name="project" value="LOCAL" />
-      <updated>1642564285385</updated>
-    </task>
-    <task id="LOCAL-00452" summary="default id checking using terraform">
-      <created>1642564482556</created>
-      <option name="number" value="00452" />
-      <option name="presentableId" value="LOCAL-00452" />
-      <option name="project" value="LOCAL" />
-      <updated>1642564482556</updated>
     </task>
     <task id="LOCAL-00453" summary="default id checking using terraform">
       <created>1642564608804</created>
@@ -420,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642663990703</updated>
     </task>
-    <option name="localTasksCounter" value="500" />
+    <task id="LOCAL-00500" summary="sg file error modified">
+      <created>1642667663882</created>
+      <option name="number" value="00500" />
+      <option name="presentableId" value="LOCAL-00500" />
+      <option name="project" value="LOCAL" />
+      <updated>1642667663882</updated>
+    </task>
+    <task id="LOCAL-00501" summary="sg file error modified">
+      <created>1642667911012</created>
+      <option name="number" value="00501" />
+      <option name="presentableId" value="LOCAL-00501" />
+      <option name="project" value="LOCAL" />
+      <updated>1642667911012</updated>
+    </task>
+    <option name="localTasksCounter" value="502" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -469,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="payment file ansible revisited" />
     <MESSAGE value="ec2 launch template updation" />
     <MESSAGE value="terraform Output examples" />
     <MESSAGE value="terraform variable examples" />
@@ -494,7 +491,8 @@
     <MESSAGE value="security group added for ec2 instance" />
     <MESSAGE value="routetabke association error resolve-attempt1" />
     <MESSAGE value="output file" />
-    <option name="LAST_COMMIT_MESSAGE" value="output file" />
+    <MESSAGE value="sg file error modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="sg file error modified" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
