@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app-deploy file">
-      <change beforePath="$PROJECT_DIR$/Ansible_R/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Ansible_R/roles/common/tasks/download.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app-deploy file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00490" summary="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb">
-      <created>1642659433271</created>
-      <option name="number" value="00490" />
-      <option name="presentableId" value="LOCAL-00490" />
-      <option name="project" value="LOCAL" />
-      <updated>1642659433271</updated>
     </task>
     <task id="LOCAL-00491" summary="security group added for ec2 instance">
       <created>1642660194008</created>
@@ -419,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642741784221</updated>
     </task>
-    <option name="localTasksCounter" value="539" />
+    <task id="LOCAL-00539" summary="app-deploy file">
+      <created>1642742456920</created>
+      <option name="number" value="00539" />
+      <option name="presentableId" value="LOCAL-00539" />
+      <option name="project" value="LOCAL" />
+      <updated>1642742456920</updated>
+    </task>
+    <option name="localTasksCounter" value="540" />
     <servers />
   </component>
   <component name="UnknownFeatures">
