@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="for nodejs repository added">
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/vars.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="security group updated fot nodejs">
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ansible-1" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -75,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00507" summary="sg file error modified">
-      <created>1642674229162</created>
-      <option name="number" value="00507" />
-      <option name="presentableId" value="LOCAL-00507" />
-      <option name="project" value="LOCAL" />
-      <updated>1642674229162</updated>
-    </task>
-    <task id="LOCAL-00508" summary="sg file error modified">
-      <created>1642674461119</created>
-      <option name="number" value="00508" />
-      <option name="presentableId" value="LOCAL-00508" />
-      <option name="project" value="LOCAL" />
-      <updated>1642674461119</updated>
     </task>
     <task id="LOCAL-00509" summary="sg file error modified">
       <created>1642674619584</created>
@@ -419,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642764014952</updated>
     </task>
-    <option name="localTasksCounter" value="556" />
+    <task id="LOCAL-00556" summary="security group updated fot nodejs">
+      <created>1642764223769</created>
+      <option name="number" value="00556" />
+      <option name="presentableId" value="LOCAL-00556" />
+      <option name="project" value="LOCAL" />
+      <updated>1642764223769</updated>
+    </task>
+    <task id="LOCAL-00557" summary="security group updated fot nodejs">
+      <created>1642764494667</created>
+      <option name="number" value="00557" />
+      <option name="presentableId" value="LOCAL-00557" />
+      <option name="project" value="LOCAL" />
+      <updated>1642764494667</updated>
+    </task>
+    <option name="localTasksCounter" value="558" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="prod subnet cidr reseted" />
     <MESSAGE value="checking of peer connection" />
     <MESSAGE value="ec2 creation" />
     <MESSAGE value="ec2 creation along with tag" />
@@ -493,7 +491,8 @@
     <MESSAGE value="cart component added and common repository is updated in order to keep code dry" />
     <MESSAGE value="url edited with DNS name" />
     <MESSAGE value="for nodejs repository added" />
-    <option name="LAST_COMMIT_MESSAGE" value="for nodejs repository added" />
+    <MESSAGE value="security group updated fot nodejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="security group updated fot nodejs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
