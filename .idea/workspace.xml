@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo filing">
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/terraform_mutable_commom_infra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cart component added and common repository is updated in order to keep code dry" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00499" summary="output file">
-      <created>1642663990703</created>
-      <option name="number" value="00499" />
-      <option name="presentableId" value="LOCAL-00499" />
-      <option name="project" value="LOCAL" />
-      <updated>1642663990703</updated>
     </task>
     <task id="LOCAL-00500" summary="sg file error modified">
       <created>1642667663882</created>
@@ -435,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642748071068</updated>
     </task>
-    <option name="localTasksCounter" value="548" />
+    <task id="LOCAL-00548" summary="cart component added and common repository is updated in order to keep code dry">
+      <created>1642759510600</created>
+      <option name="number" value="00548" />
+      <option name="presentableId" value="LOCAL-00548" />
+      <option name="project" value="LOCAL" />
+      <updated>1642759510600</updated>
+    </task>
+    <option name="localTasksCounter" value="549" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -484,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="checlking aws account details" />
     <MESSAGE value="peering connection" />
     <MESSAGE value="peering connection-routetables" />
     <MESSAGE value="prod subnet cidr reseted" />
@@ -509,7 +489,8 @@
     <MESSAGE value="json" />
     <MESSAGE value="app-deploy file" />
     <MESSAGE value="nexus repo filing" />
-    <option name="LAST_COMMIT_MESSAGE" value="nexus repo filing" />
+    <MESSAGE value="cart component added and common repository is updated in order to keep code dry" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart component added and common repository is updated in order to keep code dry" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
