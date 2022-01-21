@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="cart component added and common repository is updated in order to keep code dry" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="url edited with DNS name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +14,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -72,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00500" summary="sg file error modified">
-      <created>1642667663882</created>
-      <option name="number" value="00500" />
-      <option name="presentableId" value="LOCAL-00500" />
-      <option name="project" value="LOCAL" />
-      <updated>1642667663882</updated>
     </task>
     <task id="LOCAL-00501" summary="sg file error modified">
       <created>1642667911012</created>
@@ -416,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642759510600</updated>
     </task>
-    <option name="localTasksCounter" value="549" />
+    <task id="LOCAL-00549" summary="url edited with DNS name">
+      <created>1642760067885</created>
+      <option name="number" value="00549" />
+      <option name="presentableId" value="LOCAL-00549" />
+      <option name="project" value="LOCAL" />
+      <updated>1642760067885</updated>
+    </task>
+    <option name="localTasksCounter" value="550" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -465,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="peering connection" />
     <MESSAGE value="peering connection-routetables" />
     <MESSAGE value="prod subnet cidr reseted" />
     <MESSAGE value="checking of peer connection" />
@@ -490,7 +489,8 @@
     <MESSAGE value="app-deploy file" />
     <MESSAGE value="nexus repo filing" />
     <MESSAGE value="cart component added and common repository is updated in order to keep code dry" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart component added and common repository is updated in order to keep code dry" />
+    <MESSAGE value="url edited with DNS name" />
+    <option name="LAST_COMMIT_MESSAGE" value="url edited with DNS name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
