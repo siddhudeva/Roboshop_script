@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="added load balancer listener for private">
-      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/alb.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/vars.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="listner added and listener rule also added, using condition" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00512" summary="app-deploy file added">
-      <created>1642681343149</created>
-      <option name="number" value="00512" />
-      <option name="presentableId" value="LOCAL-00512" />
-      <option name="project" value="LOCAL" />
-      <updated>1642681343149</updated>
     </task>
     <task id="LOCAL-00513" summary="INVENTORY FILE UPDATED WITH GITTAGS">
       <created>1642695235898</created>
@@ -422,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642765818668</updated>
     </task>
-    <option name="localTasksCounter" value="561" />
+    <task id="LOCAL-00561" summary="listner added and listener rule also added, using condition">
+      <created>1642769422613</created>
+      <option name="number" value="00561" />
+      <option name="presentableId" value="LOCAL-00561" />
+      <option name="project" value="LOCAL" />
+      <updated>1642769422613</updated>
+    </task>
+    <option name="localTasksCounter" value="562" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -471,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ec2 creation along with tag" />
     <MESSAGE value="Public and Private load balancer added" />
     <MESSAGE value="1,loadbalancer sg added.&#10;2, data file added to provide VPC outputs&#10;3, for Ec2 file i attached it to alb" />
     <MESSAGE value="security group added for ec2 instance" />
@@ -496,7 +489,8 @@
     <MESSAGE value="security group updated fot nodejs" />
     <MESSAGE value="nexus dns name updated" />
     <MESSAGE value="added load balancer listener for private" />
-    <option name="LAST_COMMIT_MESSAGE" value="added load balancer listener for private" />
+    <MESSAGE value="listner added and listener rule also added, using condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="listner added and listener rule also added, using condition" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
