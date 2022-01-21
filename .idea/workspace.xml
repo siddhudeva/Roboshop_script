@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="json">
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app-deploy file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00486" summary="Public and Private load balancer added">
-      <created>1642611231220</created>
-      <option name="number" value="00486" />
-      <option name="presentableId" value="LOCAL-00486" />
-      <option name="project" value="LOCAL" />
-      <updated>1642611231220</updated>
     </task>
     <task id="LOCAL-00487" summary="Public and Private load balancer added">
       <created>1642611395023</created>
@@ -418,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642739699479</updated>
     </task>
-    <option name="localTasksCounter" value="535" />
+    <task id="LOCAL-00535" summary="app-deploy file">
+      <created>1642740398631</created>
+      <option name="number" value="00535" />
+      <option name="presentableId" value="LOCAL-00535" />
+      <option name="project" value="LOCAL" />
+      <updated>1642740398631</updated>
+    </task>
+    <option name="localTasksCounter" value="536" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Nat-gw setup" />
     <MESSAGE value="default id checking using terraform" />
     <MESSAGE value="checlking aws account details" />
     <MESSAGE value="peering connection" />
@@ -492,7 +489,8 @@
     <MESSAGE value="    app deploy configured" />
     <MESSAGE value="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
     <MESSAGE value="json" />
-    <option name="LAST_COMMIT_MESSAGE" value="json" />
+    <MESSAGE value="app-deploy file" />
+    <option name="LAST_COMMIT_MESSAGE" value="app-deploy file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
