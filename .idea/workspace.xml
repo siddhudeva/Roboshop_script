@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo filing">
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/dev-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/dev.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/prod-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/env/prod.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboshop/cart/vars.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/terraform_mutable_commom_infra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/app-deploy.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/sg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +33,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Ansible_R" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -50,16 +67,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/cart" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_mutable_commom_infra" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_LB" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\frontend\terraform-mutable" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform-vpc" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_vpc\env" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -74,13 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00498" summary="routetabke association error resolve-attempt1">
-      <created>1642663564406</created>
-      <option name="number" value="00498" />
-      <option name="presentableId" value="LOCAL-00498" />
-      <option name="project" value="LOCAL" />
-      <updated>1642663564406</updated>
     </task>
     <task id="LOCAL-00499" summary="output file">
       <created>1642663990703</created>
@@ -418,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642746579616</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <task id="LOCAL-00547" summary="nexus repo filing">
+      <created>1642748071068</created>
+      <option name="number" value="00547" />
+      <option name="presentableId" value="LOCAL-00547" />
+      <option name="project" value="LOCAL" />
+      <updated>1642748071068</updated>
+    </task>
+    <option name="localTasksCounter" value="548" />
     <servers />
   </component>
   <component name="UnknownFeatures">
