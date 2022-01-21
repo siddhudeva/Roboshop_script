@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="url edited with DNS name" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="url edited with DNS name">
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/prod-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/vars.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -48,16 +56,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/cart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/cart/terraform-mutable" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart\terraform-mutable" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_mutable_commom_infra" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_LB" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\frontend\terraform-mutable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -72,13 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00501" summary="sg file error modified">
-      <created>1642667911012</created>
-      <option name="number" value="00501" />
-      <option name="presentableId" value="LOCAL-00501" />
-      <option name="project" value="LOCAL" />
-      <updated>1642667911012</updated>
     </task>
     <task id="LOCAL-00502" summary="sg file error modified">
       <created>1642668017917</created>
@@ -416,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642760067885</updated>
     </task>
-    <option name="localTasksCounter" value="550" />
+    <task id="LOCAL-00550" summary="url edited with DNS name">
+      <created>1642760496457</created>
+      <option name="number" value="00550" />
+      <option name="presentableId" value="LOCAL-00550" />
+      <option name="project" value="LOCAL" />
+      <updated>1642760496457</updated>
+    </task>
+    <option name="localTasksCounter" value="551" />
     <servers />
   </component>
   <component name="UnknownFeatures">
