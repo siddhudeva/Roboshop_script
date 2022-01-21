@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="app-deploy file">
-      <change beforePath="$PROJECT_DIR$/Ansible_R/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Ansible_R/roles/common/tasks/download.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo filing">
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Ansible_R" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -75,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00492" summary="security group added for ec2 instance">
-      <created>1642660351082</created>
-      <option name="number" value="00492" />
-      <option name="presentableId" value="LOCAL-00492" />
-      <option name="project" value="LOCAL" />
-      <updated>1642660351082</updated>
-    </task>
-    <task id="LOCAL-00493" summary="security group added for ec2 instance">
-      <created>1642660786290</created>
-      <option name="number" value="00493" />
-      <option name="presentableId" value="LOCAL-00493" />
-      <option name="project" value="LOCAL" />
-      <updated>1642660786290</updated>
     </task>
     <task id="LOCAL-00494" summary="routetabke association error resolve-attempt1">
       <created>1642660997017</created>
@@ -419,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642742837009</updated>
     </task>
-    <option name="localTasksCounter" value="541" />
+    <task id="LOCAL-00541" summary="app-deploy file">
+      <created>1642743231270</created>
+      <option name="number" value="00541" />
+      <option name="presentableId" value="LOCAL-00541" />
+      <option name="project" value="LOCAL" />
+      <updated>1642743231270</updated>
+    </task>
+    <task id="LOCAL-00542" summary="nexus repo filing">
+      <created>1642743420642</created>
+      <option name="number" value="00542" />
+      <option name="presentableId" value="LOCAL-00542" />
+      <option name="project" value="LOCAL" />
+      <updated>1642743420642</updated>
+    </task>
+    <option name="localTasksCounter" value="543" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="default id checking using terraform" />
     <MESSAGE value="checlking aws account details" />
     <MESSAGE value="peering connection" />
     <MESSAGE value="peering connection-routetables" />
@@ -493,7 +491,8 @@
     <MESSAGE value="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
     <MESSAGE value="json" />
     <MESSAGE value="app-deploy file" />
-    <option name="LAST_COMMIT_MESSAGE" value="app-deploy file" />
+    <MESSAGE value="nexus repo filing" />
+    <option name="LAST_COMMIT_MESSAGE" value="nexus repo filing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
