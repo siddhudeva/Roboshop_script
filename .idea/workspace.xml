@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="    app deploy configured">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +14,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Ansible_R" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00480" summary="ec2 creation along with tag">
-      <created>1642601207420</created>
-      <option name="number" value="00480" />
-      <option name="presentableId" value="LOCAL-00480" />
-      <option name="project" value="LOCAL" />
-      <updated>1642601207420</updated>
     </task>
     <task id="LOCAL-00481" summary="ec2 creation along with tag">
       <created>1642606741960</created>
@@ -418,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642706159300</updated>
     </task>
-    <option name="localTasksCounter" value="529" />
+    <task id="LOCAL-00529" summary="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file">
+      <created>1642737398023</created>
+      <option name="number" value="00529" />
+      <option name="presentableId" value="LOCAL-00529" />
+      <option name="project" value="LOCAL" />
+      <updated>1642737398024</updated>
+    </task>
+    <option name="localTasksCounter" value="530" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="subnet creation" />
     <MESSAGE value="route-tables associations" />
     <MESSAGE value="Nat-gw setup" />
     <MESSAGE value="default id checking using terraform" />
@@ -492,7 +489,8 @@
     <MESSAGE value="vpc dns features added" />
     <MESSAGE value="app deploy configured" />
     <MESSAGE value="    app deploy configured" />
-    <option name="LAST_COMMIT_MESSAGE" value="    app deploy configured" />
+    <MESSAGE value="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
+    <option name="LAST_COMMIT_MESSAGE" value="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
