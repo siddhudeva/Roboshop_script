@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="url edited with DNS name">
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/prod-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/provider.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00502" summary="sg file error modified">
-      <created>1642668017917</created>
-      <option name="number" value="00502" />
-      <option name="presentableId" value="LOCAL-00502" />
-      <option name="project" value="LOCAL" />
-      <updated>1642668017917</updated>
-    </task>
-    <task id="LOCAL-00503" summary="sg file error modified">
-      <created>1642668225751</created>
-      <option name="number" value="00503" />
-      <option name="presentableId" value="LOCAL-00503" />
-      <option name="project" value="LOCAL" />
-      <updated>1642668225751</updated>
     </task>
     <task id="LOCAL-00504" summary="sg file error modified">
       <created>1642668528830</created>
@@ -424,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642760496457</updated>
     </task>
-    <option name="localTasksCounter" value="551" />
+    <task id="LOCAL-00551" summary="url edited with DNS name">
+      <created>1642760823540</created>
+      <option name="number" value="00551" />
+      <option name="presentableId" value="LOCAL-00551" />
+      <option name="project" value="LOCAL" />
+      <updated>1642760823540</updated>
+    </task>
+    <task id="LOCAL-00552" summary="url edited with DNS name">
+      <created>1642761063842</created>
+      <option name="number" value="00552" />
+      <option name="presentableId" value="LOCAL-00552" />
+      <option name="project" value="LOCAL" />
+      <updated>1642761063842</updated>
+    </task>
+    <option name="localTasksCounter" value="553" />
     <servers />
   </component>
   <component name="UnknownFeatures">
