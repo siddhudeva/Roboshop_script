@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/Roboshop/robo_ansible" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/shipping" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Roboshop/user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ansible-1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/robo_ansible" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/terraform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/terraform-vpc" vcs="Git" />

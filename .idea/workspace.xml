@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo filing" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo filing">
+      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/ansible-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ansible_R/02-vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Ansible_R/02-vars.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,20 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00495" summary="routetabke association error resolve-attempt1">
-      <created>1642661648353</created>
-      <option name="number" value="00495" />
-      <option name="presentableId" value="LOCAL-00495" />
-      <option name="project" value="LOCAL" />
-      <updated>1642661648353</updated>
-    </task>
-    <task id="LOCAL-00496" summary="routetabke association error resolve-attempt1">
-      <created>1642663178692</created>
-      <option name="number" value="00496" />
-      <option name="presentableId" value="LOCAL-00496" />
-      <option name="project" value="LOCAL" />
-      <updated>1642663178692</updated>
     </task>
     <task id="LOCAL-00497" summary="routetabke association error resolve-attempt1">
       <created>1642663419864</created>
@@ -416,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642743680300</updated>
     </task>
-    <option name="localTasksCounter" value="544" />
+    <task id="LOCAL-00544" summary="nexus repo filing">
+      <created>1642744009273</created>
+      <option name="number" value="00544" />
+      <option name="presentableId" value="LOCAL-00544" />
+      <option name="project" value="LOCAL" />
+      <updated>1642744009273</updated>
+    </task>
+    <task id="LOCAL-00545" summary="nexus repo filing">
+      <created>1642744037258</created>
+      <option name="number" value="00545" />
+      <option name="presentableId" value="LOCAL-00545" />
+      <option name="project" value="LOCAL" />
+      <updated>1642744037258</updated>
+    </task>
+    <option name="localTasksCounter" value="546" />
     <servers />
   </component>
   <component name="UnknownFeatures">
