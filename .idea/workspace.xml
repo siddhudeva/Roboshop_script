@@ -73,13 +73,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00488" summary="Public and Private load balancer added">
-      <created>1642611681215</created>
-      <option name="number" value="00488" />
-      <option name="presentableId" value="LOCAL-00488" />
-      <option name="project" value="LOCAL" />
-      <updated>1642611681215</updated>
-    </task>
     <task id="LOCAL-00489" summary="Public and Private load balancer added">
       <created>1642611773687</created>
       <option name="number" value="00489" />
@@ -416,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642741040094</updated>
     </task>
-    <option name="localTasksCounter" value="537" />
+    <task id="LOCAL-00537" summary="app-deploy file">
+      <created>1642741373965</created>
+      <option name="number" value="00537" />
+      <option name="presentableId" value="LOCAL-00537" />
+      <option name="project" value="LOCAL" />
+      <updated>1642741373965</updated>
+    </task>
+    <option name="localTasksCounter" value="538" />
     <servers />
   </component>
   <component name="UnknownFeatures">
