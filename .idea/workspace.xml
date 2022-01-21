@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus repo filing">
-      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/ansible-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ansible_R/02-vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Ansible_R/02-vars.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00497" summary="routetabke association error resolve-attempt1">
-      <created>1642663419864</created>
-      <option name="number" value="00497" />
-      <option name="presentableId" value="LOCAL-00497" />
-      <option name="project" value="LOCAL" />
-      <updated>1642663419864</updated>
     </task>
     <task id="LOCAL-00498" summary="routetabke association error resolve-attempt1">
       <created>1642663564406</created>
@@ -425,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642744037258</updated>
     </task>
-    <option name="localTasksCounter" value="546" />
+    <task id="LOCAL-00546" summary="nexus repo filing">
+      <created>1642746579616</created>
+      <option name="number" value="00546" />
+      <option name="presentableId" value="LOCAL-00546" />
+      <option name="project" value="LOCAL" />
+      <updated>1642746579616</updated>
+    </task>
+    <option name="localTasksCounter" value="547" />
     <servers />
   </component>
   <component name="UnknownFeatures">
