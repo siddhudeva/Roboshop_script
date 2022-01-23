@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="S3 bucket updated for all because of new aws account">
-      <change beforePath="$PROJECT_DIR$/Jenkins/vars/terraform.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/vars/terraform.groovy" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform.groovy file is updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +14,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00536" summary="app-deploy file">
-      <created>1642741040094</created>
-      <option name="number" value="00536" />
-      <option name="presentableId" value="LOCAL-00536" />
-      <option name="project" value="LOCAL" />
-      <updated>1642741040094</updated>
     </task>
     <task id="LOCAL-00537" summary="app-deploy file">
       <created>1642741373965</created>
@@ -418,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642922041980</updated>
     </task>
-    <option name="localTasksCounter" value="585" />
+    <task id="LOCAL-00585" summary="terraform.groovy file is updated">
+      <created>1642922358018</created>
+      <option name="number" value="00585" />
+      <option name="presentableId" value="LOCAL-00585" />
+      <option name="project" value="LOCAL" />
+      <updated>1642922358018</updated>
+    </task>
+    <option name="localTasksCounter" value="586" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="app-deploy file added" />
     <MESSAGE value="INVENTORY FILE UPDATED WITH GITTAGS" />
     <MESSAGE value="ansible pull command added" />
     <MESSAGE value="APP_VERSION variable added from command line (In jenkins string to varibale__commandline variable)" />
@@ -492,7 +489,8 @@
     <MESSAGE value="nodejs.groovy file updated" />
     <MESSAGE value="user file updation for Nexus repository" />
     <MESSAGE value="S3 bucket updated for all because of new aws account" />
-    <option name="LAST_COMMIT_MESSAGE" value="S3 bucket updated for all because of new aws account" />
+    <MESSAGE value="terraform.groovy file is updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform.groovy file is updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
