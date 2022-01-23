@@ -1,109 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="user file updation for Nexus repository">
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/.terraform/modules/app-module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/.terraform/modules/modules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/app-module/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/.terraform/modules/modules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/app-module/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/.terraform/modules/modules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/app-module/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/.terraform/modules/modules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/app-module/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/.terraform/modules/modules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/app-module/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/.terraform/modules/modules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/vars.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="S3 bucket updated for all because of new aws account">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/dev-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/prod-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/prod-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/env/dev-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/env/prod-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/env/prod-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/env/dev-backend.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/env/prod-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/env/prod-backend.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart\terraform-mutable" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_mutable_commom_infra" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_LB" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\user" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\shipping" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\payment" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\dispatch" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\catalogue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -175,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00533" summary="json">
-      <created>1642739226991</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1642739226991</updated>
     </task>
     <task id="LOCAL-00534" summary="json">
       <created>1642739699479</created>
@@ -519,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642916051757</updated>
     </task>
-    <option name="localTasksCounter" value="582" />
+    <task id="LOCAL-00582" summary="S3 bucket updated for all because of new aws account">
+      <created>1642921008589</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1642921008589</updated>
+    </task>
+    <option name="localTasksCounter" value="583" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -568,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="sg file error modified" />
     <MESSAGE value="app-deploy file added" />
     <MESSAGE value="INVENTORY FILE UPDATED WITH GITTAGS" />
     <MESSAGE value="ansible pull command added" />
@@ -593,7 +491,8 @@
     <MESSAGE value="seed.groovy" />
     <MESSAGE value="nodejs.groovy file updated" />
     <MESSAGE value="user file updation for Nexus repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="user file updation for Nexus repository" />
+    <MESSAGE value="S3 bucket updated for all because of new aws account" />
+    <option name="LAST_COMMIT_MESSAGE" value="S3 bucket updated for all because of new aws account" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
