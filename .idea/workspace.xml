@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="access keys problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/env/dev-backend.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -75,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00544" summary="nexus repo filing">
-      <created>1642744009273</created>
-      <option name="number" value="00544" />
-      <option name="presentableId" value="LOCAL-00544" />
-      <option name="project" value="LOCAL" />
-      <updated>1642744009273</updated>
     </task>
     <task id="LOCAL-00545" summary="nexus repo filing">
       <created>1642744037258</created>
@@ -419,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642931627124</updated>
     </task>
-    <option name="localTasksCounter" value="593" />
+    <task id="LOCAL-00593" summary="access keys problem">
+      <created>1642932712444</created>
+      <option name="number" value="00593" />
+      <option name="presentableId" value="LOCAL-00593" />
+      <option name="project" value="LOCAL" />
+      <updated>1642932712444</updated>
+    </task>
+    <option name="localTasksCounter" value="594" />
     <servers />
   </component>
   <component name="UnknownFeatures">
