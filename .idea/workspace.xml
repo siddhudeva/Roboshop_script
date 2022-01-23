@@ -14,7 +14,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/user" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -72,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00531" summary="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file">
-      <created>1642738158989</created>
-      <option name="number" value="00531" />
-      <option name="presentableId" value="LOCAL-00531" />
-      <option name="project" value="LOCAL" />
-      <updated>1642738158989</updated>
     </task>
     <task id="LOCAL-00532" summary="json">
       <created>1642738628334</created>
@@ -416,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642915019643</updated>
     </task>
-    <option name="localTasksCounter" value="580" />
+    <task id="LOCAL-00580" summary="nodejs.groovy file updated">
+      <created>1642915529369</created>
+      <option name="number" value="00580" />
+      <option name="presentableId" value="LOCAL-00580" />
+      <option name="project" value="LOCAL" />
+      <updated>1642915529369</updated>
+    </task>
+    <option name="localTasksCounter" value="581" />
     <servers />
   </component>
   <component name="UnknownFeatures">
