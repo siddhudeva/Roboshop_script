@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Jenkins mutabale file updated">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="new s3 bucket is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/env/dev-backend.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/env/dev-backend.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_LB/Jenkins-alb-mutable" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/Jenkins-alb-mutable" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00561" summary="listner added and listener rule also added, using condition">
-      <created>1642769422613</created>
-      <option name="number" value="00561" />
-      <option name="presentableId" value="LOCAL-00561" />
-      <option name="project" value="LOCAL" />
-      <updated>1642769422613</updated>
-    </task>
-    <task id="LOCAL-00562" summary="variables added">
-      <created>1642770124177</created>
-      <option name="number" value="00562" />
-      <option name="presentableId" value="LOCAL-00562" />
-      <option name="project" value="LOCAL" />
-      <updated>1642770124177</updated>
     </task>
     <task id="LOCAL-00563" summary="variables added">
       <created>1642771772714</created>
@@ -419,7 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642990537405</updated>
     </task>
-    <option name="localTasksCounter" value="610" />
+    <task id="LOCAL-00610" summary="new s3 bucket is added">
+      <created>1642991766415</created>
+      <option name="number" value="00610" />
+      <option name="presentableId" value="LOCAL-00610" />
+      <option name="project" value="LOCAL" />
+      <updated>1642991766415</updated>
+    </task>
+    <task id="LOCAL-00611" summary="new s3 bucket is added">
+      <created>1642991904577</created>
+      <option name="number" value="00611" />
+      <option name="presentableId" value="LOCAL-00611" />
+      <option name="project" value="LOCAL" />
+      <updated>1642991904577</updated>
+    </task>
+    <option name="localTasksCounter" value="612" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="NEXUS account cridentials are added and locals specified (for command line variables)" />
     <MESSAGE value="vpc dns features added" />
     <MESSAGE value="app deploy configured" />
     <MESSAGE value="    app deploy configured" />
@@ -493,7 +492,8 @@
     <MESSAGE value="access keys problem" />
     <MESSAGE value="backend s3 file problem" />
     <MESSAGE value="Jenkins mutabale file updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins mutabale file updated" />
+    <MESSAGE value="new s3 bucket is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new s3 bucket is added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
