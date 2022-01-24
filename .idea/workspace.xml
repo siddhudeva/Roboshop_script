@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ROute53 file is added for mutable common infra file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="INSTANCES_NO (number of instances to be created is changed to 1)">
+      <change beforePath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/dev.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_LB" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00590" summary="access keys problem">
-      <created>1642929848477</created>
-      <option name="number" value="00590" />
-      <option name="presentableId" value="LOCAL-00590" />
-      <option name="project" value="LOCAL" />
-      <updated>1642929848477</updated>
     </task>
     <task id="LOCAL-00591" summary="access keys problem">
       <created>1642930767986</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643053425058</updated>
     </task>
-    <option name="localTasksCounter" value="639" />
+    <task id="LOCAL-00639" summary="INSTANCES_NO (number of instances to be created is changed to 1)">
+      <created>1643054549828</created>
+      <option name="number" value="00639" />
+      <option name="presentableId" value="LOCAL-00639" />
+      <option name="project" value="LOCAL" />
+      <updated>1643054549828</updated>
+    </task>
+    <option name="localTasksCounter" value="640" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -467,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="url edited with DNS name" />
     <MESSAGE value="for nodejs repository added" />
     <MESSAGE value="security group updated fot nodejs" />
     <MESSAGE value="nexus dns name updated" />
@@ -492,7 +491,8 @@
     <MESSAGE value="user  Pripority rule no updated" />
     <MESSAGE value="alb output file is updated" />
     <MESSAGE value="ROute53 file is added for mutable common infra file" />
-    <option name="LAST_COMMIT_MESSAGE" value="ROute53 file is added for mutable common infra file" />
+    <MESSAGE value="INSTANCES_NO (number of instances to be created is changed to 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="INSTANCES_NO (number of instances to be created is changed to 1)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
