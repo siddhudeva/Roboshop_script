@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="new s3 bucket is added" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ansible common/download.yml file is updated with new nexus public id">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/sg.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -72,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00567" summary="security group updated">
-      <created>1642788999000</created>
-      <option name="number" value="00567" />
-      <option name="presentableId" value="LOCAL-00567" />
-      <option name="project" value="LOCAL" />
-      <updated>1642788999000</updated>
     </task>
     <task id="LOCAL-00568" summary="seed.groovy">
       <created>1642906154960</created>
@@ -416,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643036726106</updated>
     </task>
-    <option name="localTasksCounter" value="616" />
+    <task id="LOCAL-00616" summary="ansible common/download.yml file is updated with new nexus public id">
+      <created>1643037507447</created>
+      <option name="number" value="00616" />
+      <option name="presentableId" value="LOCAL-00616" />
+      <option name="project" value="LOCAL" />
+      <updated>1643037507447</updated>
+    </task>
+    <option name="localTasksCounter" value="617" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -465,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="vpc dns features added" />
     <MESSAGE value="app deploy configured" />
     <MESSAGE value="    app deploy configured" />
     <MESSAGE value="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
@@ -490,7 +494,8 @@
     <MESSAGE value="backend s3 file problem" />
     <MESSAGE value="Jenkins mutabale file updated" />
     <MESSAGE value="new s3 bucket is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new s3 bucket is added" />
+    <MESSAGE value="ansible common/download.yml file is updated with new nexus public id" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible common/download.yml file is updated with new nexus public id" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
