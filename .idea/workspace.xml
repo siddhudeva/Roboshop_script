@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Jenkins files are updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="shipping Pripority rule no updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +14,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -72,27 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00578" summary="nodejs.groovy file updated">
-      <created>1642913841635</created>
-      <option name="number" value="00578" />
-      <option name="presentableId" value="LOCAL-00578" />
-      <option name="project" value="LOCAL" />
-      <updated>1642913841635</updated>
-    </task>
-    <task id="LOCAL-00579" summary="nodejs.groovy file updated">
-      <created>1642915019643</created>
-      <option name="number" value="00579" />
-      <option name="presentableId" value="LOCAL-00579" />
-      <option name="project" value="LOCAL" />
-      <updated>1642915019643</updated>
-    </task>
-    <task id="LOCAL-00580" summary="nodejs.groovy file updated">
-      <created>1642915529369</created>
-      <option name="number" value="00580" />
-      <option name="presentableId" value="LOCAL-00580" />
-      <option name="project" value="LOCAL" />
-      <updated>1642915529369</updated>
     </task>
     <task id="LOCAL-00581" summary="user file updation for Nexus repository">
       <created>1642916051757</created>
@@ -416,7 +395,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643048328961</updated>
     </task>
-    <option name="localTasksCounter" value="627" />
+    <task id="LOCAL-00627" summary="Jenkins files are updated">
+      <created>1643048748987</created>
+      <option name="number" value="00627" />
+      <option name="presentableId" value="LOCAL-00627" />
+      <option name="project" value="LOCAL" />
+      <updated>1643048748987</updated>
+    </task>
+    <task id="LOCAL-00628" summary="Jenkins files are updated">
+      <created>1643048825940</created>
+      <option name="number" value="00628" />
+      <option name="presentableId" value="LOCAL-00628" />
+      <option name="project" value="LOCAL" />
+      <updated>1643048825940</updated>
+    </task>
+    <task id="LOCAL-00629" summary="shipping Pripority rule no updated">
+      <created>1643048919235</created>
+      <option name="number" value="00629" />
+      <option name="presentableId" value="LOCAL-00629" />
+      <option name="project" value="LOCAL" />
+      <updated>1643048919235</updated>
+    </task>
+    <option name="localTasksCounter" value="630" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -465,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="nexus repo password variable typo error&#10;&#10;in app-deploy.tf file" />
     <MESSAGE value="json" />
     <MESSAGE value="app-deploy file" />
     <MESSAGE value="nexus repo filing" />
@@ -490,7 +489,8 @@
     <MESSAGE value="ansible common/download.yml file is updated with new nexus public id" />
     <MESSAGE value="catalogue file setup" />
     <MESSAGE value="Jenkins files are updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins files are updated" />
+    <MESSAGE value="shipping Pripority rule no updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="shipping Pripority rule no updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
