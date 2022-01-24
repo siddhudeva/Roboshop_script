@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="new s3 bucket is added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/vars.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,7 @@
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/user" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,13 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00565" summary="variables added">
-      <created>1642772368467</created>
-      <option name="number" value="00565" />
-      <option name="presentableId" value="LOCAL-00565" />
-      <option name="project" value="LOCAL" />
-      <updated>1642772368467</updated>
     </task>
     <task id="LOCAL-00566" summary="security group updated">
       <created>1642788774657</created>
@@ -418,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643024544470</updated>
     </task>
-    <option name="localTasksCounter" value="614" />
+    <task id="LOCAL-00614" summary="new s3 bucket is added">
+      <created>1643025523745</created>
+      <option name="number" value="00614" />
+      <option name="presentableId" value="LOCAL-00614" />
+      <option name="project" value="LOCAL" />
+      <updated>1643025523745</updated>
+    </task>
+    <option name="localTasksCounter" value="615" />
     <servers />
   </component>
   <component name="UnknownFeatures">
