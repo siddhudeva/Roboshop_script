@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ROute53 file is added for mutable common infra file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,27 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00587" summary="terraform.groovy file is updated">
-      <created>1642923686140</created>
-      <option name="number" value="00587" />
-      <option name="presentableId" value="LOCAL-00587" />
-      <option name="project" value="LOCAL" />
-      <updated>1642923686140</updated>
-    </task>
-    <task id="LOCAL-00588" summary="access keys problem">
-      <created>1642924349439</created>
-      <option name="number" value="00588" />
-      <option name="presentableId" value="LOCAL-00588" />
-      <option name="project" value="LOCAL" />
-      <updated>1642924349439</updated>
-    </task>
-    <task id="LOCAL-00589" summary="access keys problem">
-      <created>1642924416614</created>
-      <option name="number" value="00589" />
-      <option name="presentableId" value="LOCAL-00589" />
-      <option name="project" value="LOCAL" />
-      <updated>1642924416614</updated>
     </task>
     <task id="LOCAL-00590" summary="access keys problem">
       <created>1642929848477</created>
@@ -419,7 +397,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643052446887</updated>
     </task>
-    <option name="localTasksCounter" value="636" />
+    <task id="LOCAL-00636" summary="ROute53 file is added for mutable common infra file">
+      <created>1643053194121</created>
+      <option name="number" value="00636" />
+      <option name="presentableId" value="LOCAL-00636" />
+      <option name="project" value="LOCAL" />
+      <updated>1643053194121</updated>
+    </task>
+    <task id="LOCAL-00637" summary="ROute53 file is added for mutable common infra file">
+      <created>1643053405480</created>
+      <option name="number" value="00637" />
+      <option name="presentableId" value="LOCAL-00637" />
+      <option name="project" value="LOCAL" />
+      <updated>1643053405480</updated>
+    </task>
+    <task id="LOCAL-00638" summary="ROute53 file is added for mutable common infra file">
+      <created>1643053425058</created>
+      <option name="number" value="00638" />
+      <option name="presentableId" value="LOCAL-00638" />
+      <option name="project" value="LOCAL" />
+      <updated>1643053425058</updated>
+    </task>
+    <option name="localTasksCounter" value="639" />
     <servers />
   </component>
   <component name="UnknownFeatures">
