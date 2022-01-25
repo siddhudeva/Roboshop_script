@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rds which is mysql database is updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_databases/rds-sg.tf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform_databases/rds.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/rds.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,20 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00616" summary="ansible common/download.yml file is updated with new nexus public id">
-      <created>1643037507447</created>
-      <option name="number" value="00616" />
-      <option name="presentableId" value="LOCAL-00616" />
-      <option name="project" value="LOCAL" />
-      <updated>1643037507447</updated>
-    </task>
-    <task id="LOCAL-00617" summary="catalogue file setup">
-      <created>1643039014485</created>
-      <option name="number" value="00617" />
-      <option name="presentableId" value="LOCAL-00617" />
-      <option name="project" value="LOCAL" />
-      <updated>1643039014485</updated>
     </task>
     <task id="LOCAL-00618" summary="catalogue file setup">
       <created>1643039252883</created>
@@ -418,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643128565003</updated>
     </task>
-    <option name="localTasksCounter" value="665" />
+    <task id="LOCAL-00665" summary="rds which is mysql database is updated">
+      <created>1643128810724</created>
+      <option name="number" value="00665" />
+      <option name="presentableId" value="LOCAL-00665" />
+      <option name="project" value="LOCAL" />
+      <updated>1643128810724</updated>
+    </task>
+    <task id="LOCAL-00666" summary="rds which is mysql database is updated">
+      <created>1643128965467</created>
+      <option name="number" value="00666" />
+      <option name="presentableId" value="LOCAL-00666" />
+      <option name="project" value="LOCAL" />
+      <updated>1643128965467</updated>
+    </task>
+    <option name="localTasksCounter" value="667" />
     <servers />
   </component>
   <component name="UnknownFeatures">
