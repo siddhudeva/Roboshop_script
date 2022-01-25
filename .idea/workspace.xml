@@ -75,20 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00611" summary="new s3 bucket is added">
-      <created>1642991904577</created>
-      <option name="number" value="00611" />
-      <option name="presentableId" value="LOCAL-00611" />
-      <option name="project" value="LOCAL" />
-      <updated>1642991904577</updated>
-    </task>
-    <task id="LOCAL-00612" summary="new s3 bucket is added">
-      <created>1642993303927</created>
-      <option name="number" value="00612" />
-      <option name="presentableId" value="LOCAL-00612" />
-      <option name="project" value="LOCAL" />
-      <updated>1642993303927</updated>
-    </task>
     <task id="LOCAL-00613" summary="new s3 bucket is added">
       <created>1643024544470</created>
       <option name="number" value="00613" />
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643119213999</updated>
     </task>
-    <option name="localTasksCounter" value="660" />
+    <task id="LOCAL-00660" summary="redis database is updated with error">
+      <created>1643119282279</created>
+      <option name="number" value="00660" />
+      <option name="presentableId" value="LOCAL-00660" />
+      <option name="project" value="LOCAL" />
+      <updated>1643119282279</updated>
+    </task>
+    <task id="LOCAL-00661" summary="redis database is updated with error">
+      <created>1643119565996</created>
+      <option name="number" value="00661" />
+      <option name="presentableId" value="LOCAL-00661" />
+      <option name="project" value="LOCAL" />
+      <updated>1643119565996</updated>
+    </task>
+    <option name="localTasksCounter" value="662" />
     <servers />
   </component>
   <component name="UnknownFeatures">
