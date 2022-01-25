@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform.groovy file is updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="tags added to ec2 instances">
+      <change afterPath="$PROJECT_DIR$/terraform_databases/redis.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/otputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/otputs.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00601" summary="backend s3 file problem">
-      <created>1642948256662</created>
-      <option name="number" value="00601" />
-      <option name="presentableId" value="LOCAL-00601" />
-      <option name="project" value="LOCAL" />
-      <updated>1642948256662</updated>
     </task>
     <task id="LOCAL-00602" summary="backend s3 file problem">
       <created>1642948974191</created>
@@ -416,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643110429694</updated>
     </task>
-    <option name="localTasksCounter" value="650" />
+    <task id="LOCAL-00650" summary="tags added to ec2 instances">
+      <created>1643110549710</created>
+      <option name="number" value="00650" />
+      <option name="presentableId" value="LOCAL-00650" />
+      <option name="project" value="LOCAL" />
+      <updated>1643110549710</updated>
+    </task>
+    <option name="localTasksCounter" value="651" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -465,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="nexus dns name updated" />
     <MESSAGE value="added load balancer listener for private" />
     <MESSAGE value="listner added and listener rule also added, using condition" />
     <MESSAGE value="variables added" />
@@ -490,7 +493,8 @@
     <MESSAGE value="nexus link updated" />
     <MESSAGE value="VPC - Terraform databases added rabbitmq and mongodb" />
     <MESSAGE value="terraform.groovy file is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="terraform.groovy file is updated" />
+    <MESSAGE value="tags added to ec2 instances" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags added to ec2 instances" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
