@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="VPC - Terraform databases added rabbitmq and mongodb" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="VPC - Terraform databases added rabbitmq and mongodb">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_databases" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -72,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00595" summary="access keys problem">
-      <created>1642947031549</created>
-      <option name="number" value="00595" />
-      <option name="presentableId" value="LOCAL-00595" />
-      <option name="project" value="LOCAL" />
-      <updated>1642947031549</updated>
     </task>
     <task id="LOCAL-00596" summary="backend s3 file problem">
       <created>1642947290811</created>
@@ -416,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643107772307</updated>
     </task>
-    <option name="localTasksCounter" value="644" />
+    <task id="LOCAL-00644" summary="VPC - Terraform databases added rabbitmq and mongodb">
+      <created>1643108697650</created>
+      <option name="number" value="00644" />
+      <option name="presentableId" value="LOCAL-00644" />
+      <option name="project" value="LOCAL" />
+      <updated>1643108697650</updated>
+    </task>
+    <option name="localTasksCounter" value="645" />
     <servers />
   </component>
   <component name="UnknownFeatures">
