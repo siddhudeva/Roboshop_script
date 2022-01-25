@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="redis database is added" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="redis database is updated with error">
+      <change beforePath="$PROJECT_DIR$/terraform_databases/redis.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/redis.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00603" summary="backend s3 file problem">
-      <created>1642957021571</created>
-      <option name="number" value="00603" />
-      <option name="presentableId" value="LOCAL-00603" />
-      <option name="project" value="LOCAL" />
-      <updated>1642957021571</updated>
     </task>
     <task id="LOCAL-00604" summary="backend s3 file problem">
       <created>1642957050807</created>
@@ -416,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643117827894</updated>
     </task>
-    <option name="localTasksCounter" value="652" />
+    <task id="LOCAL-00652" summary="redis database is updated with error">
+      <created>1643118104732</created>
+      <option name="number" value="00652" />
+      <option name="presentableId" value="LOCAL-00652" />
+      <option name="project" value="LOCAL" />
+      <updated>1643118104732</updated>
+    </task>
+    <option name="localTasksCounter" value="653" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -465,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="listner added and listener rule also added, using condition" />
     <MESSAGE value="variables added" />
     <MESSAGE value="security group updated" />
     <MESSAGE value="seed.groovy" />
@@ -490,7 +491,8 @@
     <MESSAGE value="terraform.groovy file is updated" />
     <MESSAGE value="tags added to ec2 instances" />
     <MESSAGE value="redis database is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis database is added" />
+    <MESSAGE value="redis database is updated with error" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis database is updated with error" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
