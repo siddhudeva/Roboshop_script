@@ -18,6 +18,7 @@
     <mapping directory="$PROJECT_DIR$/terraform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/terraform-vpc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/terraform_LB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/terraform_databases" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/terraform_mutable_commom_infra" vcs="Git" />
   </component>
 </project>

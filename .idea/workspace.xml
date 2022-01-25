@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="INSTANCES_NO (number of instances to be created is changed to 1)" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nexus link updated">
+      <change afterPath="$PROJECT_DIR$/terraform_databases/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/.idea/terraform_databases.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/common.auto.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/env/dev-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/env/dev.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/env/prod-backend.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/env/prod.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/route53.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/vars.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/mongodb.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/otputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/rabbitmq.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/route-tables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_databases/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/gateway.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/gateway.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/peer.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/peer.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +43,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/catalogue" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -48,16 +77,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Roboshop/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform_databases" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_databases" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\user" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\shipping" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\payment" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\dispatch" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\catalogue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
@@ -72,13 +101,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00593" summary="access keys problem">
-      <created>1642932712444</created>
-      <option name="number" value="00593" />
-      <option name="presentableId" value="LOCAL-00593" />
-      <option name="project" value="LOCAL" />
-      <updated>1642932712444</updated>
     </task>
     <task id="LOCAL-00594" summary="access keys problem">
       <created>1642946685837</created>
@@ -416,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643054838370</updated>
     </task>
-    <option name="localTasksCounter" value="642" />
+    <task id="LOCAL-00642" summary="nexus link updated">
+      <created>1643055192633</created>
+      <option name="number" value="00642" />
+      <option name="presentableId" value="LOCAL-00642" />
+      <option name="project" value="LOCAL" />
+      <updated>1643055192633</updated>
+    </task>
+    <option name="localTasksCounter" value="643" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -465,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="for nodejs repository added" />
     <MESSAGE value="security group updated fot nodejs" />
     <MESSAGE value="nexus dns name updated" />
     <MESSAGE value="added load balancer listener for private" />
@@ -490,7 +518,8 @@
     <MESSAGE value="alb output file is updated" />
     <MESSAGE value="ROute53 file is added for mutable common infra file" />
     <MESSAGE value="INSTANCES_NO (number of instances to be created is changed to 1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="INSTANCES_NO (number of instances to be created is changed to 1)" />
+    <MESSAGE value="nexus link updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="nexus link updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
