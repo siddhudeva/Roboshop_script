@@ -75,27 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00605" summary="Jenkins mutabale file updated">
-      <created>1642958674658</created>
-      <option name="number" value="00605" />
-      <option name="presentableId" value="LOCAL-00605" />
-      <option name="project" value="LOCAL" />
-      <updated>1642958674658</updated>
-    </task>
-    <task id="LOCAL-00606" summary="Jenkins mutabale file updated">
-      <created>1642958872323</created>
-      <option name="number" value="00606" />
-      <option name="presentableId" value="LOCAL-00606" />
-      <option name="project" value="LOCAL" />
-      <updated>1642958872323</updated>
-    </task>
-    <task id="LOCAL-00607" summary="Jenkins mutabale file updated">
-      <created>1642959129377</created>
-      <option name="number" value="00607" />
-      <option name="presentableId" value="LOCAL-00607" />
-      <option name="project" value="LOCAL" />
-      <updated>1642959129377</updated>
-    </task>
     <task id="LOCAL-00608" summary="Jenkins mutabale file updated">
       <created>1642990455834</created>
       <option name="number" value="00608" />
@@ -418,7 +397,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643118239439</updated>
     </task>
-    <option name="localTasksCounter" value="654" />
+    <task id="LOCAL-00654" summary="redis database is updated with error">
+      <created>1643118602760</created>
+      <option name="number" value="00654" />
+      <option name="presentableId" value="LOCAL-00654" />
+      <option name="project" value="LOCAL" />
+      <updated>1643118602760</updated>
+    </task>
+    <task id="LOCAL-00655" summary="redis database is updated with error">
+      <created>1643118776076</created>
+      <option name="number" value="00655" />
+      <option name="presentableId" value="LOCAL-00655" />
+      <option name="project" value="LOCAL" />
+      <updated>1643118776076</updated>
+    </task>
+    <task id="LOCAL-00656" summary="redis database is updated with error">
+      <created>1643118858589</created>
+      <option name="number" value="00656" />
+      <option name="presentableId" value="LOCAL-00656" />
+      <option name="project" value="LOCAL" />
+      <updated>1643118858589</updated>
+    </task>
+    <option name="localTasksCounter" value="657" />
     <servers />
   </component>
   <component name="UnknownFeatures">
