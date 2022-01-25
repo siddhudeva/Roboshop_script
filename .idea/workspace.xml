@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="rds which is mysql database is updated">
-      <change beforePath="$PROJECT_DIR$/terraform_databases/rds.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/rds.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00622" summary="catalogue file setup">
-      <created>1643044606276</created>
-      <option name="number" value="00622" />
-      <option name="presentableId" value="LOCAL-00622" />
-      <option name="project" value="LOCAL" />
-      <updated>1643044606276</updated>
     </task>
     <task id="LOCAL-00623" summary="catalogue file setup">
       <created>1643044863448</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643131169577</updated>
     </task>
-    <option name="localTasksCounter" value="671" />
+    <task id="LOCAL-00671" summary="rds which is mysql database is updated">
+      <created>1643131314012</created>
+      <option name="number" value="00671" />
+      <option name="presentableId" value="LOCAL-00671" />
+      <option name="project" value="LOCAL" />
+      <updated>1643131314012</updated>
+    </task>
+    <option name="localTasksCounter" value="672" />
     <servers />
   </component>
   <component name="UnknownFeatures">
