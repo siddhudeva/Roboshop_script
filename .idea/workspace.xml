@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform.groovy file is updated">
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform.groovy file is updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,20 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00599" summary="backend s3 file problem">
-      <created>1642948054796</created>
-      <option name="number" value="00599" />
-      <option name="presentableId" value="LOCAL-00599" />
-      <option name="project" value="LOCAL" />
-      <updated>1642948054796</updated>
-    </task>
-    <task id="LOCAL-00600" summary="backend s3 file problem">
-      <created>1642948148683</created>
-      <option name="number" value="00600" />
-      <option name="presentableId" value="LOCAL-00600" />
-      <option name="project" value="LOCAL" />
-      <updated>1642948148683</updated>
     </task>
     <task id="LOCAL-00601" summary="backend s3 file problem">
       <created>1642948256662</created>
@@ -418,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643109635262</updated>
     </task>
-    <option name="localTasksCounter" value="648" />
+    <task id="LOCAL-00648" summary="terraform.groovy file is updated">
+      <created>1643110354355</created>
+      <option name="number" value="00648" />
+      <option name="presentableId" value="LOCAL-00648" />
+      <option name="project" value="LOCAL" />
+      <updated>1643110354355</updated>
+    </task>
+    <task id="LOCAL-00649" summary="terraform.groovy file is updated">
+      <created>1643110429694</created>
+      <option name="number" value="00649" />
+      <option name="presentableId" value="LOCAL-00649" />
+      <option name="project" value="LOCAL" />
+      <updated>1643110429694</updated>
+    </task>
+    <option name="localTasksCounter" value="650" />
     <servers />
   </component>
   <component name="UnknownFeatures">
