@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform.groovy file updated">
-      <change afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/seed.groovy" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus">
+      <change afterPath="$PROJECT_DIR$/Jenkins/Jenkins_All_Mutable_distroy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00641" summary="INSTANCES_NO (number of instances to be created is changed to 1)">
-      <created>1643054838370</created>
-      <option name="number" value="00641" />
-      <option name="presentableId" value="LOCAL-00641" />
-      <option name="project" value="LOCAL" />
-      <updated>1643054838370</updated>
     </task>
     <task id="LOCAL-00642" summary="nexus link updated">
       <created>1643055192633</created>
@@ -420,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643177848251</updated>
     </task>
-    <option name="localTasksCounter" value="690" />
+    <task id="LOCAL-00690" summary="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus">
+      <created>1643200294075</created>
+      <option name="number" value="00690" />
+      <option name="presentableId" value="LOCAL-00690" />
+      <option name="project" value="LOCAL" />
+      <updated>1643200294075</updated>
+    </task>
+    <option name="localTasksCounter" value="691" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,8 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="S3 bucket updated for all because of new aws account" />
-    <MESSAGE value="access keys problem" />
     <MESSAGE value="backend s3 file problem" />
     <MESSAGE value="Jenkins mutabale file updated" />
     <MESSAGE value="new s3 bucket is added" />
@@ -497,7 +493,9 @@
     <MESSAGE value="Mutable/VPC file is updated" />
     <MESSAGE value="vpc file updted" />
     <MESSAGE value="terraform.groovy file updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="terraform.groovy file updated" />
+    <MESSAGE value="Mutable infrastructure all in one file updated" />
+    <MESSAGE value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
