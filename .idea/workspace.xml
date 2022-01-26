@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus">
-      <change afterPath="$PROJECT_DIR$/Jenkins/Jenkins_All_Mutable_distroy" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins all distroy file is created and seed job also updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00642" summary="nexus link updated">
-      <created>1643055192633</created>
-      <option name="number" value="00642" />
-      <option name="presentableId" value="LOCAL-00642" />
-      <option name="project" value="LOCAL" />
-      <updated>1643055192633</updated>
     </task>
     <task id="LOCAL-00643" summary="VPC - Terraform databases added rabbitmq and mongodb">
       <created>1643107772307</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643200294075</updated>
     </task>
-    <option name="localTasksCounter" value="691" />
+    <task id="LOCAL-00691" summary="jenkins all distroy file is created and seed job also updated">
+      <created>1643200847969</created>
+      <option name="number" value="00691" />
+      <option name="presentableId" value="LOCAL-00691" />
+      <option name="project" value="LOCAL" />
+      <updated>1643200847969</updated>
+    </task>
+    <option name="localTasksCounter" value="692" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="backend s3 file problem" />
     <MESSAGE value="Jenkins mutabale file updated" />
     <MESSAGE value="new s3 bucket is added" />
     <MESSAGE value="ansible common/download.yml file is updated with new nexus public id" />
@@ -495,7 +494,8 @@
     <MESSAGE value="terraform.groovy file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
+    <MESSAGE value="jenkins all distroy file is created and seed job also updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins all distroy file is created and seed job also updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
