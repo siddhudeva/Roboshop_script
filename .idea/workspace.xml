@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="vpc file updted">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="terraform.groovy file updated">
       <change beforePath="$PROJECT_DIR$/Jenkins/vars/terraform.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/vars/terraform.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00639" summary="INSTANCES_NO (number of instances to be created is changed to 1)">
-      <created>1643054549828</created>
-      <option name="number" value="00639" />
-      <option name="presentableId" value="LOCAL-00639" />
-      <option name="project" value="LOCAL" />
-      <updated>1643054549828</updated>
     </task>
     <task id="LOCAL-00640" summary="INSTANCES_NO (number of instances to be created is changed to 1)">
       <created>1643054770763</created>
@@ -419,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643170744193</updated>
     </task>
-    <option name="localTasksCounter" value="688" />
+    <task id="LOCAL-00688" summary="terraform.groovy file updated">
+      <created>1643177519122</created>
+      <option name="number" value="00688" />
+      <option name="presentableId" value="LOCAL-00688" />
+      <option name="project" value="LOCAL" />
+      <updated>1643177519122</updated>
+    </task>
+    <option name="localTasksCounter" value="689" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -471,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="user file updation for Nexus repository" />
     <MESSAGE value="S3 bucket updated for all because of new aws account" />
     <MESSAGE value="access keys problem" />
     <MESSAGE value="backend s3 file problem" />
@@ -496,7 +494,8 @@
     <MESSAGE value="jenkins file updated for Loadbalancer&#10;post function added" />
     <MESSAGE value="Mutable/VPC file is updated" />
     <MESSAGE value="vpc file updted" />
-    <option name="LAST_COMMIT_MESSAGE" value="vpc file updted" />
+    <MESSAGE value="terraform.groovy file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="terraform.groovy file updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
