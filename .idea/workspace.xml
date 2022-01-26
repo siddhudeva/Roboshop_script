@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="seed file git url is problem">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation is error fix1">
+      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00645" summary="VPC - Terraform databases added rabbitmq and mongodb">
-      <created>1643109105315</created>
-      <option name="number" value="00645" />
-      <option name="presentableId" value="LOCAL-00645" />
-      <option name="project" value="LOCAL" />
-      <updated>1643109105315</updated>
     </task>
     <task id="LOCAL-00646" summary="terraform.groovy file is updated">
       <created>1643109481945</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643217200027</updated>
     </task>
-    <option name="localTasksCounter" value="694" />
+    <task id="LOCAL-00694" summary="mutable infra creation is error fix1">
+      <created>1643218038041</created>
+      <option name="number" value="00694" />
+      <option name="presentableId" value="LOCAL-00694" />
+      <option name="project" value="LOCAL" />
+      <updated>1643218038041</updated>
+    </task>
+    <option name="localTasksCounter" value="695" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="new s3 bucket is added" />
     <MESSAGE value="ansible common/download.yml file is updated with new nexus public id" />
     <MESSAGE value="catalogue file setup" />
     <MESSAGE value="Jenkins files are updated" />
@@ -495,7 +494,8 @@
     <MESSAGE value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
     <MESSAGE value="jenkins all distroy file is created and seed job also updated" />
     <MESSAGE value="seed file git url is problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="seed file git url is problem" />
+    <MESSAGE value="mutable infra creation is error fix1" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation is error fix1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
