@@ -75,13 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00631" summary="user  Pripority rule no updated">
-      <created>1643050244382</created>
-      <option name="number" value="00631" />
-      <option name="presentableId" value="LOCAL-00631" />
-      <option name="project" value="LOCAL" />
-      <updated>1643050244382</updated>
-    </task>
     <task id="LOCAL-00632" summary="user  Pripority rule no updated">
       <created>1643051417345</created>
       <option name="number" value="00632" />
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643166639095</updated>
     </task>
-    <option name="localTasksCounter" value="680" />
+    <task id="LOCAL-00680" summary="jenkins file updated for Loadbalancer&#10;post function added">
+      <created>1643167158551</created>
+      <option name="number" value="00680" />
+      <option name="presentableId" value="LOCAL-00680" />
+      <option name="project" value="LOCAL" />
+      <updated>1643167158551</updated>
+    </task>
+    <option name="localTasksCounter" value="681" />
     <servers />
   </component>
   <component name="UnknownFeatures">
