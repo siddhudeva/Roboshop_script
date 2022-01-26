@@ -75,20 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00649" summary="terraform.groovy file is updated">
-      <created>1643110429694</created>
-      <option name="number" value="00649" />
-      <option name="presentableId" value="LOCAL-00649" />
-      <option name="project" value="LOCAL" />
-      <updated>1643110429694</updated>
-    </task>
-    <task id="LOCAL-00650" summary="tags added to ec2 instances">
-      <created>1643110549710</created>
-      <option name="number" value="00650" />
-      <option name="presentableId" value="LOCAL-00650" />
-      <option name="project" value="LOCAL" />
-      <updated>1643110549710</updated>
-    </task>
     <task id="LOCAL-00651" summary="redis database is added">
       <created>1643117827894</created>
       <option name="number" value="00651" />
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643219307039</updated>
     </task>
-    <option name="localTasksCounter" value="698" />
+    <task id="LOCAL-00698" summary="mutable infra creation is error fix3">
+      <created>1643240655821</created>
+      <option name="number" value="00698" />
+      <option name="presentableId" value="LOCAL-00698" />
+      <option name="project" value="LOCAL" />
+      <updated>1643240655821</updated>
+    </task>
+    <task id="LOCAL-00699" summary="mutable infra creation is error fix3">
+      <created>1643240936802</created>
+      <option name="number" value="00699" />
+      <option name="presentableId" value="LOCAL-00699" />
+      <option name="project" value="LOCAL" />
+      <updated>1643240936802</updated>
+    </task>
+    <option name="localTasksCounter" value="700" />
     <servers />
   </component>
   <component name="UnknownFeatures">
