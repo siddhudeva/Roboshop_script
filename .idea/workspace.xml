@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation is error fix2">
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation is error fix3">
+      <change beforePath="$PROJECT_DIR$/terraform-vpc/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform-vpc" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00648" summary="terraform.groovy file is updated">
-      <created>1643110354355</created>
-      <option name="number" value="00648" />
-      <option name="presentableId" value="LOCAL-00648" />
-      <option name="project" value="LOCAL" />
-      <updated>1643110354355</updated>
     </task>
     <task id="LOCAL-00649" summary="terraform.groovy file is updated">
       <created>1643110429694</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643218883198</updated>
     </task>
-    <option name="localTasksCounter" value="697" />
+    <task id="LOCAL-00697" summary="mutable infra creation is error fix3">
+      <created>1643219307039</created>
+      <option name="number" value="00697" />
+      <option name="presentableId" value="LOCAL-00697" />
+      <option name="project" value="LOCAL" />
+      <updated>1643219307039</updated>
+    </task>
+    <option name="localTasksCounter" value="698" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="catalogue file setup" />
     <MESSAGE value="Jenkins files are updated" />
     <MESSAGE value="shipping Pripority rule no updated" />
     <MESSAGE value="catalogue  Pripority rule no updated" />
@@ -495,7 +494,8 @@
     <MESSAGE value="seed file git url is problem" />
     <MESSAGE value="mutable infra creation is error fix1" />
     <MESSAGE value="mutable infra creation is error fix2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation is error fix2" />
+    <MESSAGE value="mutable infra creation is error fix3" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation is error fix3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
