@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation is error fix1">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation is error fix2">
       <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00646" summary="terraform.groovy file is updated">
-      <created>1643109481945</created>
-      <option name="number" value="00646" />
-      <option name="presentableId" value="LOCAL-00646" />
-      <option name="project" value="LOCAL" />
-      <updated>1643109481945</updated>
-    </task>
-    <task id="LOCAL-00647" summary="terraform.groovy file is updated">
-      <created>1643109635262</created>
-      <option name="number" value="00647" />
-      <option name="presentableId" value="LOCAL-00647" />
-      <option name="project" value="LOCAL" />
-      <updated>1643109635262</updated>
     </task>
     <task id="LOCAL-00648" summary="terraform.groovy file is updated">
       <created>1643110354355</created>
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643218038041</updated>
     </task>
-    <option name="localTasksCounter" value="695" />
+    <task id="LOCAL-00695" summary="mutable infra creation is error fix1">
+      <created>1643218637699</created>
+      <option name="number" value="00695" />
+      <option name="presentableId" value="LOCAL-00695" />
+      <option name="project" value="LOCAL" />
+      <updated>1643218637699</updated>
+    </task>
+    <task id="LOCAL-00696" summary="mutable infra creation is error fix2">
+      <created>1643218883198</created>
+      <option name="number" value="00696" />
+      <option name="presentableId" value="LOCAL-00696" />
+      <option name="project" value="LOCAL" />
+      <updated>1643218883198</updated>
+    </task>
+    <option name="localTasksCounter" value="697" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="ansible common/download.yml file is updated with new nexus public id" />
     <MESSAGE value="catalogue file setup" />
     <MESSAGE value="Jenkins files are updated" />
     <MESSAGE value="shipping Pripority rule no updated" />
@@ -495,7 +494,8 @@
     <MESSAGE value="jenkins all distroy file is created and seed job also updated" />
     <MESSAGE value="seed file git url is problem" />
     <MESSAGE value="mutable infra creation is error fix1" />
-    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation is error fix1" />
+    <MESSAGE value="mutable infra creation is error fix2" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation is error fix2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
