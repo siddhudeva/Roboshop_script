@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins all distroy file is created and seed job also updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="seed file git url is problem">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00644" summary="VPC - Terraform databases added rabbitmq and mongodb">
-      <created>1643108697650</created>
-      <option name="number" value="00644" />
-      <option name="presentableId" value="LOCAL-00644" />
-      <option name="project" value="LOCAL" />
-      <updated>1643108697650</updated>
     </task>
     <task id="LOCAL-00645" summary="VPC - Terraform databases added rabbitmq and mongodb">
       <created>1643109105315</created>
@@ -416,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643215533911</updated>
     </task>
-    <option name="localTasksCounter" value="693" />
+    <task id="LOCAL-00693" summary="seed file git url is problem">
+      <created>1643217200027</created>
+      <option name="number" value="00693" />
+      <option name="presentableId" value="LOCAL-00693" />
+      <option name="project" value="LOCAL" />
+      <updated>1643217200027</updated>
+    </task>
+    <option name="localTasksCounter" value="694" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Jenkins mutabale file updated" />
     <MESSAGE value="new s3 bucket is added" />
     <MESSAGE value="ansible common/download.yml file is updated with new nexus public id" />
     <MESSAGE value="catalogue file setup" />
@@ -493,7 +494,8 @@
     <MESSAGE value="Mutable infrastructure all in one file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
     <MESSAGE value="jenkins all distroy file is created and seed job also updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkins all distroy file is created and seed job also updated" />
+    <MESSAGE value="seed file git url is problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="seed file git url is problem" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
