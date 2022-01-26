@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Mutable/VPC file is updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="vpc file updted">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins/vars/terraform.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/vars/terraform.groovy" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00636" summary="ROute53 file is added for mutable common infra file">
-      <created>1643053194121</created>
-      <option name="number" value="00636" />
-      <option name="presentableId" value="LOCAL-00636" />
-      <option name="project" value="LOCAL" />
-      <updated>1643053194121</updated>
     </task>
     <task id="LOCAL-00637" summary="ROute53 file is added for mutable common infra file">
       <created>1643053405480</created>
@@ -416,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643169259621</updated>
     </task>
-    <option name="localTasksCounter" value="685" />
+    <task id="LOCAL-00685" summary="vpc file updted">
+      <created>1643169635564</created>
+      <option name="number" value="00685" />
+      <option name="presentableId" value="LOCAL-00685" />
+      <option name="project" value="LOCAL" />
+      <updated>1643169635564</updated>
+    </task>
+    <option name="localTasksCounter" value="686" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +471,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="nodejs.groovy file updated" />
     <MESSAGE value="user file updation for Nexus repository" />
     <MESSAGE value="S3 bucket updated for all because of new aws account" />
     <MESSAGE value="access keys problem" />
@@ -493,7 +495,8 @@
     <MESSAGE value="rds which is mysql database is updated" />
     <MESSAGE value="jenkins file updated for Loadbalancer&#10;post function added" />
     <MESSAGE value="Mutable/VPC file is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mutable/VPC file is updated" />
+    <MESSAGE value="vpc file updted" />
+    <option name="LAST_COMMIT_MESSAGE" value="vpc file updted" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
