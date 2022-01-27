@@ -75,13 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00652" summary="redis database is updated with error">
-      <created>1643118104732</created>
-      <option name="number" value="00652" />
-      <option name="presentableId" value="LOCAL-00652" />
-      <option name="project" value="LOCAL" />
-      <updated>1643118104732</updated>
-    </task>
     <task id="LOCAL-00653" summary="redis database is updated with error">
       <created>1643118239439</created>
       <option name="number" value="00653" />
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643240998745</updated>
     </task>
-    <option name="localTasksCounter" value="701" />
+    <task id="LOCAL-00701" summary="mutable infra creation is error fix3">
+      <created>1643241786070</created>
+      <option name="number" value="00701" />
+      <option name="presentableId" value="LOCAL-00701" />
+      <option name="project" value="LOCAL" />
+      <updated>1643241786070</updated>
+    </task>
+    <option name="localTasksCounter" value="702" />
     <servers />
   </component>
   <component name="UnknownFeatures">
