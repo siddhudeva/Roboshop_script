@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation= error fix6&#10;added replace provider" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation= error fix6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00661" summary="redis database is updated with error">
-      <created>1643119565996</created>
-      <option name="number" value="00661" />
-      <option name="presentableId" value="LOCAL-00661" />
-      <option name="project" value="LOCAL" />
-      <updated>1643119565996</updated>
     </task>
     <task id="LOCAL-00662" summary="redis database is updated with error">
       <created>1643120318699</created>
@@ -416,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643346250336</updated>
     </task>
-    <option name="localTasksCounter" value="710" />
+    <task id="LOCAL-00710" summary="mutable infra creation= error fix6">
+      <created>1643346363427</created>
+      <option name="number" value="00710" />
+      <option name="presentableId" value="LOCAL-00710" />
+      <option name="project" value="LOCAL" />
+      <updated>1643346363427</updated>
+    </task>
+    <option name="localTasksCounter" value="711" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -468,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="alb output file is updated" />
     <MESSAGE value="ROute53 file is added for mutable common infra file" />
     <MESSAGE value="INSTANCES_NO (number of instances to be created is changed to 1)" />
     <MESSAGE value="nexus link updated" />
@@ -493,7 +494,8 @@
     <MESSAGE value="mutable infra creation is error fix5" />
     <MESSAGE value="mutable infra creation= error fix5" />
     <MESSAGE value="mutable infra creation= error fix6&#10;added replace provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation= error fix6&#10;added replace provider" />
+    <MESSAGE value="mutable infra creation= error fix6" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation= error fix6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
