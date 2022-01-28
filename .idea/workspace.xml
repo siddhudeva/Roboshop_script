@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation is error fix5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="mutable infra creation= error fix6&#10;added replace provider" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,20 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00659" summary="redis database is updated with error">
-      <created>1643119213999</created>
-      <option name="number" value="00659" />
-      <option name="presentableId" value="LOCAL-00659" />
-      <option name="project" value="LOCAL" />
-      <updated>1643119213999</updated>
-    </task>
-    <task id="LOCAL-00660" summary="redis database is updated with error">
-      <created>1643119282279</created>
-      <option name="number" value="00660" />
-      <option name="presentableId" value="LOCAL-00660" />
-      <option name="project" value="LOCAL" />
-      <updated>1643119282279</updated>
     </task>
     <task id="LOCAL-00661" summary="redis database is updated with error">
       <created>1643119565996</created>
@@ -419,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643344203910</updated>
     </task>
-    <option name="localTasksCounter" value="708" />
+    <task id="LOCAL-00708" summary="mutable infra creation= error fix5">
+      <created>1643346039348</created>
+      <option name="number" value="00708" />
+      <option name="presentableId" value="LOCAL-00708" />
+      <option name="project" value="LOCAL" />
+      <updated>1643346039348</updated>
+    </task>
+    <task id="LOCAL-00709" summary="mutable infra creation= error fix6&#10;added replace provider">
+      <created>1643346250336</created>
+      <option name="number" value="00709" />
+      <option name="presentableId" value="LOCAL-00709" />
+      <option name="project" value="LOCAL" />
+      <updated>1643346250336</updated>
+    </task>
+    <option name="localTasksCounter" value="710" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -471,8 +468,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="catalogue  Pripority rule no updated" />
-    <MESSAGE value="user  Pripority rule no updated" />
     <MESSAGE value="alb output file is updated" />
     <MESSAGE value="ROute53 file is added for mutable common infra file" />
     <MESSAGE value="INSTANCES_NO (number of instances to be created is changed to 1)" />
@@ -496,7 +491,9 @@
     <MESSAGE value="mutable infra creation is error fix3" />
     <MESSAGE value="mutable infra creation is error fix4" />
     <MESSAGE value="mutable infra creation is error fix5" />
-    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation is error fix5" />
+    <MESSAGE value="mutable infra creation= error fix5" />
+    <MESSAGE value="mutable infra creation= error fix6&#10;added replace provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutable infra creation= error fix6&#10;added replace provider" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
