@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="new file">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins create file fix - 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
     </list>
@@ -75,13 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00663" summary="redis database is updated with error">
-      <created>1643120478002</created>
-      <option name="number" value="00663" />
-      <option name="presentableId" value="LOCAL-00663" />
-      <option name="project" value="LOCAL" />
-      <updated>1643120478002</updated>
     </task>
     <task id="LOCAL-00664" summary="rds which is mysql database is updated">
       <created>1643128565003</created>
@@ -419,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643350881299</updated>
     </task>
-    <option name="localTasksCounter" value="712" />
+    <task id="LOCAL-00712" summary="jenkins create file fix - 1">
+      <created>1643356276752</created>
+      <option name="number" value="00712" />
+      <option name="presentableId" value="LOCAL-00712" />
+      <option name="project" value="LOCAL" />
+      <updated>1643356276752</updated>
+    </task>
+    <option name="localTasksCounter" value="713" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -471,7 +471,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="INSTANCES_NO (number of instances to be created is changed to 1)" />
     <MESSAGE value="nexus link updated" />
     <MESSAGE value="VPC - Terraform databases added rabbitmq and mongodb" />
     <MESSAGE value="terraform.groovy file is updated" />
@@ -496,7 +495,8 @@
     <MESSAGE value="mutable infra creation= error fix6&#10;added replace provider" />
     <MESSAGE value="mutable infra creation= error fix6" />
     <MESSAGE value="new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="new file" />
+    <MESSAGE value="jenkins create file fix - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins create file fix - 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
