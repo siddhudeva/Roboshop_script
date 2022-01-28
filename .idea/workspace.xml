@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins create file fix - 5">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins create file fix - 6 cart only deploying">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roboshop.inv" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roboshop.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -75,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00668" summary="rds which is mysql database is updated">
-      <created>1643130938937</created>
-      <option name="number" value="00668" />
-      <option name="presentableId" value="LOCAL-00668" />
-      <option name="project" value="LOCAL" />
-      <updated>1643130938937</updated>
     </task>
     <task id="LOCAL-00669" summary="rds which is mysql database is updated">
       <created>1643131095845</created>
@@ -419,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643362364664</updated>
     </task>
-    <option name="localTasksCounter" value="717" />
+    <task id="LOCAL-00717" summary="jenkins create file fix - 6 cart only deploying">
+      <created>1643363045704</created>
+      <option name="number" value="00717" />
+      <option name="presentableId" value="LOCAL-00717" />
+      <option name="project" value="LOCAL" />
+      <updated>1643363045704</updated>
+    </task>
+    <option name="localTasksCounter" value="718" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -471,7 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="redis database is added" />
     <MESSAGE value="redis database is updated with error" />
     <MESSAGE value="rds which is mysql database is updated" />
     <MESSAGE value="jenkins file updated for Loadbalancer&#10;post function added" />
@@ -496,7 +496,8 @@
     <MESSAGE value="jenkins create file fix - 3" />
     <MESSAGE value="jenkins create file fix - 4" />
     <MESSAGE value="jenkins create file fix - 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkins create file fix - 5" />
+    <MESSAGE value="jenkins create file fix - 6 cart only deploying" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins create file fix - 6 cart only deploying" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
