@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="all infra create file cart and catalogue file is updated">
-      <change afterPath="$PROJECT_DIR$/Roboshop/prometheus/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/prometheus/templates/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/prometheus/templates/records.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus configuration files are added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,13 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00678" summary="jenkins file updated for Loadbalancer&#10;post function added">
-      <created>1643166225000</created>
-      <option name="number" value="00678" />
-      <option name="presentableId" value="LOCAL-00678" />
-      <option name="project" value="LOCAL" />
-      <updated>1643166225000</updated>
     </task>
     <task id="LOCAL-00679" summary="jenkins file updated for Loadbalancer&#10;post function added">
       <created>1643166639095</created>
@@ -422,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643371155358</updated>
     </task>
-    <option name="localTasksCounter" value="727" />
+    <task id="LOCAL-00727" summary="prometheus configuration files are added">
+      <created>1643506861181</created>
+      <option name="number" value="00727" />
+      <option name="presentableId" value="LOCAL-00727" />
+      <option name="project" value="LOCAL" />
+      <updated>1643506861181</updated>
+    </task>
+    <option name="localTasksCounter" value="728" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -474,7 +468,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Mutable/VPC file is updated" />
     <MESSAGE value="vpc file updted" />
     <MESSAGE value="terraform.groovy file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated" />
@@ -499,7 +492,8 @@
     <MESSAGE value="route53 dns name &#10;file edited" />
     <MESSAGE value="all infra create file is updated" />
     <MESSAGE value="all infra create file cart and catalogue file is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="all infra create file cart and catalogue file is updated" />
+    <MESSAGE value="prometheus configuration files are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="prometheus configuration files are added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
