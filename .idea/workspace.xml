@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Alerts are added using Prometheus">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00707" summary="mutable infra creation is error fix5">
-      <created>1643344203910</created>
-      <option name="number" value="00707" />
-      <option name="presentableId" value="LOCAL-00707" />
-      <option name="project" value="LOCAL" />
-      <updated>1643344203910</updated>
     </task>
     <task id="LOCAL-00708" summary="mutable infra creation= error fix5">
       <created>1643346039348</created>
@@ -420,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643545973844</updated>
     </task>
-    <option name="localTasksCounter" value="756" />
+    <task id="LOCAL-00756" summary="Alerts are added using Prometheus">
+      <created>1643546281716</created>
+      <option name="number" value="00756" />
+      <option name="presentableId" value="LOCAL-00756" />
+      <option name="project" value="LOCAL" />
+      <updated>1643546281716</updated>
+    </task>
+    <option name="localTasksCounter" value="757" />
     <servers />
   </component>
   <component name="UnknownFeatures">
