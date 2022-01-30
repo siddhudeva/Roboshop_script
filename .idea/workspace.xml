@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="appAlerts file is added for alrting using Prometheus -">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/vars/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="appAlerts file is added for alrting using Prometheus -" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,27 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00727" summary="prometheus configuration files are added">
-      <created>1643506861181</created>
-      <option name="number" value="00727" />
-      <option name="presentableId" value="LOCAL-00727" />
-      <option name="project" value="LOCAL" />
-      <updated>1643506861181</updated>
-    </task>
-    <task id="LOCAL-00728" summary="prometheus configuration files are added">
-      <created>1643507668289</created>
-      <option name="number" value="00728" />
-      <option name="presentableId" value="LOCAL-00728" />
-      <option name="project" value="LOCAL" />
-      <updated>1643507668289</updated>
-    </task>
-    <task id="LOCAL-00729" summary="prometheus configuration files are added">
-      <created>1643507844729</created>
-      <option name="number" value="00729" />
-      <option name="presentableId" value="LOCAL-00729" />
-      <option name="project" value="LOCAL" />
-      <updated>1643507844729</updated>
     </task>
     <task id="LOCAL-00730" summary="prometheus configuration files are added">
       <created>1643507993756</created>
@@ -422,7 +397,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643564895701</updated>
     </task>
-    <option name="localTasksCounter" value="776" />
+    <task id="LOCAL-00776" summary="appAlerts file is added for alrting using Prometheus -">
+      <created>1643564922468</created>
+      <option name="number" value="00776" />
+      <option name="presentableId" value="LOCAL-00776" />
+      <option name="project" value="LOCAL" />
+      <updated>1643564922468</updated>
+    </task>
+    <task id="LOCAL-00777" summary="appAlerts file is added for alrting using Prometheus -">
+      <created>1643565022553</created>
+      <option name="number" value="00777" />
+      <option name="presentableId" value="LOCAL-00777" />
+      <option name="project" value="LOCAL" />
+      <updated>1643565022553</updated>
+    </task>
+    <task id="LOCAL-00778" summary="appAlerts file is added for alrting using Prometheus -">
+      <created>1643565188525</created>
+      <option name="number" value="00778" />
+      <option name="presentableId" value="LOCAL-00778" />
+      <option name="project" value="LOCAL" />
+      <updated>1643565188525</updated>
+    </task>
+    <option name="localTasksCounter" value="779" />
     <servers />
   </component>
   <component name="UnknownFeatures">
