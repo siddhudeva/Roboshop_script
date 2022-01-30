@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus configuration files are added">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\dispatch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible-1\roles" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
     </key>
@@ -74,20 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00681" summary="jenkins file updated for Loadbalancer&#10;post function added">
-      <created>1643167677953</created>
-      <option name="number" value="00681" />
-      <option name="presentableId" value="LOCAL-00681" />
-      <option name="project" value="LOCAL" />
-      <updated>1643167677953</updated>
-    </task>
-    <task id="LOCAL-00682" summary="jenkins file updated for Loadbalancer&#10;post function added">
-      <created>1643168401429</created>
-      <option name="number" value="00682" />
-      <option name="presentableId" value="LOCAL-00682" />
-      <option name="project" value="LOCAL" />
-      <updated>1643168401429</updated>
     </task>
     <task id="LOCAL-00683" summary="jenkins file updated for Loadbalancer&#10;post function added">
       <created>1643168463355</created>
@@ -418,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643507844729</updated>
     </task>
-    <option name="localTasksCounter" value="730" />
+    <task id="LOCAL-00730" summary="prometheus configuration files are added">
+      <created>1643507993756</created>
+      <option name="number" value="00730" />
+      <option name="presentableId" value="LOCAL-00730" />
+      <option name="project" value="LOCAL" />
+      <updated>1643507993756</updated>
+    </task>
+    <task id="LOCAL-00731" summary="prometheus configuration files are added">
+      <created>1643508043799</created>
+      <option name="number" value="00731" />
+      <option name="presentableId" value="LOCAL-00731" />
+      <option name="project" value="LOCAL" />
+      <updated>1643508043799</updated>
+    </task>
+    <option name="localTasksCounter" value="732" />
     <servers />
   </component>
   <component name="UnknownFeatures">
