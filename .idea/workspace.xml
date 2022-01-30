@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus configuration files are added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus configuration of ec2 instances all">
+      <change afterPath="$PROJECT_DIR$/ansible-1/prometheus-nodeexporter/node_extractor_servicefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\dispatch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible-1" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible-1\roles" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible\roles\mysql\files" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script" />
@@ -76,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00683" summary="jenkins file updated for Loadbalancer&#10;post function added">
-      <created>1643168463355</created>
-      <option name="number" value="00683" />
-      <option name="presentableId" value="LOCAL-00683" />
-      <option name="project" value="LOCAL" />
-      <updated>1643168463355</updated>
     </task>
     <task id="LOCAL-00684" summary="Mutable/VPC file is updated">
       <created>1643169259621</created>
@@ -420,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643508043799</updated>
     </task>
-    <option name="localTasksCounter" value="732" />
+    <task id="LOCAL-00732" summary="prometheus configuration of ec2 instances all">
+      <created>1643509285831</created>
+      <option name="number" value="00732" />
+      <option name="presentableId" value="LOCAL-00732" />
+      <option name="project" value="LOCAL" />
+      <updated>1643509285831</updated>
+    </task>
+    <option name="localTasksCounter" value="733" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,7 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="vpc file updted" />
     <MESSAGE value="terraform.groovy file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
@@ -497,7 +496,8 @@
     <MESSAGE value="all infra create file is updated" />
     <MESSAGE value="all infra create file cart and catalogue file is updated" />
     <MESSAGE value="prometheus configuration files are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="prometheus configuration files are added" />
+    <MESSAGE value="prometheus configuration of ec2 instances all" />
+    <option name="LAST_COMMIT_MESSAGE" value="prometheus configuration of ec2 instances all" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
