@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Alerts are added using Prometheus - error fix 5">
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00724" summary="all infra create file cart and catalogue file is updated">
-      <created>1643371019979</created>
-      <option name="number" value="00724" />
-      <option name="presentableId" value="LOCAL-00724" />
-      <option name="project" value="LOCAL" />
-      <updated>1643371019979</updated>
     </task>
     <task id="LOCAL-00725" summary="all infra create file cart and catalogue file is updated">
       <created>1643371057656</created>
@@ -420,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643561515942</updated>
     </task>
-    <option name="localTasksCounter" value="773" />
+    <task id="LOCAL-00773" summary="Alerts are added using Prometheus - error fix 5">
+      <created>1643562913271</created>
+      <option name="number" value="00773" />
+      <option name="presentableId" value="LOCAL-00773" />
+      <option name="project" value="LOCAL" />
+      <updated>1643562913271</updated>
+    </task>
+    <option name="localTasksCounter" value="774" />
     <servers />
   </component>
   <component name="UnknownFeatures">
