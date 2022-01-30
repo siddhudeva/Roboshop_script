@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Alerts are added using Prometheus - error fix=2">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/alerts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/alerts.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Alerts are added using Prometheus - error fixed">
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/records.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/records.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00715" summary="jenkins create file fix - 4">
-      <created>1643362172126</created>
-      <option name="number" value="00715" />
-      <option name="presentableId" value="LOCAL-00715" />
-      <option name="project" value="LOCAL" />
-      <updated>1643362172126</updated>
     </task>
     <task id="LOCAL-00716" summary="jenkins create file fix - 5">
       <created>1643362364664</created>
@@ -420,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643558204807</updated>
     </task>
-    <option name="localTasksCounter" value="764" />
+    <task id="LOCAL-00764" summary="Alerts are added using Prometheus - error fixed">
+      <created>1643559278514</created>
+      <option name="number" value="00764" />
+      <option name="presentableId" value="LOCAL-00764" />
+      <option name="project" value="LOCAL" />
+      <updated>1643559278514</updated>
+    </task>
+    <option name="localTasksCounter" value="765" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,7 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="jenkins create file fix - 3" />
     <MESSAGE value="jenkins create file fix - 4" />
     <MESSAGE value="jenkins create file fix - 5" />
     <MESSAGE value="jenkins create file fix - 6 cart only deploying" />
@@ -497,7 +496,8 @@
     <MESSAGE value="Alerts are added using Prometheus" />
     <MESSAGE value="Alerts are added using Prometheus - error fix1" />
     <MESSAGE value="Alerts are added using Prometheus - error fix=2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alerts are added using Prometheus - error fix=2" />
+    <MESSAGE value="Alerts are added using Prometheus - error fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alerts are added using Prometheus - error fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
