@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="node extractor is added for prometheus &#10;shell script">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/cart/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/cart/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/catalogue/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/catalogue/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/dispatch/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/dispatch/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/frontend/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/frontend/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/mongodb/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/mongodb/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ansible-1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -82,20 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00686" summary="vpc file updted">
-      <created>1643170651551</created>
-      <option name="number" value="00686" />
-      <option name="presentableId" value="LOCAL-00686" />
-      <option name="project" value="LOCAL" />
-      <updated>1643170651551</updated>
-    </task>
-    <task id="LOCAL-00687" summary="vpc file updted">
-      <created>1643170744193</created>
-      <option name="number" value="00687" />
-      <option name="presentableId" value="LOCAL-00687" />
-      <option name="project" value="LOCAL" />
-      <updated>1643170744193</updated>
     </task>
     <task id="LOCAL-00688" summary="terraform.groovy file updated">
       <created>1643177519122</created>
@@ -426,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643510101547</updated>
     </task>
-    <option name="localTasksCounter" value="735" />
+    <task id="LOCAL-00735" summary="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS">
+      <created>1643510435205</created>
+      <option name="number" value="00735" />
+      <option name="presentableId" value="LOCAL-00735" />
+      <option name="project" value="LOCAL" />
+      <updated>1643510435205</updated>
+    </task>
+    <task id="LOCAL-00736" summary="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS">
+      <created>1643510526902</created>
+      <option name="number" value="00736" />
+      <option name="presentableId" value="LOCAL-00736" />
+      <option name="project" value="LOCAL" />
+      <updated>1643510526902</updated>
+    </task>
+    <option name="localTasksCounter" value="737" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -478,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Mutable infrastructure all in one file updated" />
     <MESSAGE value="Mutable infrastructure all in one file updated&#10;&#10;with &#10;TF_VAR=Version of all components in nexus" />
     <MESSAGE value="jenkins all distroy file is created and seed job also updated" />
     <MESSAGE value="seed file git url is problem" />
@@ -503,7 +498,8 @@
     <MESSAGE value="prometheus configuration files are added" />
     <MESSAGE value="prometheus configuration of ec2 instances all" />
     <MESSAGE value="node extractor is added for prometheus &#10;shell script" />
-    <option name="LAST_COMMIT_MESSAGE" value="node extractor is added for prometheus &#10;shell script" />
+    <MESSAGE value="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
