@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Alerts are added using Prometheus - error fix 5" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="Alerts are added using Prometheus - error fix 5">
+      <change afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00723" summary="all infra create file cart and catalogue file is updated">
-      <created>1643370665886</created>
-      <option name="number" value="00723" />
-      <option name="presentableId" value="LOCAL-00723" />
-      <option name="project" value="LOCAL" />
-      <updated>1643370665886</updated>
     </task>
     <task id="LOCAL-00724" summary="all infra create file cart and catalogue file is updated">
       <created>1643371019979</created>
@@ -418,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643561226859</updated>
     </task>
-    <option name="localTasksCounter" value="772" />
+    <task id="LOCAL-00772" summary="Alerts are added using Prometheus - error fix 5">
+      <created>1643561515942</created>
+      <option name="number" value="00772" />
+      <option name="presentableId" value="LOCAL-00772" />
+      <option name="project" value="LOCAL" />
+      <updated>1643561515942</updated>
+    </task>
+    <option name="localTasksCounter" value="773" />
     <servers />
   </component>
   <component name="UnknownFeatures">
