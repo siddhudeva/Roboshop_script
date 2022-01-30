@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment=" prometheus file error fix 2" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment=" prometheus file error fix 4">
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,20 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00697" summary="mutable infra creation is error fix3">
-      <created>1643219307039</created>
-      <option name="number" value="00697" />
-      <option name="presentableId" value="LOCAL-00697" />
-      <option name="project" value="LOCAL" />
-      <updated>1643219307039</updated>
-    </task>
-    <task id="LOCAL-00698" summary="mutable infra creation is error fix3">
-      <created>1643240655821</created>
-      <option name="number" value="00698" />
-      <option name="presentableId" value="LOCAL-00698" />
-      <option name="project" value="LOCAL" />
-      <updated>1643240655821</updated>
     </task>
     <task id="LOCAL-00699" summary="mutable infra creation is error fix3">
       <created>1643240936802</created>
@@ -418,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643520664394</updated>
     </task>
-    <option name="localTasksCounter" value="746" />
+    <task id="LOCAL-00746" summary=" prometheus file error fix 3">
+      <created>1643520999144</created>
+      <option name="number" value="00746" />
+      <option name="presentableId" value="LOCAL-00746" />
+      <option name="project" value="LOCAL" />
+      <updated>1643520999144</updated>
+    </task>
+    <task id="LOCAL-00747" summary=" prometheus file error fix 4">
+      <created>1643521073485</created>
+      <option name="number" value="00747" />
+      <option name="presentableId" value="LOCAL-00747" />
+      <option name="project" value="LOCAL" />
+      <updated>1643521073485</updated>
+    </task>
+    <option name="localTasksCounter" value="748" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,8 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="mutable infra creation is error fix3" />
-    <MESSAGE value="mutable infra creation is error fix4" />
     <MESSAGE value="mutable infra creation is error fix5" />
     <MESSAGE value="mutable infra creation= error fix5" />
     <MESSAGE value="mutable infra creation= error fix6&#10;added replace provider" />
@@ -495,7 +495,9 @@
     <MESSAGE value="sg prometheus added" />
     <MESSAGE value=" prometheus file error fix 1" />
     <MESSAGE value=" prometheus file error fix 2" />
-    <option name="LAST_COMMIT_MESSAGE" value=" prometheus file error fix 2" />
+    <MESSAGE value=" prometheus file error fix 3" />
+    <MESSAGE value=" prometheus file error fix 4" />
+    <option name="LAST_COMMIT_MESSAGE" value=" prometheus file error fix 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
