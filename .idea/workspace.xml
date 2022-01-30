@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment=" prometheus file error fix 1" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment=" prometheus file error fix 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,27 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00693" summary="seed file git url is problem">
-      <created>1643217200027</created>
-      <option name="number" value="00693" />
-      <option name="presentableId" value="LOCAL-00693" />
-      <option name="project" value="LOCAL" />
-      <updated>1643217200027</updated>
-    </task>
-    <task id="LOCAL-00694" summary="mutable infra creation is error fix1">
-      <created>1643218038041</created>
-      <option name="number" value="00694" />
-      <option name="presentableId" value="LOCAL-00694" />
-      <option name="project" value="LOCAL" />
-      <updated>1643218038041</updated>
-    </task>
-    <task id="LOCAL-00695" summary="mutable infra creation is error fix1">
-      <created>1643218637699</created>
-      <option name="number" value="00695" />
-      <option name="presentableId" value="LOCAL-00695" />
-      <option name="project" value="LOCAL" />
-      <updated>1643218637699</updated>
     </task>
     <task id="LOCAL-00696" summary="mutable infra creation is error fix2">
       <created>1643218883198</created>
@@ -418,7 +399,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643518816490</updated>
     </task>
-    <option name="localTasksCounter" value="742" />
+    <task id="LOCAL-00742" summary=" prometheus file error fix 1">
+      <created>1643519094602</created>
+      <option name="number" value="00742" />
+      <option name="presentableId" value="LOCAL-00742" />
+      <option name="project" value="LOCAL" />
+      <updated>1643519094602</updated>
+    </task>
+    <task id="LOCAL-00743" summary=" prometheus file error fix 2">
+      <created>1643519124427</created>
+      <option name="number" value="00743" />
+      <option name="presentableId" value="LOCAL-00743" />
+      <option name="project" value="LOCAL" />
+      <updated>1643519124427</updated>
+    </task>
+    <task id="LOCAL-00744" summary=" prometheus file error fix 2">
+      <created>1643519240835</created>
+      <option name="number" value="00744" />
+      <option name="presentableId" value="LOCAL-00744" />
+      <option name="project" value="LOCAL" />
+      <updated>1643519240835</updated>
+    </task>
+    <option name="localTasksCounter" value="745" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="mutable infra creation is error fix2" />
     <MESSAGE value="mutable infra creation is error fix3" />
     <MESSAGE value="mutable infra creation is error fix4" />
     <MESSAGE value="mutable infra creation is error fix5" />
@@ -495,7 +496,8 @@
     <MESSAGE value="monitor tag is added for filtering" />
     <MESSAGE value="sg prometheus added" />
     <MESSAGE value=" prometheus file error fix 1" />
-    <option name="LAST_COMMIT_MESSAGE" value=" prometheus file error fix 1" />
+    <MESSAGE value=" prometheus file error fix 2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" prometheus file error fix 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
