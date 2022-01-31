@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="error fix in appAlert file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="appAlert file loop funciton commented and goes with treditional way -1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00750" summary=" prometheus file error fix 6">
-      <created>1643521299038</created>
-      <option name="number" value="00750" />
-      <option name="presentableId" value="LOCAL-00750" />
-      <option name="project" value="LOCAL" />
-      <updated>1643521299038</updated>
-    </task>
-    <task id="LOCAL-00751" summary=" prometheus file error fix 6">
-      <created>1643521387653</created>
-      <option name="number" value="00751" />
-      <option name="presentableId" value="LOCAL-00751" />
-      <option name="project" value="LOCAL" />
-      <updated>1643521387653</updated>
     </task>
     <task id="LOCAL-00752" summary=" prometheus file error fix 7">
       <created>1643521712107</created>
@@ -422,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643620070933</updated>
     </task>
-    <option name="localTasksCounter" value="799" />
+    <task id="LOCAL-00799" summary="appAlert file loop funciton commented and goes with treditional way">
+      <created>1643622507373</created>
+      <option name="number" value="00799" />
+      <option name="presentableId" value="LOCAL-00799" />
+      <option name="project" value="LOCAL" />
+      <updated>1643622507373</updated>
+    </task>
+    <task id="LOCAL-00800" summary="appAlert file loop funciton commented and goes with treditional way -1">
+      <created>1643622624175</created>
+      <option name="number" value="00800" />
+      <option name="presentableId" value="LOCAL-00800" />
+      <option name="project" value="LOCAL" />
+      <updated>1643622624175</updated>
+    </task>
+    <option name="localTasksCounter" value="801" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -474,8 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="all infra create file cart and catalogue file is updated" />
-    <MESSAGE value="prometheus configuration files are added" />
     <MESSAGE value="prometheus configuration of ec2 instances all" />
     <MESSAGE value="node extractor is added for prometheus &#10;shell script" />
     <MESSAGE value="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS" />
@@ -499,7 +493,9 @@
     <MESSAGE value="Alerts are added using Prometheus - error fix 5" />
     <MESSAGE value="appAlerts file is added for alrting using Prometheus -" />
     <MESSAGE value="error fix in appAlert file" />
-    <option name="LAST_COMMIT_MESSAGE" value="error fix in appAlert file" />
+    <MESSAGE value="appAlert file loop funciton commented and goes with treditional way" />
+    <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -1" />
+    <option name="LAST_COMMIT_MESSAGE" value="appAlert file loop funciton commented and goes with treditional way -1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
