@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="filebeat configureation and setup is added">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="filebeat configureation and setup is added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,27 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00760" summary="Alerts are added using Prometheus">
-      <created>1643556492111</created>
-      <option name="number" value="00760" />
-      <option name="presentableId" value="LOCAL-00760" />
-      <option name="project" value="LOCAL" />
-      <updated>1643556492111</updated>
-    </task>
-    <task id="LOCAL-00761" summary="Alerts are added using Prometheus - error fix1">
-      <created>1643556874074</created>
-      <option name="number" value="00761" />
-      <option name="presentableId" value="LOCAL-00761" />
-      <option name="project" value="LOCAL" />
-      <updated>1643556874074</updated>
-    </task>
-    <task id="LOCAL-00762" summary="Alerts are added using Prometheus - error fix1">
-      <created>1643558054088</created>
-      <option name="number" value="00762" />
-      <option name="presentableId" value="LOCAL-00762" />
-      <option name="project" value="LOCAL" />
-      <updated>1643558054088</updated>
     </task>
     <task id="LOCAL-00763" summary="Alerts are added using Prometheus - error fix=2">
       <created>1643558204807</created>
@@ -420,7 +397,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643717744003</updated>
     </task>
-    <option name="localTasksCounter" value="809" />
+    <task id="LOCAL-00809" summary="filebeat configureation and setup is added">
+      <created>1643717990679</created>
+      <option name="number" value="00809" />
+      <option name="presentableId" value="LOCAL-00809" />
+      <option name="project" value="LOCAL" />
+      <updated>1643717990679</updated>
+    </task>
+    <task id="LOCAL-00810" summary="filebeat configureation and setup is added">
+      <created>1643718068584</created>
+      <option name="number" value="00810" />
+      <option name="presentableId" value="LOCAL-00810" />
+      <option name="project" value="LOCAL" />
+      <updated>1643718068584</updated>
+    </task>
+    <task id="LOCAL-00811" summary="filebeat configureation and setup is added">
+      <created>1643718202734</created>
+      <option name="number" value="00811" />
+      <option name="presentableId" value="LOCAL-00811" />
+      <option name="project" value="LOCAL" />
+      <updated>1643718202734</updated>
+    </task>
+    <option name="localTasksCounter" value="812" />
     <servers />
   </component>
   <component name="UnknownFeatures">
