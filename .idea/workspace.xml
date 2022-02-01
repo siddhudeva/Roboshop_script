@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="appAlert file loop funciton commented and goes with treditional way -1" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="appAlert file loop funciton commented and goes with treditional way -2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,34 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00752" summary=" prometheus file error fix 7">
-      <created>1643521712107</created>
-      <option name="number" value="00752" />
-      <option name="presentableId" value="LOCAL-00752" />
-      <option name="project" value="LOCAL" />
-      <updated>1643521712107</updated>
-    </task>
-    <task id="LOCAL-00753" summary=" prometheus file added another instance">
-      <created>1643524597499</created>
-      <option name="number" value="00753" />
-      <option name="presentableId" value="LOCAL-00753" />
-      <option name="project" value="LOCAL" />
-      <updated>1643524597499</updated>
-    </task>
-    <task id="LOCAL-00754" summary="Alerts are added using Prometheus">
-      <created>1643545902671</created>
-      <option name="number" value="00754" />
-      <option name="presentableId" value="LOCAL-00754" />
-      <option name="project" value="LOCAL" />
-      <updated>1643545902671</updated>
-    </task>
-    <task id="LOCAL-00755" summary="Alerts are added using Prometheus">
-      <created>1643545973844</created>
-      <option name="number" value="00755" />
-      <option name="presentableId" value="LOCAL-00755" />
-      <option name="project" value="LOCAL" />
-      <updated>1643545973844</updated>
     </task>
     <task id="LOCAL-00756" summary="Alerts are added using Prometheus">
       <created>1643546281716</created>
@@ -418,7 +393,35 @@
       <option name="project" value="LOCAL" />
       <updated>1643622624175</updated>
     </task>
-    <option name="localTasksCounter" value="801" />
+    <task id="LOCAL-00801" summary="appAlert file loop funciton commented and goes with treditional way -1">
+      <created>1643622853038</created>
+      <option name="number" value="00801" />
+      <option name="presentableId" value="LOCAL-00801" />
+      <option name="project" value="LOCAL" />
+      <updated>1643622853039</updated>
+    </task>
+    <task id="LOCAL-00802" summary="appAlert file loop funciton commented and goes with treditional way -2">
+      <created>1643622961038</created>
+      <option name="number" value="00802" />
+      <option name="presentableId" value="LOCAL-00802" />
+      <option name="project" value="LOCAL" />
+      <updated>1643622961038</updated>
+    </task>
+    <task id="LOCAL-00803" summary="appAlert file loop funciton commented and goes with treditional way -2">
+      <created>1643623003238</created>
+      <option name="number" value="00803" />
+      <option name="presentableId" value="LOCAL-00803" />
+      <option name="project" value="LOCAL" />
+      <updated>1643623003238</updated>
+    </task>
+    <task id="LOCAL-00804" summary="appAlert file loop funciton commented and goes with treditional way -2">
+      <created>1643623098206</created>
+      <option name="number" value="00804" />
+      <option name="presentableId" value="LOCAL-00804" />
+      <option name="project" value="LOCAL" />
+      <updated>1643623098206</updated>
+    </task>
+    <option name="localTasksCounter" value="805" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="prometheus configuration of ec2 instances all" />
     <MESSAGE value="node extractor is added for prometheus &#10;shell script" />
     <MESSAGE value="NODE EXPORTER IS INSTALLED IN ALL COMPONENTS" />
     <MESSAGE value="monitor tag is added for filtering prometheus to pick only instances those which instance contains the tag" />
@@ -495,7 +497,8 @@
     <MESSAGE value="error fix in appAlert file" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -1" />
-    <option name="LAST_COMMIT_MESSAGE" value="appAlert file loop funciton commented and goes with treditional way -1" />
+    <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -2" />
+    <option name="LAST_COMMIT_MESSAGE" value="appAlert file loop funciton commented and goes with treditional way -2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
