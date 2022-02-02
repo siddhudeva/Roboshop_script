@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus file error fix - 02" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus file error fix - 03">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00768" summary="Alerts are added using Prometheus - error fix 4">
-      <created>1643560265943</created>
-      <option name="number" value="00768" />
-      <option name="presentableId" value="LOCAL-00768" />
-      <option name="project" value="LOCAL" />
-      <updated>1643560265943</updated>
     </task>
     <task id="LOCAL-00769" summary="Alerts are added using Prometheus - error fix 4">
       <created>1643560336762</created>
@@ -418,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643734626755</updated>
     </task>
-    <option name="localTasksCounter" value="817" />
+    <task id="LOCAL-00817" summary="prometheus file error fix - 03">
+      <created>1643735192421</created>
+      <option name="number" value="00817" />
+      <option name="presentableId" value="LOCAL-00817" />
+      <option name="project" value="LOCAL" />
+      <updated>1643735192421</updated>
+    </task>
+    <option name="localTasksCounter" value="818" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -470,7 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value=" prometheus file error fix 1" />
     <MESSAGE value=" prometheus file error fix 2" />
     <MESSAGE value=" prometheus file error fix 3" />
     <MESSAGE value=" prometheus file error fix 4" />
@@ -495,7 +496,8 @@
     <MESSAGE value="filebeat configureation and setup is added" />
     <MESSAGE value="prometheus file error fix - 01" />
     <MESSAGE value="prometheus file error fix - 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="prometheus file error fix - 02" />
+    <MESSAGE value="prometheus file error fix - 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="prometheus file error fix - 03" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
