@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus file error fix - 03">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="prometheus file error fix - 04">
+      <change afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlerts.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/appAlert.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/prometheus.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,20 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00774" summary="appAlerts file is added for alrting using Prometheus -">
-      <created>1643564098191</created>
-      <option name="number" value="00774" />
-      <option name="presentableId" value="LOCAL-00774" />
-      <option name="project" value="LOCAL" />
-      <updated>1643564098191</updated>
-    </task>
-    <task id="LOCAL-00775" summary="appAlerts file is added for alrting using Prometheus -">
-      <created>1643564895701</created>
-      <option name="number" value="00775" />
-      <option name="presentableId" value="LOCAL-00775" />
-      <option name="project" value="LOCAL" />
-      <updated>1643564895701</updated>
     </task>
     <task id="LOCAL-00776" summary="appAlerts file is added for alrting using Prometheus -">
       <created>1643564922468</created>
@@ -421,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643824937299</updated>
     </task>
-    <option name="localTasksCounter" value="823" />
+    <task id="LOCAL-00823" summary="prometheus file error fix - 03">
+      <created>1643827098753</created>
+      <option name="number" value="00823" />
+      <option name="presentableId" value="LOCAL-00823" />
+      <option name="project" value="LOCAL" />
+      <updated>1643827098753</updated>
+    </task>
+    <task id="LOCAL-00824" summary="prometheus file error fix - 04">
+      <created>1643827203567</created>
+      <option name="number" value="00824" />
+      <option name="presentableId" value="LOCAL-00824" />
+      <option name="project" value="LOCAL" />
+      <updated>1643827203567</updated>
+    </task>
+    <option name="localTasksCounter" value="825" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -473,7 +476,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value=" prometheus file error fix 2" />
     <MESSAGE value=" prometheus file error fix 3" />
     <MESSAGE value=" prometheus file error fix 4" />
     <MESSAGE value=" prometheus file error fix 5" />
@@ -498,7 +500,8 @@
     <MESSAGE value="prometheus file error fix - 01" />
     <MESSAGE value="prometheus file error fix - 02" />
     <MESSAGE value="prometheus file error fix - 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="prometheus file error fix - 03" />
+    <MESSAGE value="prometheus file error fix - 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="prometheus file error fix - 04" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
