@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="    prometheus file error fix - 04.4">
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/alertmanager.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/alertmanager.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/prometheus/templates/alertmanager.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00791" summary="appAlerts file is added for alrting using Prometheus -">
-      <created>1643568722058</created>
-      <option name="number" value="00791" />
-      <option name="presentableId" value="LOCAL-00791" />
-      <option name="project" value="LOCAL" />
-      <updated>1643568722058</updated>
     </task>
     <task id="LOCAL-00792" summary="appAlerts file is added for alrting using Prometheus -">
       <created>1643568885636</created>
@@ -422,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643885692433</updated>
     </task>
-    <option name="localTasksCounter" value="840" />
+    <task id="LOCAL-00840" summary="    prometheus file error fix - 04.4">
+      <created>1643891656213</created>
+      <option name="number" value="00840" />
+      <option name="presentableId" value="LOCAL-00840" />
+      <option name="project" value="LOCAL" />
+      <updated>1643891656213</updated>
+    </task>
+    <option name="localTasksCounter" value="841" />
     <servers />
   </component>
   <component name="UnknownFeatures">
