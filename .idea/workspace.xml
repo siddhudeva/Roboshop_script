@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="alertmanager file is updated">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ELK file updated for all components" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,13 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00793" summary="appAlerts file is added for alrting using Prometheus -">
-      <created>1643569087781</created>
-      <option name="number" value="00793" />
-      <option name="presentableId" value="LOCAL-00793" />
-      <option name="project" value="LOCAL" />
-      <updated>1643569087781</updated>
     </task>
     <task id="LOCAL-00794" summary="error fix in appAlert file">
       <created>1643569908589</created>
@@ -420,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643906322426</updated>
     </task>
-    <option name="localTasksCounter" value="842" />
+    <task id="LOCAL-00842" summary="ELK file updated for all components">
+      <created>1643911003682</created>
+      <option name="number" value="00842" />
+      <option name="presentableId" value="LOCAL-00842" />
+      <option name="project" value="LOCAL" />
+      <updated>1643911003682</updated>
+    </task>
+    <option name="localTasksCounter" value="843" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Alerts are added using Prometheus" />
     <MESSAGE value="Alerts are added using Prometheus - error fix1" />
     <MESSAGE value="Alerts are added using Prometheus - error fix=2" />
     <MESSAGE value="Alerts are added using Prometheus - error fixed" />
@@ -497,7 +494,8 @@
     <MESSAGE value="    prometheus file error fix - 04.3" />
     <MESSAGE value="    prometheus file error fix - 04.4" />
     <MESSAGE value="alertmanager file is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="alertmanager file is updated" />
+    <MESSAGE value="ELK file updated for all components" />
+    <option name="LAST_COMMIT_MESSAGE" value="ELK file updated for all components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
