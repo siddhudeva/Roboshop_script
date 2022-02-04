@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ELK file updated for all components">
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/filebeat.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat-orginal.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="FILEBEAT FUILS ARE UPDATED" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,27 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00800" summary="appAlert file loop funciton commented and goes with treditional way -1">
-      <created>1643622624175</created>
-      <option name="number" value="00800" />
-      <option name="presentableId" value="LOCAL-00800" />
-      <option name="project" value="LOCAL" />
-      <updated>1643622624175</updated>
-    </task>
-    <task id="LOCAL-00801" summary="appAlert file loop funciton commented and goes with treditional way -1">
-      <created>1643622853038</created>
-      <option name="number" value="00801" />
-      <option name="presentableId" value="LOCAL-00801" />
-      <option name="project" value="LOCAL" />
-      <updated>1643622853039</updated>
-    </task>
-    <task id="LOCAL-00802" summary="appAlert file loop funciton commented and goes with treditional way -2">
-      <created>1643622961038</created>
-      <option name="number" value="00802" />
-      <option name="presentableId" value="LOCAL-00802" />
-      <option name="project" value="LOCAL" />
-      <updated>1643622961038</updated>
     </task>
     <task id="LOCAL-00803" summary="appAlert file loop funciton commented and goes with treditional way -2">
       <created>1643623003238</created>
@@ -423,7 +397,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643972772416</updated>
     </task>
-    <option name="localTasksCounter" value="849" />
+    <task id="LOCAL-00849" summary="FILEBEAT FUILS ARE UPDATED">
+      <created>1643973768263</created>
+      <option name="number" value="00849" />
+      <option name="presentableId" value="LOCAL-00849" />
+      <option name="project" value="LOCAL" />
+      <updated>1643973768263</updated>
+    </task>
+    <task id="LOCAL-00850" summary="FILEBEAT FUILS ARE UPDATED">
+      <created>1643973904259</created>
+      <option name="number" value="00850" />
+      <option name="presentableId" value="LOCAL-00850" />
+      <option name="project" value="LOCAL" />
+      <updated>1643973904259</updated>
+    </task>
+    <task id="LOCAL-00851" summary="FILEBEAT FUILS ARE UPDATED">
+      <created>1643974020337</created>
+      <option name="number" value="00851" />
+      <option name="presentableId" value="LOCAL-00851" />
+      <option name="project" value="LOCAL" />
+      <updated>1643974020337</updated>
+    </task>
+    <option name="localTasksCounter" value="852" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -475,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Alerts are added using Prometheus - error fix1" />
     <MESSAGE value="Alerts are added using Prometheus - error fix=2" />
     <MESSAGE value="Alerts are added using Prometheus - error fixed" />
     <MESSAGE value="Alerts are added using Prometheus - error fix 3" />
@@ -500,7 +494,8 @@
     <MESSAGE value="    prometheus file error fix - 04.4" />
     <MESSAGE value="alertmanager file is updated" />
     <MESSAGE value="ELK file updated for all components" />
-    <option name="LAST_COMMIT_MESSAGE" value="ELK file updated for all components" />
+    <MESSAGE value="FILEBEAT FUILS ARE UPDATED" />
+    <option name="LAST_COMMIT_MESSAGE" value="FILEBEAT FUILS ARE UPDATED" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
