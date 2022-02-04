@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ELK file updated for all components">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/nodejs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_LB/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/env/prod.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform_databases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -76,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00795" summary="error fix in appAlert file">
-      <created>1643570070295</created>
-      <option name="number" value="00795" />
-      <option name="presentableId" value="LOCAL-00795" />
-      <option name="project" value="LOCAL" />
-      <updated>1643570070295</updated>
     </task>
     <task id="LOCAL-00796" summary="error fix in appAlert file">
       <created>1643619103811</created>
@@ -420,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643911375125</updated>
     </task>
-    <option name="localTasksCounter" value="844" />
+    <task id="LOCAL-00844" summary="ELK file updated for all components">
+      <created>1643911405006</created>
+      <option name="number" value="00844" />
+      <option name="presentableId" value="LOCAL-00844" />
+      <option name="project" value="LOCAL" />
+      <updated>1643911405006</updated>
+    </task>
+    <option name="localTasksCounter" value="845" />
     <servers />
   </component>
   <component name="UnknownFeatures">
