@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="ELK file updated for all components">
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/rsyslog.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/filebeat.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat-orginal.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00799" summary="appAlert file loop funciton commented and goes with treditional way">
-      <created>1643622507373</created>
-      <option name="number" value="00799" />
-      <option name="presentableId" value="LOCAL-00799" />
-      <option name="project" value="LOCAL" />
-      <updated>1643622507373</updated>
     </task>
     <task id="LOCAL-00800" summary="appAlert file loop funciton commented and goes with treditional way -1">
       <created>1643622624175</created>
@@ -422,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643970523344</updated>
     </task>
-    <option name="localTasksCounter" value="848" />
+    <task id="LOCAL-00848" summary="ELK file updated for all components">
+      <created>1643972772416</created>
+      <option name="number" value="00848" />
+      <option name="presentableId" value="LOCAL-00848" />
+      <option name="project" value="LOCAL" />
+      <updated>1643972772416</updated>
+    </task>
+    <option name="localTasksCounter" value="849" />
     <servers />
   </component>
   <component name="UnknownFeatures">
