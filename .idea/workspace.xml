@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="FILEBEAT FUILS ARE UPDATED">
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="logstash files ARE UPDATED">
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00804" summary="appAlert file loop funciton commented and goes with treditional way -2">
-      <created>1643623098206</created>
-      <option name="number" value="00804" />
-      <option name="presentableId" value="LOCAL-00804" />
-      <option name="project" value="LOCAL" />
-      <updated>1643623098206</updated>
     </task>
     <task id="LOCAL-00805" summary="nodejs -- download nexus repo link updated">
       <created>1643708765909</created>
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643974226963</updated>
     </task>
-    <option name="localTasksCounter" value="853" />
+    <task id="LOCAL-00853" summary="logstash files ARE UPDATED">
+      <created>1643979982968</created>
+      <option name="number" value="00853" />
+      <option name="presentableId" value="LOCAL-00853" />
+      <option name="project" value="LOCAL" />
+      <updated>1643979982968</updated>
+    </task>
+    <option name="localTasksCounter" value="854" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -474,7 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Alerts are added using Prometheus - error fix=2" />
     <MESSAGE value="Alerts are added using Prometheus - error fixed" />
     <MESSAGE value="Alerts are added using Prometheus - error fix 3" />
     <MESSAGE value="Alerts are added using Prometheus - error fix 4" />
@@ -499,7 +496,8 @@
     <MESSAGE value="alertmanager file is updated" />
     <MESSAGE value="ELK file updated for all components" />
     <MESSAGE value="FILEBEAT FUILS ARE UPDATED" />
-    <option name="LAST_COMMIT_MESSAGE" value="FILEBEAT FUILS ARE UPDATED" />
+    <MESSAGE value="logstash files ARE UPDATED" />
+    <option name="LAST_COMMIT_MESSAGE" value="logstash files ARE UPDATED" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
