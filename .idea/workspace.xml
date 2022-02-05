@@ -75,20 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00819" summary="prometheus file error fix - 03">
-      <created>1643809541546</created>
-      <option name="number" value="00819" />
-      <option name="presentableId" value="LOCAL-00819" />
-      <option name="project" value="LOCAL" />
-      <updated>1643809541546</updated>
-    </task>
-    <task id="LOCAL-00820" summary="prometheus file error fix - 03">
-      <created>1643809873797</created>
-      <option name="number" value="00820" />
-      <option name="presentableId" value="LOCAL-00820" />
-      <option name="project" value="LOCAL" />
-      <updated>1643809873797</updated>
-    </task>
     <task id="LOCAL-00821" summary="prometheus file error fix - 03">
       <created>1643809884283</created>
       <option name="number" value="00821" />
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644079251883</updated>
     </task>
-    <option name="localTasksCounter" value="868" />
+    <task id="LOCAL-00868" summary="logstash setup in catalogue node">
+      <created>1644079648037</created>
+      <option name="number" value="00868" />
+      <option name="presentableId" value="LOCAL-00868" />
+      <option name="project" value="LOCAL" />
+      <updated>1644079648037</updated>
+    </task>
+    <task id="LOCAL-00869" summary="logstash setup in catalogue node">
+      <created>1644079840483</created>
+      <option name="number" value="00869" />
+      <option name="presentableId" value="LOCAL-00869" />
+      <option name="project" value="LOCAL" />
+      <updated>1644079840483</updated>
+    </task>
+    <option name="localTasksCounter" value="870" />
     <servers />
   </component>
   <component name="UnknownFeatures">
