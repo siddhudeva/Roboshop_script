@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="logstash files ARE UPDATED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/filebeat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/filebeat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/templates/rsyslog.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/rsyslog.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/logstash/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00813" summary="filebeat configureation and setup is added">
-      <created>1643718530033</created>
-      <option name="number" value="00813" />
-      <option name="presentableId" value="LOCAL-00813" />
-      <option name="project" value="LOCAL" />
-      <updated>1643718530033</updated>
     </task>
     <task id="LOCAL-00814" summary="prometheus file error fix - 01">
       <created>1643733714826</created>
@@ -422,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644063369510</updated>
     </task>
-    <option name="localTasksCounter" value="862" />
+    <task id="LOCAL-00862" summary="logstash files ARE UPDATED">
+      <created>1644063956379</created>
+      <option name="number" value="00862" />
+      <option name="presentableId" value="LOCAL-00862" />
+      <option name="project" value="LOCAL" />
+      <updated>1644063956379</updated>
+    </task>
+    <option name="localTasksCounter" value="863" />
     <servers />
   </component>
   <component name="UnknownFeatures">
