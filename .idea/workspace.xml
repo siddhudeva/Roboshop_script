@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="logstash files ARE UPDATED" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="logstash files ARE UPDATED">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/download.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/filebeat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/filebeat.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00812" summary="filebeat configureation and setup is added">
-      <created>1643718495835</created>
-      <option name="number" value="00812" />
-      <option name="presentableId" value="LOCAL-00812" />
-      <option name="project" value="LOCAL" />
-      <updated>1643718495835</updated>
     </task>
     <task id="LOCAL-00813" summary="filebeat configureation and setup is added">
       <created>1643718530033</created>
@@ -418,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643988180882</updated>
     </task>
-    <option name="localTasksCounter" value="861" />
+    <task id="LOCAL-00861" summary="logstash files ARE UPDATED">
+      <created>1644063369510</created>
+      <option name="number" value="00861" />
+      <option name="presentableId" value="LOCAL-00861" />
+      <option name="project" value="LOCAL" />
+      <updated>1644063369510</updated>
+    </task>
+    <option name="localTasksCounter" value="862" />
     <servers />
   </component>
   <component name="UnknownFeatures">
