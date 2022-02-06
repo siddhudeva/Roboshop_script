@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="logstash setup">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="frontend setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/frontend/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/frontend/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/templates/filebeat.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00832" summary="    prometheus file error fix - 04.2">
-      <created>1643883822868</created>
-      <option name="number" value="00832" />
-      <option name="presentableId" value="LOCAL-00832" />
-      <option name="project" value="LOCAL" />
-      <updated>1643883822868</updated>
-    </task>
-    <task id="LOCAL-00833" summary="    prometheus file error fix - 04.2">
-      <created>1643883926788</created>
-      <option name="number" value="00833" />
-      <option name="presentableId" value="LOCAL-00833" />
-      <option name="project" value="LOCAL" />
-      <updated>1643883926788</updated>
     </task>
     <task id="LOCAL-00834" summary="    prometheus file error fix - 04.2">
       <created>1643884013903</created>
@@ -421,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644127506393</updated>
     </task>
-    <option name="localTasksCounter" value="881" />
+    <task id="LOCAL-00881" summary="logstash setup">
+      <created>1644132019272</created>
+      <option name="number" value="00881" />
+      <option name="presentableId" value="LOCAL-00881" />
+      <option name="project" value="LOCAL" />
+      <updated>1644132019272</updated>
+    </task>
+    <task id="LOCAL-00882" summary="frontend setup">
+      <created>1644132091892</created>
+      <option name="number" value="00882" />
+      <option name="presentableId" value="LOCAL-00882" />
+      <option name="project" value="LOCAL" />
+      <updated>1644132091892</updated>
+    </task>
+    <option name="localTasksCounter" value="883" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -473,7 +473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="Alerts are added using Prometheus - error fix 4" />
     <MESSAGE value="Alerts are added using Prometheus - error fix 5" />
     <MESSAGE value="appAlerts file is added for alrting using Prometheus -" />
     <MESSAGE value="error fix in appAlert file" />
@@ -498,7 +497,8 @@
     <MESSAGE value="logstash files ARE UPDATED" />
     <MESSAGE value="logstash setup in catalogue node" />
     <MESSAGE value="logstash setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="logstash setup" />
+    <MESSAGE value="frontend setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
