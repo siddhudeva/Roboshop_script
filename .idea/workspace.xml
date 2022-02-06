@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="logstash setup in catalogue node">
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/common/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00827" summary="    prometheus file error fix - 04.1">
-      <created>1643880643246</created>
-      <option name="number" value="00827" />
-      <option name="presentableId" value="LOCAL-00827" />
-      <option name="project" value="LOCAL" />
-      <updated>1643880643246</updated>
     </task>
     <task id="LOCAL-00828" summary="    prometheus file error fix - 04.1">
       <created>1643882861283</created>
@@ -420,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644115849275</updated>
     </task>
-    <option name="localTasksCounter" value="876" />
+    <task id="LOCAL-00876" summary="logstash setup in catalogue node">
+      <created>1644116039746</created>
+      <option name="number" value="00876" />
+      <option name="presentableId" value="LOCAL-00876" />
+      <option name="project" value="LOCAL" />
+      <updated>1644116039746</updated>
+    </task>
+    <option name="localTasksCounter" value="877" />
     <servers />
   </component>
   <component name="UnknownFeatures">
