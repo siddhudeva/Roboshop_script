@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg group updated" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg group updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,20 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00849" summary="FILEBEAT FUILS ARE UPDATED">
-      <created>1643973768263</created>
-      <option name="number" value="00849" />
-      <option name="presentableId" value="LOCAL-00849" />
-      <option name="project" value="LOCAL" />
-      <updated>1643973768263</updated>
-    </task>
-    <task id="LOCAL-00850" summary="FILEBEAT FUILS ARE UPDATED">
-      <created>1643973904259</created>
-      <option name="number" value="00850" />
-      <option name="presentableId" value="LOCAL-00850" />
-      <option name="project" value="LOCAL" />
-      <updated>1643973904259</updated>
     </task>
     <task id="LOCAL-00851" summary="FILEBEAT FUILS ARE UPDATED">
       <created>1643974020337</created>
@@ -418,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644228822897</updated>
     </task>
-    <option name="localTasksCounter" value="898" />
+    <task id="LOCAL-00898" summary="sg group updated">
+      <created>1644230826209</created>
+      <option name="number" value="00898" />
+      <option name="presentableId" value="LOCAL-00898" />
+      <option name="project" value="LOCAL" />
+      <updated>1644230826209</updated>
+    </task>
+    <task id="LOCAL-00899" summary="sg group updated">
+      <created>1644230898630</created>
+      <option name="number" value="00899" />
+      <option name="presentableId" value="LOCAL-00899" />
+      <option name="project" value="LOCAL" />
+      <updated>1644230898630</updated>
+    </task>
+    <option name="localTasksCounter" value="900" />
     <servers />
   </component>
   <component name="UnknownFeatures">
