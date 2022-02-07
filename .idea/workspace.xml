@@ -1,51 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="nginx main configuration files are added and &#10;grok patterns are also added for the purpose of making the log files in structured format">
-      <change afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_LB/Jenkinsfile" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="all components- revision -01 (terraform)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/dev.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-mutable/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/catalogue/terraform-mutable/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/dispatch/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/app-deploy.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/data.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/ec2.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/provider.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/sg.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/frontend/terraform-mutable/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/payment/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/shipping/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop/user/terraform-mutable/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/logstash/templates/logstash.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route-tables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/route53.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-vpc/subnet.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-vpc/subnet.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/env/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/env/dev.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_LB/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_LB/sg.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/data.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/env/prod.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/env/prod.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/route53.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/mongodb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/mongodb.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/rabbitmq.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/rabbitmq.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/rds.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/rds.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/redis.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_databases/route-tables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/elasticcache.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/alb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/alb.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/app-deploy.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/sg.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/user" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -119,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00841" summary="alertmanager file is updated">
-      <created>1643906322426</created>
-      <option name="number" value="00841" />
-      <option name="presentableId" value="LOCAL-00841" />
-      <option name="project" value="LOCAL" />
-      <updated>1643906322426</updated>
     </task>
     <task id="LOCAL-00842" summary="ELK file updated for all components">
       <created>1643911003682</created>
@@ -463,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644154068109</updated>
     </task>
-    <option name="localTasksCounter" value="890" />
+    <task id="LOCAL-00890" summary="all components- revision -01 (terraform)">
+      <created>1644208538292</created>
+      <option name="number" value="00890" />
+      <option name="presentableId" value="LOCAL-00890" />
+      <option name="project" value="LOCAL" />
+      <updated>1644208538293</updated>
+    </task>
+    <option name="localTasksCounter" value="891" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -515,7 +473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="appAlerts file is added for alrting using Prometheus -" />
     <MESSAGE value="error fix in appAlert file" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -1" />
@@ -540,7 +497,8 @@
     <MESSAGE value="logstash setup" />
     <MESSAGE value="frontend setup" />
     <MESSAGE value="nginx main configuration files are added and &#10;grok patterns are also added for the purpose of making the log files in structured format" />
-    <option name="LAST_COMMIT_MESSAGE" value="nginx main configuration files are added and &#10;grok patterns are also added for the purpose of making the log files in structured format" />
+    <MESSAGE value="all components- revision -01 (terraform)" />
+    <option name="LAST_COMMIT_MESSAGE" value="all components- revision -01 (terraform)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
