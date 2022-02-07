@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins full infra create file update&#10;and desabiling filebeat">
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/sg.tf" afterDir="false" />
-    </list>
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="sg group updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,20 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00847" summary="ELK file updated for all components">
-      <created>1643970523344</created>
-      <option name="number" value="00847" />
-      <option name="presentableId" value="LOCAL-00847" />
-      <option name="project" value="LOCAL" />
-      <updated>1643970523344</updated>
-    </task>
-    <task id="LOCAL-00848" summary="ELK file updated for all components">
-      <created>1643972772416</created>
-      <option name="number" value="00848" />
-      <option name="presentableId" value="LOCAL-00848" />
-      <option name="project" value="LOCAL" />
-      <updated>1643972772416</updated>
     </task>
     <task id="LOCAL-00849" summary="FILEBEAT FUILS ARE UPDATED">
       <created>1643973768263</created>
@@ -420,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644228222047</updated>
     </task>
-    <option name="localTasksCounter" value="896" />
+    <task id="LOCAL-00896" summary="sg group updated">
+      <created>1644228612618</created>
+      <option name="number" value="00896" />
+      <option name="presentableId" value="LOCAL-00896" />
+      <option name="project" value="LOCAL" />
+      <updated>1644228612618</updated>
+    </task>
+    <task id="LOCAL-00897" summary="sg group updated">
+      <created>1644228822897</created>
+      <option name="number" value="00897" />
+      <option name="presentableId" value="LOCAL-00897" />
+      <option name="project" value="LOCAL" />
+      <updated>1644228822897</updated>
+    </task>
+    <option name="localTasksCounter" value="898" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,7 +470,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -1" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -2" />
     <MESSAGE value="nodejs -- download nexus repo link updated" />
     <MESSAGE value="nodejs -- common/main.yml file is updated with rsyslog file to setup individual app logs" />
@@ -497,7 +494,8 @@
     <MESSAGE value="all components- revision -01 (terraform)" />
     <MESSAGE value="jenkins full infra create file update" />
     <MESSAGE value="jenkins full infra create file update&#10;and desabiling filebeat" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkins full infra create file update&#10;and desabiling filebeat" />
+    <MESSAGE value="sg group updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="sg group updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
