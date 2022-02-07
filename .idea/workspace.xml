@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins full infra create file update">
-      <change beforePath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_databases/module/ec2-db/db-deploy.tf" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins full infra create file update&#10;and desabiling filebeat">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/mongodb/files/mongo.repo" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/mongodb/files/mongo.repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-1/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-1/roles/mongodb/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_databases" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -76,20 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00844" summary="ELK file updated for all components">
-      <created>1643911405006</created>
-      <option name="number" value="00844" />
-      <option name="presentableId" value="LOCAL-00844" />
-      <option name="project" value="LOCAL" />
-      <updated>1643911405006</updated>
-    </task>
-    <task id="LOCAL-00845" summary="ELK file updated for all components">
-      <created>1643968842775</created>
-      <option name="number" value="00845" />
-      <option name="presentableId" value="LOCAL-00845" />
-      <option name="project" value="LOCAL" />
-      <updated>1643968842775</updated>
     </task>
     <task id="LOCAL-00846" summary="ELK file updated for all components">
       <created>1643969386409</created>
@@ -420,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644214962967</updated>
     </task>
-    <option name="localTasksCounter" value="893" />
+    <task id="LOCAL-00893" summary="jenkins full infra create file update">
+      <created>1644215365761</created>
+      <option name="number" value="00893" />
+      <option name="presentableId" value="LOCAL-00893" />
+      <option name="project" value="LOCAL" />
+      <updated>1644215365761</updated>
+    </task>
+    <task id="LOCAL-00894" summary="jenkins full infra create file update&#10;and desabiling filebeat">
+      <created>1644215609865</created>
+      <option name="number" value="00894" />
+      <option name="presentableId" value="LOCAL-00894" />
+      <option name="project" value="LOCAL" />
+      <updated>1644215609865</updated>
+    </task>
+    <option name="localTasksCounter" value="895" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -472,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="appAlert file loop funciton commented and goes with treditional way" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -1" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -2" />
     <MESSAGE value="nodejs -- download nexus repo link updated" />
@@ -497,7 +498,8 @@
     <MESSAGE value="nginx main configuration files are added and &#10;grok patterns are also added for the purpose of making the log files in structured format" />
     <MESSAGE value="all components- revision -01 (terraform)" />
     <MESSAGE value="jenkins full infra create file update" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkins full infra create file update" />
+    <MESSAGE value="jenkins full infra create file update&#10;and desabiling filebeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins full infra create file update&#10;and desabiling filebeat" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
