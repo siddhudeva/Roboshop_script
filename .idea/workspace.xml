@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="all components- revision -01 (terraform)">
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="jenkins full infra create file update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_Mutable_infra_create" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/Route53.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/terraform_mutable_commom_infra" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -77,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00842" summary="ELK file updated for all components">
-      <created>1643911003682</created>
-      <option name="number" value="00842" />
-      <option name="presentableId" value="LOCAL-00842" />
-      <option name="project" value="LOCAL" />
-      <updated>1643911003682</updated>
     </task>
     <task id="LOCAL-00843" summary="ELK file updated for all components">
       <created>1643911375125</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644208538293</updated>
     </task>
-    <option name="localTasksCounter" value="891" />
+    <task id="LOCAL-00891" summary="jenkins full infra create file update">
+      <created>1644213794489</created>
+      <option name="number" value="00891" />
+      <option name="presentableId" value="LOCAL-00891" />
+      <option name="project" value="LOCAL" />
+      <updated>1644213794489</updated>
+    </task>
+    <option name="localTasksCounter" value="892" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -473,7 +473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="error fix in appAlert file" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -1" />
     <MESSAGE value="appAlert file loop funciton commented and goes with treditional way -2" />
@@ -498,7 +497,8 @@
     <MESSAGE value="frontend setup" />
     <MESSAGE value="nginx main configuration files are added and &#10;grok patterns are also added for the purpose of making the log files in structured format" />
     <MESSAGE value="all components- revision -01 (terraform)" />
-    <option name="LAST_COMMIT_MESSAGE" value="all components- revision -01 (terraform)" />
+    <MESSAGE value="jenkins full infra create file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins full infra create file update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
