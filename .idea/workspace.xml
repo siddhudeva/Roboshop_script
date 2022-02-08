@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra creation">
-      <change afterPath="$PROJECT_DIR$/Jenkins/Jenkins_All_immutable_distroy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkins/Jenkinsfile_all_immutable_infra_create" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/env/dev-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/env/dev.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/env/prod-backend.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/env/prod.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboshop/cart/terraform-immmutable/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_immutable_commom_infra/launch_template.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_immutable_commom_infra/launch_template.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_immutable_commom_infra/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_immutable_commom_infra/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/seed.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -88,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00856" summary="logstash files ARE UPDATED">
-      <created>1643983697565</created>
-      <option name="number" value="00856" />
-      <option name="presentableId" value="LOCAL-00856" />
-      <option name="project" value="LOCAL" />
-      <updated>1643983697565</updated>
     </task>
     <task id="LOCAL-00857" summary="logstash files ARE UPDATED">
       <created>1643984112189</created>
@@ -432,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644324885254</updated>
     </task>
-    <option name="localTasksCounter" value="905" />
+    <task id="LOCAL-00905" summary="immutable infra creation">
+      <created>1644341027075</created>
+      <option name="number" value="00905" />
+      <option name="presentableId" value="LOCAL-00905" />
+      <option name="project" value="LOCAL" />
+      <updated>1644341027075</updated>
+    </task>
+    <option name="localTasksCounter" value="906" />
     <servers />
   </component>
   <component name="UnknownFeatures">
