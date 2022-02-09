@@ -2,32 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra createdd">
-      <change afterPath="$PROJECT_DIR$/temp-ami/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp-ami/ami.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp-ami/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp-ami/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp-ami/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp-ami/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/Route53.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/app-deploy.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/asg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/launch_template.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/ami.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/data.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/ec2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/sg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/terraform-ami" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform-ami/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_immutable_common_infra/terraform_immutable_commom_infra" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/ami.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/data.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/ec2.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/sg.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/terraform-ami" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform-ami/vars.tf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_immutable_common_infra/terraform_immutable_commom_infra" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +25,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -75,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform-ami" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -101,13 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00866" summary="logstash setup in catalogue node">
-      <created>1644077879954</created>
-      <option name="number" value="00866" />
-      <option name="presentableId" value="LOCAL-00866" />
-      <option name="project" value="LOCAL" />
-      <updated>1644077879954</updated>
     </task>
     <task id="LOCAL-00867" summary="logstash setup in catalogue node">
       <created>1644079251883</created>
@@ -445,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644404192946</updated>
     </task>
-    <option name="localTasksCounter" value="915" />
+    <task id="LOCAL-00915" summary="immutable infra createdd">
+      <created>1644404934128</created>
+      <option name="number" value="00915" />
+      <option name="presentableId" value="LOCAL-00915" />
+      <option name="project" value="LOCAL" />
+      <updated>1644404934128</updated>
+    </task>
+    <option name="localTasksCounter" value="916" />
     <servers />
   </component>
   <component name="UnknownFeatures">
