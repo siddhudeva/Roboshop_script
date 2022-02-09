@@ -78,13 +78,6 @@
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
     </task>
-    <task id="LOCAL-00863" summary="logstash setup in catalogue node">
-      <created>1644075861792</created>
-      <option name="number" value="00863" />
-      <option name="presentableId" value="LOCAL-00863" />
-      <option name="project" value="LOCAL" />
-      <updated>1644075861792</updated>
-    </task>
     <task id="LOCAL-00864" summary="logstash setup in catalogue node">
       <created>1644076056765</created>
       <option name="number" value="00864" />
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644402872000</updated>
     </task>
-    <option name="localTasksCounter" value="912" />
+    <task id="LOCAL-00912" summary="immutable infra creation">
+      <created>1644403046015</created>
+      <option name="number" value="00912" />
+      <option name="presentableId" value="LOCAL-00912" />
+      <option name="project" value="LOCAL" />
+      <updated>1644403046015</updated>
+    </task>
+    <option name="localTasksCounter" value="913" />
     <servers />
   </component>
   <component name="UnknownFeatures">
