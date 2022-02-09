@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra createdd">
+      <change beforePath="$PROJECT_DIR$/Jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/seed.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -76,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00869" summary="logstash setup in catalogue node">
-      <created>1644079840483</created>
-      <option name="number" value="00869" />
-      <option name="presentableId" value="LOCAL-00869" />
-      <option name="project" value="LOCAL" />
-      <updated>1644079840483</updated>
     </task>
     <task id="LOCAL-00870" summary="logstash setup in catalogue node">
       <created>1644080245527</created>
@@ -420,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644409641588</updated>
     </task>
-    <option name="localTasksCounter" value="918" />
+    <task id="LOCAL-00918" summary="immutable infra createdd">
+      <created>1644409963937</created>
+      <option name="number" value="00918" />
+      <option name="presentableId" value="LOCAL-00918" />
+      <option name="project" value="LOCAL" />
+      <updated>1644409963937</updated>
+    </task>
+    <option name="localTasksCounter" value="919" />
     <servers />
   </component>
   <component name="UnknownFeatures">
