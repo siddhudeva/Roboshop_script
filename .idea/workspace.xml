@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra createdd">
-      <change beforePath="$PROJECT_DIR$/Jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/seed.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-ami/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-ami/ami.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-ami/data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-ami/ec2.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-ami/sg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-ami/vars.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/Route53.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/alb.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/app-deploy.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/asg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/ec2.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/launch_template.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/sg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/vars.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/ami.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/ec2.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/sg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/terraform-ami" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-ami/vars.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform_immutable_common_infra/terraform_immutable_commom_infra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +41,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -51,16 +75,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform_immutable_commom_infra" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform-ami" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform-ami" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\temp-ami" />
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\temp" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_immutable_commom_infra" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Jenkins" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform-immutable-alb" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Jenkins\vars" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible-1" />
@@ -77,13 +101,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00865" summary="logstash setup in catalogue node">
-      <created>1644077504681</created>
-      <option name="number" value="00865" />
-      <option name="presentableId" value="LOCAL-00865" />
-      <option name="project" value="LOCAL" />
-      <updated>1644077504681</updated>
     </task>
     <task id="LOCAL-00866" summary="logstash setup in catalogue node">
       <created>1644077879954</created>
@@ -421,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644403734727</updated>
     </task>
-    <option name="localTasksCounter" value="914" />
+    <task id="LOCAL-00914" summary="immutable infra createdd">
+      <created>1644404192946</created>
+      <option name="number" value="00914" />
+      <option name="presentableId" value="LOCAL-00914" />
+      <option name="project" value="LOCAL" />
+      <updated>1644404192946</updated>
+    </task>
+    <option name="localTasksCounter" value="915" />
     <servers />
   </component>
   <component name="UnknownFeatures">
