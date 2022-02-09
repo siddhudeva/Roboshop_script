@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra creation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkins/seed.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/seed.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
@@ -78,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00862" summary="logstash files ARE UPDATED">
-      <created>1644063956379</created>
-      <option name="number" value="00862" />
-      <option name="presentableId" value="LOCAL-00862" />
-      <option name="project" value="LOCAL" />
-      <updated>1644063956379</updated>
     </task>
     <task id="LOCAL-00863" summary="logstash setup in catalogue node">
       <created>1644075861792</created>
@@ -422,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644399576927</updated>
     </task>
-    <option name="localTasksCounter" value="911" />
+    <task id="LOCAL-00911" summary="immutable infra creation">
+      <created>1644402872000</created>
+      <option name="number" value="00911" />
+      <option name="presentableId" value="LOCAL-00911" />
+      <option name="project" value="LOCAL" />
+      <updated>1644402872000</updated>
+    </task>
+    <option name="localTasksCounter" value="912" />
     <servers />
   </component>
   <component name="UnknownFeatures">
