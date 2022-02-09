@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra createdd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/ami.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/data.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/ec2.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/sg.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/terraform-ami" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-ami/vars.tf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_immutable_common_infra/terraform_immutable_commom_infra" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +16,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Roboshop/cart" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -85,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00867" summary="logstash setup in catalogue node">
-      <created>1644079251883</created>
-      <option name="number" value="00867" />
-      <option name="presentableId" value="LOCAL-00867" />
-      <option name="project" value="LOCAL" />
-      <updated>1644079251883</updated>
     </task>
     <task id="LOCAL-00868" summary="logstash setup in catalogue node">
       <created>1644079648037</created>
@@ -429,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644404934128</updated>
     </task>
-    <option name="localTasksCounter" value="916" />
+    <task id="LOCAL-00916" summary="immutable infra createdd">
+      <created>1644409324232</created>
+      <option name="number" value="00916" />
+      <option name="presentableId" value="LOCAL-00916" />
+      <option name="project" value="LOCAL" />
+      <updated>1644409324232</updated>
+    </task>
+    <option name="localTasksCounter" value="917" />
     <servers />
   </component>
   <component name="UnknownFeatures">
