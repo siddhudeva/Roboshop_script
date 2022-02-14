@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra createdd">
-      <change beforePath="$PROJECT_DIR$/Jenkins/vars/immutable_nodejs.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins/vars/immutable_nodejs.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernates/create-cluster/eks-cluster/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernates/create-cluster/eks-cluster/delete.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernates/create-cluster/eks-cluster/setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernates/pods/01-pod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +23,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Jenkins" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/kubernates" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -51,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kubernates" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -77,13 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00872" summary="logstash setup in catalogue node">
-      <created>1644081947280</created>
-      <option name="number" value="00872" />
-      <option name="presentableId" value="LOCAL-00872" />
-      <option name="project" value="LOCAL" />
-      <updated>1644081947280</updated>
     </task>
     <task id="LOCAL-00873" summary="logstash setup in catalogue node">
       <created>1644082058583</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644411136189</updated>
     </task>
-    <option name="localTasksCounter" value="921" />
+    <task id="LOCAL-00921" summary="immutable infra createdd">
+      <created>1644413118786</created>
+      <option name="number" value="00921" />
+      <option name="presentableId" value="LOCAL-00921" />
+      <option name="project" value="LOCAL" />
+      <updated>1644413118786</updated>
+    </task>
+    <option name="localTasksCounter" value="922" />
     <servers />
   </component>
   <component name="UnknownFeatures">
