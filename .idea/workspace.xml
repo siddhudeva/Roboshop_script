@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="kubernates pod&#10;is created and with two containers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_mutable_commom_infra/app-deploy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_mutable_commom_infra/app-deploy.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00878" summary="logstash setup">
-      <created>1644117663805</created>
-      <option name="number" value="00878" />
-      <option name="presentableId" value="LOCAL-00878" />
-      <option name="project" value="LOCAL" />
-      <updated>1644117663805</updated>
     </task>
     <task id="LOCAL-00879" summary="logstash setup">
       <created>1644126777858</created>
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644894158065</updated>
     </task>
-    <option name="localTasksCounter" value="927" />
+    <task id="LOCAL-00927" summary="kubernates pod&#10;is created and with two containers">
+      <created>1644895440728</created>
+      <option name="number" value="00927" />
+      <option name="presentableId" value="LOCAL-00927" />
+      <option name="project" value="LOCAL" />
+      <updated>1644895440728</updated>
+    </task>
+    <option name="localTasksCounter" value="928" />
     <servers />
   </component>
   <component name="UnknownFeatures">
