@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="immutable infra createdd">
-      <change afterPath="$PROJECT_DIR$/kubernates/create-cluster/eks-cluster/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernates/create-cluster/eks-cluster/delete.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernates/create-cluster/eks-cluster/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernates/pods/01-pod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="kubernates minikube creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernates/pods/01-pod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernates/pods/01-pod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,16 +53,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml&#10;Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kubernates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kubernates/create-cluster/single-node" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\kubernates\create-cluster\single-node" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform-ami" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\temp-ami" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\temp" />
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\terraform_immutable_commom_infra" />
-      <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\Roboshop\cart" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\Roboshop_script\ansible-1" />
@@ -83,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00873" summary="logstash setup in catalogue node">
-      <created>1644082058583</created>
-      <option name="number" value="00873" />
-      <option name="presentableId" value="LOCAL-00873" />
-      <option name="project" value="LOCAL" />
-      <updated>1644082058583</updated>
     </task>
     <task id="LOCAL-00874" summary="logstash setup in catalogue node">
       <created>1644115340253</created>
@@ -427,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644413118786</updated>
     </task>
-    <option name="localTasksCounter" value="922" />
+    <task id="LOCAL-00922" summary="kubernates minikube creation">
+      <created>1644839747995</created>
+      <option name="number" value="00922" />
+      <option name="presentableId" value="LOCAL-00922" />
+      <option name="project" value="LOCAL" />
+      <updated>1644839747996</updated>
+    </task>
+    <option name="localTasksCounter" value="923" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -479,7 +475,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="filebeat configureation and setup is added" />
     <MESSAGE value="prometheus file error fix - 01" />
     <MESSAGE value="prometheus file error fix - 02" />
     <MESSAGE value="prometheus file error fix - 03" />
@@ -504,7 +499,8 @@
     <MESSAGE value="immutable infra creation" />
     <MESSAGE value="immutable infra create" />
     <MESSAGE value="immutable infra createdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="immutable infra createdd" />
+    <MESSAGE value="kubernates minikube creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="kubernates minikube creation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
