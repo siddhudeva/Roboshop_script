@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="kubernates minikube creation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernates/pods/01-pod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernates/pods/01-pod.yml" afterDir="false" />
+    <list default="true" id="4a665879-4e39-49f9-93fb-a461d783f5e0" name="Changes" comment="kubernates pod&#10;is created and with two containers">
       <change beforePath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernates/pods/02-pod-svc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform-immutable-alb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform-immutable-alb" afterDir="false" />
     </list>
@@ -79,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639382889459</updated>
-    </task>
-    <task id="LOCAL-00874" summary="logstash setup in catalogue node">
-      <created>1644115340253</created>
-      <option name="number" value="00874" />
-      <option name="presentableId" value="LOCAL-00874" />
-      <option name="project" value="LOCAL" />
-      <updated>1644115340253</updated>
     </task>
     <task id="LOCAL-00875" summary="logstash setup in catalogue node">
       <created>1644115849275</created>
@@ -423,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644839747996</updated>
     </task>
-    <option name="localTasksCounter" value="923" />
+    <task id="LOCAL-00923" summary="kubernates pod&#10;is created">
+      <created>1644893507126</created>
+      <option name="number" value="00923" />
+      <option name="presentableId" value="LOCAL-00923" />
+      <option name="project" value="LOCAL" />
+      <updated>1644893507126</updated>
+    </task>
+    <option name="localTasksCounter" value="924" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -475,8 +473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Ansible_R" />
     </ignored-roots>
-    <MESSAGE value="prometheus file error fix - 01" />
-    <MESSAGE value="prometheus file error fix - 02" />
     <MESSAGE value="prometheus file error fix - 03" />
     <MESSAGE value="prometheus file error fix - 04" />
     <MESSAGE value="    prometheus file error fix - 04" />
@@ -500,7 +496,9 @@
     <MESSAGE value="immutable infra create" />
     <MESSAGE value="immutable infra createdd" />
     <MESSAGE value="kubernates minikube creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="kubernates minikube creation" />
+    <MESSAGE value="kubernates pod&#10;is created" />
+    <MESSAGE value="kubernates pod&#10;is created and with two containers" />
+    <option name="LAST_COMMIT_MESSAGE" value="kubernates pod&#10;is created and with two containers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
